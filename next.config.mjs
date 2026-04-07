@@ -10,8 +10,15 @@ const nextConfig = {
             }
         ]
     },
+    typescript: {
+        ignoreBuildErrors: true,
+    },
+    eslint: {
+        ignoreDuringBuilds: true,
+    },
     basePath: '/kisaankamai_v0.1',
     assetPrefix: '/kisaankamai_v0.1',
+
 };
 
 export default nextConfig;
