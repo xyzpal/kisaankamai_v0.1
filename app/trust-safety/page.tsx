@@ -7,13 +7,13 @@ import { useLanguage } from "@/components/LanguageContext";
 export default function TrustSafetyPage() {
   const { langText } = useLanguage();
   return (
-    <main className="bg-surface dark:bg-[#0f1a14] min-h-screen">
+    <main className="bg-surface dark:bg-slate-950 min-h-screen">
       <Header />
 
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img className="w-full h-full object-cover opacity-10 grayscale-[20%]" alt="Golden wheat field at dawn" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCTWM31F1E_cbJ6cbeeTDcopE1h0EOjBbzxdPy1RmkDQK2JaErxeBiZOZi0InJdTCkL17CbLqPLbMQ3EXa59JNpjHFqVE92ULehdl1sAzK4N9_ZKAJ9AeSCHugIa_eO9-G_XDtzFSL-3kt_jkk1f4TPKPFAJkJtf7Gr0rAb0fCtRvnuIpXPhnbjnAmvQyq005RGDhQdBDzSQeqhMNX_5hf5ghxWz48WjDYA01AdWnbDWDSaPrhyUdDxqF72U3yaxTDAwhJl55f5JBhB" />
+          <img className="w-full h-full object-cover opacity-10 grayscale-[20%]" alt="Golden wheat field at dawn" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
           <div className="absolute inset-0 bg-gradient-to-b from-surface dark:from-[#0f1a14] via-transparent to-surface dark:to-[#0f1a14]" />
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
@@ -37,7 +37,7 @@ export default function TrustSafetyPage() {
       <section className="py-20 max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
           {/* Escrow Payment Card */}
-          <div className="md:col-span-8 bg-white dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-800/50 rounded-3xl p-10 card-shadow hover:card-shadow-lg transition-shadow relative overflow-hidden group">
+          <div className="md:col-span-8 bg-white dark:bg-slate-900/40 border border-emerald-100 dark:border-slate-800/50 rounded-3xl p-10 card-shadow hover:card-shadow-lg transition-shadow relative overflow-hidden group">
             <div className="relative z-10 flex flex-col h-full">
               <div className="w-14 h-14 bg-tertiary-fixed dark:bg-amber-900/30 rounded-2xl flex items-center justify-center mb-8">
                 <span className="material-symbols-outlined text-3xl text-on-tertiary-fixed-variant dark:text-amber-400" style={{ fontVariationSettings: "'FILL' 1" }}>payments</span>
@@ -60,7 +60,7 @@ export default function TrustSafetyPage() {
                   </div>
                 </div>
                 <div className="flex-1 space-y-4">
-                  <div className="p-4 bg-emerald-50 dark:bg-emerald-900/30 rounded-xl border border-emerald-100/50 dark:border-emerald-800/50">
+                  <div className="p-4 bg-emerald-50 dark:bg-slate-900/50 rounded-xl border border-emerald-100/50 dark:border-slate-800/50">
                     <div className="text-xs font-bold text-emerald-700 dark:text-emerald-400 uppercase mb-2">Marathi Guide / मराठी</div>
                     <p className="text-sm text-emerald-900 dark:text-emerald-200 leading-relaxed font-semibold font-mukta">
                       सुरक्षित पेमेंट (एस्क्रो): तुमचे पैसे सुरक्षित राहतील. काम सुरू झाल्यावरच मालकाला पैसे मिळतील.
@@ -96,7 +96,7 @@ export default function TrustSafetyPage() {
           </div>
 
           {/* Verification Steps */}
-          <div className="md:col-span-5 bg-surface-container-low dark:bg-emerald-900/10 border border-emerald-100 dark:border-emerald-800/50 rounded-3xl p-10 card-shadow">
+          <div className="md:col-span-5 bg-surface-container-low dark:bg-slate-900/10 border border-emerald-100 dark:border-slate-800/50 rounded-3xl p-10 card-shadow">
             <div className="w-14 h-14 bg-secondary-fixed dark:bg-orange-900/30 rounded-2xl flex items-center justify-center mb-8">
               <span className="material-symbols-outlined text-3xl text-on-secondary-fixed-variant dark:text-orange-400" style={{ fontVariationSettings: "'FILL' 1" }}>how_to_reg</span>
             </div>
@@ -115,10 +115,10 @@ export default function TrustSafetyPage() {
           </div>
 
           {/* Safe Handoff */}
-          <div className="md:col-span-7 bg-white dark:bg-emerald-900/20 border border-emerald-100 dark:border-emerald-800/50 rounded-3xl p-10 card-shadow relative overflow-hidden">
+          <div className="md:col-span-7 bg-white dark:bg-slate-900/40 border border-emerald-100 dark:border-slate-800/50 rounded-3xl p-10 card-shadow relative overflow-hidden">
             <div className="flex flex-col md:flex-row gap-8 h-full items-center">
               <div className="flex-1">
-                <div className="w-14 h-14 bg-emerald-50 dark:bg-emerald-900/30 rounded-2xl flex items-center justify-center mb-8">
+                <div className="w-14 h-14 bg-emerald-50 dark:bg-slate-900/50 rounded-2xl flex items-center justify-center mb-8">
                   <span className="material-symbols-outlined text-3xl text-emerald-800 dark:text-emerald-400">handshake</span>
                 </div>
                 <h3 className="text-2xl font-extrabold text-primary dark:text-emerald-50 mb-4">{langText("Safe Handoff Process", "सुरक्षित हस्तांतरण प्रक्रिया")}</h3>
@@ -130,7 +130,7 @@ export default function TrustSafetyPage() {
                 </p>
               </div>
               <div className="flex-1 w-full h-full min-h-[200px]">
-                <img className="w-full h-full object-cover rounded-2xl" alt="Farmers shaking hands" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA3CfwCfdoo9R4i9-naQlu13L76vvFrD-XTy83PJYxCRcmp8F8yo4Vkiul2lv0cXx7zZ3FnTRo64HjiTsWTuuPEeO2RKdohyCOSkA-7EmmQRb5KNlP6UIr7PiVyKrL5nF7v8L9byFQa1_CX9PfblY-FWO88bSthLzY8t_B-aGfA6lcd_Q-ACYwfV_uODBevo3QWUw8nuxyiiKoOFD426hmolI5O2cFpvftQ2wqdYHeycqMTeeXShGTi079CmwtbSEzhNv0FYCEFYLTQ" />
+                <img className="w-full h-full object-cover rounded-2xl" alt="Farmers shaking hands" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function TrustSafetyPage() {
       <section className="bg-primary-container py-24">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2">
-            <img className="rounded-3xl shadow-2xl w-full aspect-video object-cover" alt="Heavy duty agricultural machine" src="https://lh3.googleusercontent.com/aida-public/AB6AXuADUxXc-VpAgim4vix196IGrtnBqAh8e-EV3wE75jU3ND3nBucY--_jy2mcqyO1Ke8ACyOSOazHRU2WMcZSUxTxLdQ0CUzQ4oiqAwBoUTueOMYsPOyodabrDTlr6EGoZ_e7s0AK54HH3q5VtowsVXRM2Qy7l-tii0XQKLn4VS830hrtggcQKEKqbmNkRUlQE7DRIAD_LwjN67Duvjjrnjg0kjMQ1CvG15EF8cba1GzZBvQiiGjVyea4rMSkcucu7ry623HPsh4SJJcp" />
+            <img className="rounded-3xl shadow-2xl w-full aspect-video object-cover" alt="Heavy duty agricultural machine" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
           </div>
           <div className="w-full md:w-1/2 text-white">
             <h2 className="text-4xl font-extrabold mb-8 leading-tight">{langText("Every Machine is Inspected. Every Owner is Known.", "प्रत्येक मशीनची तपासणी होते. प्रत्येक मालक ओळखला जातो.")}</h2>
@@ -178,7 +178,7 @@ export default function TrustSafetyPage() {
             { q: langText("Is my payment secure?", "माझे पेमेंट सुरक्षित आहे का?"), a: langText("Absolutely. We use bank-grade encryption for all transactions. Funds are held in a separate account until the job is verified.", "निश्चितच. आम्ही सर्व व्यवहारांसाठी बँक-स्तरीय एन्क्रिप्शन वापरतो. काम सत्यापित होईपर्यंत रक्कम वेगळ्या खात्यात ठेवली जाते.") },
             { q: langText("How do I know the owner is reliable?", "मालक विश्वासार्ह आहे हे मला कसे कळेल?"), a: langText("Check the 'Partner' badge on listings. This means the owner has completed multiple successful rentals with high ratings.", "सूचींवरील 'भागीदार' बॅज तपासा. यांचा अर्थ मालकाने उच्च रेटिंगसह अनेक यशस्वी भाडे पूर्ण केले आहेत.") },
           ].map((faq) => (
-            <div key={faq.q} className="p-8 bg-white dark:bg-emerald-900/20 border border-emerald-50 dark:border-emerald-800/50 rounded-2xl card-shadow">
+            <div key={faq.q} className="p-8 bg-white dark:bg-slate-900/40 border border-emerald-50 dark:border-slate-800/50 rounded-2xl card-shadow">
               <h4 className="text-lg font-extrabold text-primary dark:text-emerald-50 mb-3">{faq.q}</h4>
               <p className="text-on-surface-variant dark:text-slate-400 font-medium leading-relaxed">{faq.a}</p>
             </div>

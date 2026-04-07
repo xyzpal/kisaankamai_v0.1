@@ -16,15 +16,15 @@ function FAQAccordion({ item, color }: { item: FAQItem; color: string }) {
   const [open, setOpen] = useState(false);
   const { langText } = useLanguage();
   return (
-    <div className="bg-surface-container-lowest dark:bg-emerald-900/20 rounded-xl border border-outline-variant dark:border-emerald-800/50 overflow-hidden shadow-sm">
-      <button onClick={() => setOpen(!open)} className="w-full p-6 flex justify-between items-center cursor-pointer hover:bg-surface-container-low dark:hover:bg-emerald-900/30 transition-colors group text-left">
+    <div className="bg-surface-container-lowest dark:bg-slate-900/40 rounded-xl border border-outline-variant dark:border-slate-800/50 overflow-hidden shadow-sm">
+      <button onClick={() => setOpen(!open)} className="w-full p-6 flex justify-between items-center cursor-pointer hover:bg-surface-container-low dark:hover:bg-slate-900/50 transition-colors group text-left">
         <div className="flex-1 pr-4">
           <h3 className="font-bold text-lg text-on-surface dark:text-emerald-50">{langText(item.q, item.qMr)}</h3>
         </div>
         <span className={`material-symbols-outlined ${color} transition-transform ${open ? "rotate-180" : ""}`}>expand_more</span>
       </button>
       {open && (
-        <div className="px-6 pb-6 text-on-surface-variant dark:text-slate-300 border-t border-slate-50 dark:border-emerald-800/50 pt-4 bg-white/50 dark:bg-emerald-950/30">
+        <div className="px-6 pb-6 text-on-surface-variant dark:text-slate-300 border-t border-slate-50 dark:border-slate-800/50 pt-4 bg-white/50 dark:bg-slate-950/30">
           <p>{langText(item.a, item.aMr)}</p>
         </div>
       )}
@@ -57,7 +57,7 @@ export default function FAQ() {
   const { langText } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col bg-background dark:bg-[#0f1a14]">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950">
       <Header />
       <main className="flex-grow pt-12 pb-24 px-6">
         <div className="max-w-4xl mx-auto">
@@ -70,7 +70,7 @@ export default function FAQ() {
           <div className="grid grid-cols-1 gap-12">
             {/* Renting */}
             <section className="space-y-6">
-              <div className="flex items-center gap-3 pb-2 border-b-2 border-primary-fixed dark:border-emerald-700">
+              <div className="flex items-center gap-3 pb-2 border-b-2 border-primary-fixed dark:border-slate-700">
                 <span className="material-symbols-outlined text-primary dark:text-emerald-400 text-3xl">shopping_cart</span>
                 <div>
                   <h2 className="text-2xl font-bold text-primary dark:text-emerald-50">{langText("Renting Equipment", "उपकरणे भाड्याने घेणे")}</h2>
@@ -103,7 +103,7 @@ export default function FAQ() {
 
             {/* Trust & Safety */}
             <section className="space-y-6">
-              <div className="flex items-center gap-3 pb-2 border-b-2 border-outline dark:border-emerald-800">
+              <div className="flex items-center gap-3 pb-2 border-b-2 border-outline dark:border-slate-800">
                 <span className="material-symbols-outlined text-on-surface-variant dark:text-slate-400 text-3xl">verified_user</span>
                 <div>
                   <h2 className="text-2xl font-bold text-on-surface dark:text-emerald-50">{langText("Trust & Safety", "विश्वास आणि सुरक्षा")}</h2>

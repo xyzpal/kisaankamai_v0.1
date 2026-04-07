@@ -34,7 +34,7 @@ export default function HomeMarathi() {
         <section className="border-b border-outline-variant/30 bg-surface dark:bg-inverse-surface">
           <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/50 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
+              <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/70 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
                 <span className="material-symbols-outlined">payments</span>
               </div>
               <div>
@@ -43,7 +43,7 @@ export default function HomeMarathi() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/50 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
+              <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/70 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
                 <span className="material-symbols-outlined">security</span>
               </div>
               <div>
@@ -52,7 +52,7 @@ export default function HomeMarathi() {
               </div>
             </div>
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/50 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
+              <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/70 rounded-full flex items-center justify-center text-primary dark:text-primary-fixed">
                 <span className="material-symbols-outlined">calendar_month</span>
               </div>
               <div>

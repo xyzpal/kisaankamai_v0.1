@@ -8,16 +8,16 @@ export default function OwnerBenefitsPage() {
   const { langText } = useLanguage();
 
   return (
-    <main className="bg-surface dark:bg-[#0f1a14] min-h-screen">
+    <main className="bg-surface dark:bg-slate-950 min-h-screen">
       <Header />
       <div className="pt-20">
         {/* Hero Section */}
-        <section className="relative min-h-[716px] flex items-center overflow-hidden bg-primary-container dark:bg-emerald-950">
+        <section className="relative min-h-[716px] flex items-center overflow-hidden bg-primary-container dark:bg-slate-950">
           <div className="absolute inset-0 z-0">
             <img
               className="w-full h-full object-cover opacity-30 mix-blend-overlay"
               alt="Cinematic wide shot of a modern red tractor in a golden wheat field during sunset in rural Maharashtra"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDILWsQRNajInaI5a7jkQTRsstGwl2AA2NN_k_7oiF0S-YWOG_P4HVjH2rCUOhbxtn76t29FzI2U7WbpkT7Qll0kxq-HKkzGbwUaqHITy1xL9wR0B4ACznS3guY6iPm0r_7TnU0UWyaHyoZmsCAGi7rXA5C3WF4GkWDEjJ03BbuNApwslfcWjCwFBnnDh_wa8MCpgFz2ET36oU4kgsR1fo83S9BgU-x-fD3vdkhe7wtkaW6J7kVkL7EF-OsINEh378JTV9vJ6A_J-SA"
+              src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"
             />
             <div className="absolute inset-0 bg-gradient-to-r from-primary-container dark:from-emerald-950 via-primary-container/80 dark:via-emerald-950/80 to-transparent"></div>
           </div>
@@ -69,7 +69,7 @@ export default function OwnerBenefitsPage() {
         </section>
 
         {/* Section 2: Earnings Calculator */}
-        <section className="py-24 bg-surface dark:bg-[#0f1a14] relative overflow-hidden">
+        <section className="py-24 bg-surface dark:bg-slate-950 relative overflow-hidden">
           <div className="max-w-7xl mx-auto px-6">
             <div className="mb-16 text-center max-w-3xl mx-auto">
               <h2 className="font-headline text-4xl font-extrabold text-primary dark:text-emerald-50 mb-4">{langText("How much can you earn?", "तुम्ही किती कमवू शकता?")}</h2>
@@ -79,7 +79,7 @@ export default function OwnerBenefitsPage() {
             </div>
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
               {/* Calculator Sidebar */}
-              <div className="lg:col-span-1 bg-white dark:bg-emerald-900/20 p-8 rounded-3xl shadow-sm border border-outline-variant/30 dark:border-emerald-800/50 space-y-8">
+              <div className="lg:col-span-1 bg-white dark:bg-slate-900/40 p-8 rounded-3xl shadow-sm border border-outline-variant/30 dark:border-slate-800/50 space-y-8">
                 <div>
                   <label className="block text-sm font-bold text-primary dark:text-emerald-400 mb-4 uppercase tracking-wider">{langText("Equipment Type", "उपकरणाचा प्रकार")}</label>
                   <div className="space-y-3">
@@ -97,7 +97,7 @@ export default function OwnerBenefitsPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-primary dark:text-emerald-400 mb-4 uppercase tracking-wider">{langText("Operational District", "कार्यरत जिल्हा")}</label>
-                  <select className="w-full rounded-xl border-outline-variant bg-white dark:bg-emerald-900/30 text-on-surface dark:text-emerald-50 focus:ring-primary focus:border-primary py-3">
+                  <select className="w-full rounded-xl border-outline-variant bg-white dark:bg-slate-900/50 text-on-surface dark:text-emerald-50 focus:ring-primary focus:border-primary py-3">
                     <option>{langText("Sangli", "सांगली")}</option>
                     <option>{langText("Satara", "सातारा")}</option>
                     <option>{langText("Kolhapur", "कोल्हापूर")}</option>
@@ -105,7 +105,7 @@ export default function OwnerBenefitsPage() {
                 </div>
                 <div>
                   <label className="block text-sm font-bold text-primary dark:text-emerald-400 mb-4 uppercase tracking-wider">{langText("Expected Usage (Days/Month)", "अपेक्षित वापर (दिवस/महिना)")}</label>
-                  <input className="w-full accent-primary h-2 bg-surface-container dark:bg-emerald-900 rounded-lg appearance-none cursor-pointer" max="25" min="5" type="range" defaultValue="15" />
+                  <input className="w-full accent-primary h-2 bg-surface-container dark:bg-slate-900 rounded-lg appearance-none cursor-pointer" max="25" min="5" type="range" defaultValue="15" />
                   <div className="flex justify-between mt-2 text-xs font-bold text-on-surface-variant dark:text-slate-400">
                     <span>{langText("5 Days", "5 दिवस")}</span>
                     <span>{langText("25 Days", "25 दिवस")}</span>
@@ -135,13 +135,13 @@ export default function OwnerBenefitsPage() {
                   </div>
                   <span className="material-symbols-outlined absolute -right-8 -bottom-8 text-[200px] opacity-5 text-white">payments</span>
                 </div>
-                <div className="bg-secondary/5 border border-secondary/10 dark:border-emerald-800/50 p-8 rounded-3xl flex flex-col justify-center">
+                <div className="bg-secondary/5 border border-secondary/10 dark:border-slate-800/50 p-8 rounded-3xl flex flex-col justify-center">
                   <h4 className="text-secondary dark:text-amber-500 font-extrabold text-2xl mb-2">{langText("Platform Fee", "प्लॅटफॉर्म शुल्क")}</h4>
                   <p className="text-on-surface-variant dark:text-slate-400 text-sm font-medium">
                     {langText("Transparent 10% commission only when you earn. No hidden listing charges.", "पारदर्शक १०% कमिशन फक्त तुम्ही कमावता तेव्हा. कोणतेही छुपे शुल्क नाही.")}
                   </p>
                 </div>
-                <div className="bg-tertiary/5 border border-tertiary/10 dark:border-emerald-800/50 p-8 rounded-3xl flex flex-col justify-center">
+                <div className="bg-tertiary/5 border border-tertiary/10 dark:border-slate-800/50 p-8 rounded-3xl flex flex-col justify-center">
                   <h4 className="text-tertiary dark:text-emerald-500 font-extrabold text-2xl mb-2">{langText("Payout Speed", "पेमेंट गती")}</h4>
                   <p className="text-on-surface-variant dark:text-slate-400 text-sm font-medium">
                     {langText("Earnings are transferred directly to your bank account within 48 hours of job completion.", "काम पूर्ण झाल्याच्या 48 तासांच्या आत कमाई थेट तुमच्या बँक खात्यात हस्तांतरित केली जाते.")}
@@ -153,7 +153,7 @@ export default function OwnerBenefitsPage() {
         </section>
 
         {/* Section 4: Owner Stories */}
-        <section className="py-24 bg-surface-container-low dark:bg-emerald-950/20">
+        <section className="py-24 bg-surface-container-low dark:bg-slate-950/20">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
               <div>
@@ -161,7 +161,7 @@ export default function OwnerBenefitsPage() {
                 <h2 className="font-headline text-4xl font-extrabold text-primary dark:text-emerald-50 mb-6">{langText("Your machine is our priority.", "तुमचे यंत्र आमचे प्राधान्य आहे.")}</h2>
                 <div className="space-y-8">
                   <div className="flex gap-6">
-                    <div className="shrink-0 w-12 h-12 rounded-full bg-white dark:bg-emerald-900/50 flex items-center justify-center shadow-sm">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-white dark:bg-slate-900/70 flex items-center justify-center shadow-sm">
                       <span className="material-symbols-outlined text-primary dark:text-emerald-400" style={{ fontVariationSettings: "'FILL' 1" }}>security</span>
                     </div>
                     <div>
@@ -172,9 +172,9 @@ export default function OwnerBenefitsPage() {
                 </div>
               </div>
               <div className="relative">
-                <div className="bg-white/80 dark:bg-emerald-900/30 backdrop-blur-md border border-outline-variant/30 dark:border-emerald-800/50 p-8 rounded-[2.5rem] relative z-10 shadow-xl">
+                <div className="bg-white/80 dark:bg-slate-900/50 backdrop-blur-md border border-outline-variant/30 dark:border-slate-800/50 p-8 rounded-[2.5rem] relative z-10 shadow-xl">
                   <div className="flex items-center gap-4 mb-6">
-                    <img className="w-16 h-16 rounded-full object-cover border-2 border-primary/20" alt="Owner" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDiLWaczkz-WEOKJpqz5ETaxr77Xsk3OZ-U5gnOSs2-MgkEQc4-bgosTD9zxBKDwh911Ee7UT1taA_nrV7rFiVqs8sya_bnIeWEJMsPMjRuC1IDQiaHEDP7020Si7ALO17Hz-2Jz-fldXjrhnwe3xMDg_P2FYqMQrXAe4Np7jQ-7hT0mja4pqLMio03w8aYgLLPJVDCNSBk7YO6McY9Bc-gFBxZcGAZ7V08TPMy3jd49655TFUa0GMZaU3UAIq2N81HeKZRKQxLcUMK" />
+                    <img className="w-16 h-16 rounded-full object-cover border-2 border-primary/20" alt="Owner" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
                     <div>
                       <h5 className="font-bold text-primary dark:text-emerald-50">Sanjay Deshmukh</h5>
                       <p className="text-xs text-on-surface-variant dark:text-slate-400 font-medium">{langText("Tractor Owner • Karad, Satara", "ट्रॅक्टर मालक • कराड, सातारा")}</p>

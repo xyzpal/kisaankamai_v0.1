@@ -7,7 +7,7 @@ import { useLanguage } from "@/components/LanguageContext";
 export default function PartnerPage() {
   const { langText } = useLanguage();
   return (
-    <main className="bg-surface dark:bg-[#0f1a14] min-h-screen">
+    <main className="bg-surface dark:bg-slate-950 min-h-screen">
       <Header />
 
       {/* Hero Section */}
@@ -32,9 +32,9 @@ export default function PartnerPage() {
           </div>
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-              <img className="w-full h-full object-cover" alt="Farmer and agritech representative in wheat field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTtpteC0tkFTAF1R9WMh_bRvH8bMYjuRG6HoZ8wO1HnbUzco5n8E7B6O-kvTKV8-L4s4eG5BrUhLm1m9JFDia-PmCDo_E3DdRNT2CsHWmlAXUYx8B8j_kzv74uW4iJqbsNXwHu5h2EO0bCPWv-YYJtSzjixveA_vCngAE91iz9mLSw1YYd67j8wDoYaS3TBW_phG0T2AV1CIt85hslThOxNlizjOrHv3SQ9d1DPdKI4hZsiINsK4PXZL7f2NhDJ_7NTwzrWg9vRIyS" />
+              <img className="w-full h-full object-cover" alt="Farmer and agritech representative in wheat field" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
             </div>
-            <div className="absolute -bottom-8 -left-8 bg-white dark:bg-emerald-900/80 p-6 rounded-2xl card-shadow-xl hidden md:block max-w-[240px]">
+            <div className="absolute -bottom-8 -left-8 bg-white dark:bg-slate-900/80 p-6 rounded-2xl card-shadow-xl hidden md:block max-w-[240px]">
               <div className="flex items-center gap-3 mb-2">
                 <span className="material-symbols-outlined text-secondary text-3xl">trending_up</span>
                 <span className="font-bold text-primary dark:text-emerald-50">High Growth</span>
@@ -46,7 +46,7 @@ export default function PartnerPage() {
       </section>
 
       {/* Partnership Models */}
-      <section className="py-24 bg-white dark:bg-emerald-950/50" id="models">
+      <section className="py-24 bg-white dark:bg-slate-950/50" id="models">
         <div className="max-w-7xl mx-auto px-6">
           <div className="text-center mb-16">
             <h2 className="text-3xl lg:text-5xl font-extrabold font-headline text-primary dark:text-emerald-50 mb-4 tracking-tight">{langText("Tailored Partnership Models", "अनुकूलित भागीदारी मॉडेल्स")}</h2>
@@ -54,7 +54,7 @@ export default function PartnerPage() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-12 gap-6">
             {/* Listing Partner */}
-            <div className="md:col-span-8 bg-surface-container-low dark:bg-emerald-900/20 rounded-3xl p-8 flex flex-col justify-between border border-outline-variant/30 dark:border-emerald-800/50 hover:shadow-lg transition-all group overflow-hidden relative min-h-[300px]">
+            <div className="md:col-span-8 bg-surface-container-low dark:bg-slate-900/40 rounded-3xl p-8 flex flex-col justify-between border border-outline-variant/30 dark:border-slate-800/50 hover:shadow-lg transition-all group overflow-hidden relative min-h-[300px]">
               <div className="relative z-10">
                 <span className="bg-primary dark:bg-emerald-600 text-white px-3 py-1 rounded text-xs font-bold mb-4 inline-block">FOR DEALERS & FPOs</span>
                 <h3 className="text-3xl font-extrabold text-primary dark:text-emerald-50 mb-4">Equipment Listing Partner</h3>
@@ -97,23 +97,23 @@ export default function PartnerPage() {
             </div>
 
             {/* FPO Network */}
-            <div className="md:col-span-8 bg-surface-dim dark:bg-emerald-900/10 rounded-3xl p-8 flex items-center gap-8 border border-outline-variant/30 dark:border-emerald-800/50 overflow-hidden">
+            <div className="md:col-span-8 bg-surface-dim dark:bg-slate-900/10 rounded-3xl p-8 flex items-center gap-8 border border-outline-variant/30 dark:border-slate-800/50 overflow-hidden">
               <div className="flex-1">
                 <h3 className="text-2xl font-extrabold text-primary dark:text-emerald-50 mb-4">Strategic FPO Network</h3>
                 <p className="text-on-surface-variant dark:text-slate-400 max-w-sm mb-6">Empower your FPO members with collective access to mechanization.</p>
                 <div className="flex gap-4">
-                  <div className="bg-white/50 dark:bg-emerald-900/40 backdrop-blur rounded-xl px-4 py-2">
+                  <div className="bg-white/50 dark:bg-slate-900/60 backdrop-blur rounded-xl px-4 py-2">
                     <p className="text-2xl font-bold text-primary dark:text-emerald-50">150+</p>
                     <p className="text-xs uppercase tracking-widest font-bold opacity-60">Active FPOs</p>
                   </div>
-                  <div className="bg-white/50 dark:bg-emerald-900/40 backdrop-blur rounded-xl px-4 py-2">
+                  <div className="bg-white/50 dark:bg-slate-900/60 backdrop-blur rounded-xl px-4 py-2">
                     <p className="text-2xl font-bold text-primary dark:text-emerald-50">25k+</p>
                     <p className="text-xs uppercase tracking-widest font-bold opacity-60">Farmers Served</p>
                   </div>
                 </div>
               </div>
               <div className="hidden lg:block w-1/3 aspect-video rounded-2xl overflow-hidden shadow-inner">
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Farm equipment facility" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzjIcbjKq2-wS6bh-j7O1jO0jCewZcFBQfrfruxDPNJldmqRD5y2a9OvFAzAHWerwakpi5CrL2nnLhKa8oZfqwVKn5vFXw4sDX-Y5vzVs8ErmUdorm7L1ezhtU8tRXjkYDqi1w7LJ0kNy65zLXYSXNXeyjQ7T7FSISKYa4R0tMbNJFIVgr0DhW1b4xb0DRQRzmW4eMm1kVYE65m4Vk79YTkbECQYlugSptRmfxjEdDGZkxlvAfzh06MkGGGCYyBlDux2B2szTZq2Vb" />
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Farm equipment facility" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
               </div>
             </div>
           </div>
@@ -121,7 +121,7 @@ export default function PartnerPage() {
       </section>
 
       {/* Benefits Section */}
-      <section className="py-24 bg-surface-container-highest/30 dark:bg-emerald-950/30">
+      <section className="py-24 bg-surface-container-highest/30 dark:bg-slate-950/30">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div>
@@ -133,7 +133,7 @@ export default function PartnerPage() {
                   { icon: "verified_user", title: langText("Risk Mitigation", "जोखीम कमी"), desc: langText("Every rental is backed by verified users and digital contracts.", "प्रत्येक भाडे सत्यापित वापरकर्त्यांनी आणि डिजिटल करारांद्वारे समर्थित.") },
                 ].map((b) => (
                   <div key={b.title} className="flex gap-6">
-                    <div className="shrink-0 w-12 h-12 rounded-full bg-emerald-100 dark:bg-emerald-900/40 flex items-center justify-center text-emerald-800 dark:text-emerald-400">
+                    <div className="shrink-0 w-12 h-12 rounded-full bg-emerald-100 dark:bg-slate-900/60 flex items-center justify-center text-emerald-800 dark:text-emerald-400">
                       <span className="material-symbols-outlined">{b.icon}</span>
                     </div>
                     <div>
@@ -146,7 +146,7 @@ export default function PartnerPage() {
             </div>
             <div className="relative grid grid-cols-2 gap-4">
               <div className="pt-12">
-                <img className="rounded-2xl shadow-lg mb-4 h-64 w-full object-cover" alt="Agricultural dealers" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDNj3RSBvjJnRK-9YvQpJ_4iVjeKp75IPyQ4mv04BGthft8-H5knu4XkW9oMVhe1neUu-3U6nc7uqfIzoO2ArTcCcS2D9HdwGa3zCuDWrwNtuR5NA8abyZ1B92Hpy9ys_ja35Q-3uZI03IEr8jljuBYN9eY7J3RDs3x2DT54HRLDG_p5aQdkt0mmBl-3GYO4iL_GVmxv6GUv6rgsgn7fjJ2xs_jWyaoPwpx4ha1o4OV7kql9PuBLO-xy4nomI9fE1y0ko5Y71otlbyX" />
+                <img className="rounded-2xl shadow-lg mb-4 h-64 w-full object-cover" alt="Agricultural dealers" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
                 <div className="bg-primary-container p-6 rounded-2xl text-white">
                   <p className="text-3xl font-bold mb-1">98%</p>
                   <p className="text-sm opacity-80">Partner retention rate</p>
@@ -157,7 +157,7 @@ export default function PartnerPage() {
                   <p className="text-3xl font-bold mb-1">₹12Cr+</p>
                   <p className="text-sm opacity-80">Total partner earnings</p>
                 </div>
-                <img className="rounded-2xl shadow-lg h-80 w-full object-cover" alt="Entrepreneur with tablet" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA01w8qJm-2ByOaP8RGsPD4wsUX9dx--WaF52slVkosfsYUM-craWqZ5WMw9Cg0cTmtzas1Vg0RwVJbpCw2-ooeVdi4mlokAn5SeayFiljZCvDi1fT-bvWKlpx6gnJRSGiArUEZAnhROoZNg6ms-pDcnCT1zeiThZfm5VLhwPx6CwQ6CcKS50MQEU9x2GZhuKwRbOQOjC_OMXxODE6iqPAFPdd5t7APxqJW8nVCPWiOvt_pfvS_ItrF7P9EOYZ2S0VBKJMlb3nfBp_H" />
+                <img className="rounded-2xl shadow-lg h-80 w-full object-cover" alt="Entrepreneur with tablet" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" />
               </div>
             </div>
           </div>
@@ -165,9 +165,9 @@ export default function PartnerPage() {
       </section>
 
       {/* Inquiry Form */}
-      <section className="py-24 bg-white dark:bg-emerald-950/30 relative" id="inquiry">
+      <section className="py-24 bg-white dark:bg-slate-950/30 relative" id="inquiry">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-surface-container dark:bg-emerald-900/20 rounded-3xl p-8 md:p-12 card-shadow border border-outline-variant/30 dark:border-emerald-800/50">
+          <div className="bg-surface-container dark:bg-slate-900/40 rounded-3xl p-8 md:p-12 card-shadow border border-outline-variant/30 dark:border-slate-800/50">
             <div className="text-center mb-12">
               <h2 className="text-3xl font-extrabold font-headline text-primary dark:text-emerald-50 mb-3">{langText("Partner Inquiry", "भागीदारी चौकशी")}</h2>
               <p className="text-on-surface-variant dark:text-slate-400">{langText("Tell us about your organization and we'll reach out within 24 hours.", "आम्हाला तुमच्या संस्थेबद्दल सांगा आणि आम्ही 24 तासांत तुम्हाला प्रतिसाद देउ.")}</p>
@@ -176,11 +176,11 @@ export default function PartnerPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">Organization Name</label>
-                  <input className="w-full bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary transition-all text-on-surface dark:text-white" placeholder="e.g. Mahalakshmi FPO" type="text" />
+                  <input className="w-full bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary transition-all text-on-surface dark:text-white" placeholder="e.g. Mahalakshmi FPO" type="text" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">Type of Partner</label>
-                  <select className="w-full bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white">
+                  <select className="w-full bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white">
                     <option>FPO / Cooperative</option>
                     <option>Equipment Dealer</option>
                     <option>Financial Institution</option>
@@ -191,23 +191,23 @@ export default function PartnerPage() {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">Contact Person</label>
-                  <input className="w-full bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="Full Name" type="text" />
+                  <input className="w-full bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="Full Name" type="text" />
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">Phone Number</label>
                   <div className="flex">
-                    <span className="inline-flex items-center px-3 rounded-l-xl border border-r-0 border-outline-variant/50 dark:border-emerald-800/50 bg-surface-variant dark:bg-emerald-900/30 text-on-surface-variant dark:text-slate-400 text-sm font-bold">+91</span>
-                    <input className="flex-1 bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-r-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="98765 43210" type="tel" />
+                    <span className="inline-flex items-center px-3 rounded-l-xl border border-r-0 border-outline-variant/50 dark:border-slate-800/50 bg-surface-variant dark:bg-slate-900/50 text-on-surface-variant dark:text-slate-400 text-sm font-bold">+91</span>
+                    <input className="flex-1 bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-r-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="98765 43210" type="tel" />
                   </div>
                 </div>
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">Business Location</label>
-                <input className="w-full bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="District, State" type="text" />
+                <input className="w-full bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="District, State" type="text" />
               </div>
               <div className="space-y-2">
                 <label className="text-sm font-bold text-primary-container dark:text-emerald-400 ml-1">How can we work together?</label>
-                <textarea className="w-full bg-white dark:bg-emerald-950/50 border-outline-variant/50 dark:border-emerald-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="Briefly describe your goals..." rows={4} />
+                <textarea className="w-full bg-white dark:bg-slate-950/50 border-outline-variant/50 dark:border-slate-800/50 rounded-xl px-4 py-3 focus:ring-primary dark:focus:ring-emerald-500 focus:border-primary text-on-surface dark:text-white" placeholder="Briefly describe your goals..." rows={4} />
               </div>
               <div className="pt-4">
                 <button type="button" className="w-full bg-primary-container text-white py-4 rounded-xl font-bold text-lg hover:bg-primary shadow-lg shadow-primary-container/20 transition-all flex items-center justify-center gap-2">

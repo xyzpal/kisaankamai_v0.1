@@ -8,16 +8,16 @@ export default function OwnerExperiencePage() {
   const { langText } = useLanguage();
 
   return (
-    <main className="bg-surface dark:bg-[#0f1a14] min-h-screen">
+    <main className="bg-surface dark:bg-slate-950 min-h-screen">
       <Header />
       <div className="pt-20 pb-32">
         {/* Hero Section: Owner Acquisition */}
-        <section className="relative h-[530px] flex items-end px-6 pb-12 overflow-hidden bg-primary-container dark:bg-emerald-950">
+        <section className="relative h-[530px] flex items-end px-6 pb-12 overflow-hidden bg-primary-container dark:bg-slate-950">
           <div className="absolute inset-0 z-0">
             <img
               className="w-full h-full object-cover"
               alt="Cinematic shot of a modern green tractor in a golden wheat field at sunset, high-end agricultural photography with warm light"
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuBMf4-mHdpDSGO4B0heui_iQITAccwOQeyNR5nknz1jg0Ggy2oLIYA2HAS2IB3BT7sRnaYklPNv3MqG5r-kTzJppNOyTHuncW_hTkaf5kcR5aQM3yoA219R0_3mrS8_qWEfXAY_VK85ffYKfNEWijxiDRUqGfASYi9iuKqgfPp__baWGhL2Zz2My2nHSkXlH364Wway1pf3YGmnQ0hLVAYFEguICglZaj5KjfZpc9wOI8xZHepgsooTdEn751wsqGGdDQ1mpSa-AsBS"
+              src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary-container dark:from-emerald-950 via-primary-container/40 dark:via-emerald-950/60 to-transparent"></div>
           </div>
@@ -40,14 +40,14 @@ export default function OwnerExperiencePage() {
         {/* Stats Bento Grid */}
         <section className="px-6 -mt-8 relative z-20 max-w-7xl mx-auto">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-white dark:bg-emerald-900/40 p-5 rounded-xl shadow-lg border border-emerald-50 dark:border-emerald-800">
+            <div className="bg-white dark:bg-slate-900/60 p-5 rounded-xl shadow-lg border border-emerald-50 dark:border-slate-800">
               <div className="flex items-center justify-between mb-2">
                 <span className="material-symbols-outlined text-secondary dark:text-amber-400">payments</span>
               </div>
               <p className="text-xs text-slate-500 dark:text-slate-400 font-semibold uppercase tracking-wider">{langText("Avg. Monthly", "सरासरी मासिक")}</p>
               <p className="text-xl md:text-3xl font-extrabold text-primary dark:text-emerald-50">₹45,000+</p>
             </div>
-            <div className="bg-white dark:bg-emerald-900/40 p-5 rounded-xl shadow-lg border border-emerald-50 dark:border-emerald-800">
+            <div className="bg-white dark:bg-slate-900/60 p-5 rounded-xl shadow-lg border border-emerald-50 dark:border-slate-800">
               <div className="flex items-center justify-between mb-2">
                 <span className="material-symbols-outlined text-tertiary-fixed-dim dark:text-emerald-400" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
               </div>
@@ -71,12 +71,12 @@ export default function OwnerExperiencePage() {
               </div>
 
               {/* Active Listing Card */}
-              <div className="bg-white dark:bg-emerald-900/30 rounded-2xl shadow-sm border border-emerald-50 dark:border-emerald-800/50 overflow-hidden mb-6 hover:shadow-lg transition-shadow">
+              <div className="bg-white dark:bg-slate-900/50 rounded-2xl shadow-sm border border-emerald-50 dark:border-slate-800/50 overflow-hidden mb-6 hover:shadow-lg transition-shadow">
                 <div className="relative h-48">
                   <img
                     className="w-full h-full object-cover"
                     alt="Modern Mahindra tractor parked in a clean farmyard, bright natural daylight, crisp focus on agricultural machinery"
-                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCtySXYIiM5B5mQxsjQwMkOJsiKi1fZcO5Lpd_eVAqwDTlQuPyg6b0h-wXS5e8breLEswN-tK7T_wvoBhwMPAdm-sgbWFGDtjOUWrA88wiWTZf5MhgmagPd8C_PHJxP7h9_m08DFRFjTKXQDSgo7uJ28SZ7j52eISztEfOTKFBDmJ4rvrXpqE_1zwvx7enyZLwHwIISAK_uzZ6CDpJhD-P668TTHO0yl99PAK3r1nRTAhgdBzxzE_GHFhObSzU1jRYu8OMN8DSHf0YU"
+                    src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"
                   />
                   <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">{langText("Active Listing", "सक्रिय सूची")}</div>
                 </div>
@@ -96,8 +96,8 @@ export default function OwnerExperiencePage() {
                     </div>
                   </div>
                   <div className="flex gap-2">
-                    <button className="flex-1 py-3 border border-emerald-100 dark:border-emerald-800 rounded-lg text-sm font-bold text-primary dark:text-emerald-50 bg-emerald-50/50 dark:bg-emerald-900/50 hover:bg-emerald-100 dark:hover:bg-emerald-800 transition-colors">{langText("Edit Details", "सविस्तर माहिती संपादित करा")}</button>
-                    <button className="px-4 py-3 border border-emerald-100 dark:border-emerald-800 rounded-lg text-primary dark:text-emerald-50 hover:bg-emerald-50 dark:hover:bg-emerald-900/50 transition-colors">
+                    <button className="flex-1 py-3 border border-emerald-100 dark:border-slate-800 rounded-lg text-sm font-bold text-primary dark:text-emerald-50 bg-emerald-50/50 dark:bg-slate-900/70 hover:bg-emerald-100 dark:hover:bg-emerald-800 transition-colors">{langText("Edit Details", "सविस्तर माहिती संपादित करा")}</button>
+                    <button className="px-4 py-3 border border-emerald-100 dark:border-slate-800 rounded-lg text-primary dark:text-emerald-50 hover:bg-emerald-50 dark:hover:bg-slate-900/70 transition-colors">
                       <span className="material-symbols-outlined">more_horiz</span>
                     </button>
                   </div>
@@ -112,7 +112,7 @@ export default function OwnerExperiencePage() {
                   <p className="text-on-primary-container dark:text-emerald-300 text-xs font-bold uppercase tracking-widest mb-1">{langText("Step 1 of 3", "पायरी १ पैकी ३")}</p>
                   <h2 className="text-2xl font-extrabold font-headline leading-tight">{langText("Add New Equipment", "नवीन उपकरणे जोडा")}</h2>
                 </div>
-                <div className="h-12 w-12 rounded-full border-4 border-emerald-800 flex items-center justify-center">
+                <div className="h-12 w-12 rounded-full border-4 border-slate-800 flex items-center justify-center">
                   <span className="text-sm font-bold">33%</span>
                 </div>
               </div>
@@ -121,7 +121,7 @@ export default function OwnerExperiencePage() {
                 <div className="space-y-2">
                   <label className="text-sm font-semibold text-on-primary-container dark:text-emerald-100 ml-1">{langText("Equipment Category", "उपकरणाचा प्रकार")}</label>
                   <div className="relative">
-                    <select className="w-full bg-emerald-900/50 border-emerald-800 rounded-xl py-4 px-4 text-white appearance-none focus:ring-secondary focus:border-secondary transition-all">
+                    <select className="w-full bg-slate-900/70 border-slate-800 rounded-xl py-4 px-4 text-white appearance-none focus:ring-secondary focus:border-secondary transition-all">
                       <option>{langText("Tractors", "ट्रॅक्टर्स")}</option>
                       <option>{langText("Harvesters", "हार्वेस्टर्स")}</option>
                       <option>{langText("Rotavators", "रोटाव्हेटर्स")}</option>
@@ -134,7 +134,7 @@ export default function OwnerExperiencePage() {
                 <div className="space-y-2">
                   <label className="text-sm font-semibold text-on-primary-container dark:text-emerald-100 ml-1">{langText("Make & Model", "बनवा आणि मॉडेल")}</label>
                   <input
-                    className="w-full bg-emerald-900/50 border-emerald-800 rounded-xl py-4 px-4 text-white placeholder-emerald-700/50 focus:ring-secondary focus:border-secondary transition-all"
+                    className="w-full bg-slate-900/70 border-slate-800 rounded-xl py-4 px-4 text-white placeholder-emerald-700/50 focus:ring-secondary focus:border-secondary transition-all"
                     placeholder={langText("e.g. Mahindra Arjun 555", "उदा. महिंद्रा अर्जुन ५५५")}
                     type="text"
                   />
@@ -145,7 +145,7 @@ export default function OwnerExperiencePage() {
                   <div className="relative">
                     <span className="absolute left-4 top-1/2 -translate-y-1/2 text-on-primary-container font-bold">₹</span>
                     <input
-                      className="w-full bg-emerald-900/50 border-emerald-800 rounded-xl py-4 pl-10 pr-4 text-white placeholder-emerald-700/50 focus:ring-secondary focus:border-secondary transition-all"
+                      className="w-full bg-slate-900/70 border-slate-800 rounded-xl py-4 pl-10 pr-4 text-white placeholder-emerald-700/50 focus:ring-secondary focus:border-secondary transition-all"
                       placeholder="5000"
                       type="number"
                     />

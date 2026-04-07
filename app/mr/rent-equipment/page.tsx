@@ -13,7 +13,7 @@ export default function MR_RentEquipment() {
 {/*  Hero Section / Discovery Header  */}
 <section className="px-8 max-w-screen-2xl mx-auto mt-8 mb-12">
 <div className="relative rounded-[40px] overflow-hidden min-h-[400px] flex items-center p-12 bg-primary-container">
-<img className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay" data-alt="Premium close-up of a modern high-performance tractor in a sun-drenched Indian wheat field during golden hour, cinematic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC3SRRD_JZFYZUayLAdGkEROTNEUT_DP6gaha2dRvwJA7EGQZUyY5MsgxwF9xWf87vG7vjJot7EoO9m21If5jSnt5AEDgcPl9CxWJPcgEUymclOYDtijURi5IPyxn8zi_3zDbEoXp8wv6XhhygGzyFjqzymS2qNi8DqZBbpeEP2ZQOkc55Wy1NSfzOfGdOoh4fmvlhFjd0h1b8MwXAVDANKiOBWCFkH-CeHiD5FwkWCtHSThvp9-nVWhLEK9RhhvkvG9yKSjKlQGI3s"/>
+<img className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay" data-alt="Premium close-up of a modern high-performance tractor in a sun-drenched Indian wheat field during golden hour, cinematic lighting" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
 <div className="relative z-10 max-w-2xl">
 <span className="marathi-font bg-orange-700 text-white px-4 py-1 rounded-full text-sm font-bold tracking-wide uppercase mb-4 inline-block">उच्च दर्जाची अवजारे</span>
 <h1 className="marathi-font text-5xl md:text-6xl font-extrabold text-white leading-[1.2] mb-6">शेतीसाठी सर्वोत्तम अवजारे आता भाड्याने उपलब्ध</h1>
@@ -50,7 +50,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Realistic close-up of a modern green tractor with large tires parked in a rural Indian farm setting, bright daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDbX8oAcHC7G68l7bvebX4Be4cJ3B4ABhS4L1S_av039FSA6UuNaPs2_QFqFdW3gFZq6SOjPCkm4547kfXCKOoq9SHaq-z8SkM3kKcuDKajhA9jSa4di_kPiV5-oxSzs1GrLkrqJH0mRjmm5HaKOnmK3Z-xHFlU8o6pUsAJTurmJcv8IYWLFBzmx0V5r9cfs5tHzos6wIRFjNNk-aQMKtv9AEG3l9w_H4_t7bUShm2IgwCZTC4Swq_RB3qhcmJWlhS8oUXvWPUhGW1g"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Realistic close-up of a modern green tractor with large tires parked in a rural Indian farm setting, bright daylight" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">ट्रॅक्टर</p>
@@ -60,7 +60,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A massive combine harvester working in a golden grain field in Maharashtra, realistic agricultural photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-fkqeaDNCnbDzmPbgjoumzuPucKH5iCuoOFklo0Wan5N1DoTViKy1NhsFPZAloozj7f8kRoglNh-53xLtJHCBTbdJU8tmExaN_IxoKgWMggGHLZPn0XdVUHh91Gx-WDY_kHNytzgVGkXyZGDr4d-rzwVWQg-vZEztbfmniOM18tGh93Nu9xVOB9aDal92MwQLRd9zQqo6npZMvYUGnXTusUCp4meRgF0NxG-zbFN6JTbXwZb_SP2AS-jlxgDghXNLQKaQNL9GkCz8"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A massive combine harvester working in a golden grain field in Maharashtra, realistic agricultural photography" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">हार्वेस्टर</p>
@@ -70,7 +70,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Powerful tractor-mounted rotavator tilling dark rich soil in an Indian farm, focus on mechanical details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB-Wk788-oScrDE1rFUrx8jN0fr0OAexIMbWWYpZXsHoqjtLkGBBKKDOXTWGiuC5hed_d8NvSJIJUmM82N0ObUqZeyH7DzOlMODoz7GajXHCl6of0nR-uCul_Ax0RFrNTkUoYVFAiy5i4zbsbOJ82cARZptJyEHpFj6LOQjnt0q1Bo4Y6lYwvQKUV1hzy0CS_B1KAyQdyzXVsISk3Gh7CzRDjePYlnAUM5qHhw5H_evFmH3usOCvjiREhtUx-GHlxb1g8nIKzXFBTpn"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Powerful tractor-mounted rotavator tilling dark rich soil in an Indian farm, focus on mechanical details" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">रोटाव्हेटर</p>
@@ -80,7 +80,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Agricultural seed drill machine attached to a tractor in a plowed field ready for planting, clear rural background" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9sIXHEWS_9zCaXomCiOkbbCkrKwWykDn2ncVd0XfEQ17IOWAasUBox4WNKqRLJWfVfPPUo_eJmGWeNPxRG_d8wK-GsJDJlmUh5l-H6XmpWQhLFbzqhQgZoA22ZAlWFGBTIlH0LrCBy2LNzr3USqyzn4pIDahMyy2lcV_vihu6-r4CxQLCFozXX1tg1z1XpMDq4DDzp79Wwu-gNpWRe37cN-HvEIKsUcliYsKq2YePikWcSeLAb4ZcXs21XNGfDWRD32pdPPq-_zfl"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Agricultural seed drill machine attached to a tractor in a plowed field ready for planting, clear rural background" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">पेरणी यंत्र</p>
@@ -90,7 +90,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modern tractor-pulled spraying equipment in a lush green orchard, fine mist visible, professional farm lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBzL_SZ5da02x3tISv6Lb62jP5I7UamR8kgxiMJH2hEvbg00hV07tRS1wZKGry12rSqOa8-CtWHe_WIGOO39miVGYvAeX3sN8ffjG9RRWWoEou18kxm2iHjJPyhRqUjRciEVCtr62zi8WfpDIbZxgCv1o7CUKeGObkCTUBcRSvvhrz0_Qma-fmqZB1Y8q9Fx4XhQ49JWdZg0zBe-RhZvkbCGP-yZchY0ucv_WkN9wZn_5cMgOD2iygtzdIMrsXam9RiEN_PNYoRRj6n"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modern tractor-pulled spraying equipment in a lush green orchard, fine mist visible, professional farm lighting" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">फवारणी यंत्र</p>
@@ -100,7 +100,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Heavy duty agricultural trailer and transport equipment in a farmyard setting, high resolution mechanical details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-KFQYFDOrorEYdFjvoTyivXg4uoBUW-92iCx2uSXbQUZHJ-bFluWjICzUEfQCprGCCGQ7pI20HQCs_TG_ktLuq1FqO8jrfQtzYQ7bqSGsZHhk_EgSZguuoBFUjIf12TViqnVGvWB7Eo9ltTWkJ01rYOMZoG-S1wvnVtshe4zq11-HYkdrJF31qHAdWrQa0uXQ3IVdVcu9LXCp7rNNZR34bpAxFF5irckCo-Z3HGG1pZ9gK5LB8wtk_LC51Px8sMCizHLuukiHSJlM"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Heavy duty agricultural trailer and transport equipment in a farmyard setting, high resolution mechanical details" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">वाहतूक यंत्रे</p>
@@ -176,7 +176,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Side profile of a red Mahindra tractor in pristine condition, shot in a sunlit village farmyard, high-end commercial quality" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAqS0Dx0tRKMYGFMlkg7PuODjNene6_KL6K77e2ZqYRJVy_eqiHbEMLzHSOvf_PTuWqqrThVfwCbQFgpc-Jdz2DVoh0ewm3CozLIFm7Y8Xlc6cyZSDJ6CQ2uCo7IMnpySwWZq6xLu-gydl9K7Upn4j7anTwgkoMut3yGkLoFgoVngtNA5eN2DN_tWwx7fSRXKrVhixtDWB7-edLO5ZtPbJ0ecZDG93N81abCOz92AKF5q58jlF--a07kVMprb4xMsYQIzgG5AZQFttH"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Side profile of a red Mahindra tractor in pristine condition, shot in a sunlit village farmyard, high-end commercial quality" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">५५ HP</span>
 <span className="marathi-font bg-orange-700 px-3 py-1 rounded-full text-xs font-bold text-white shadow-lg">पॉप्युलर</span>
@@ -202,7 +202,7 @@ export default function MR_RentEquipment() {
 <p className="marathi-font text-xs text-on-surface-variant font-bold">भाडे (प्रति तास)</p>
 <p className="marathi-font text-2xl font-black text-emerald-900">₹८००</p>
 </div>
-<button className="marathi-font bg-emerald-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
+<button className="marathi-font bg-slate-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
                                     बुक करा
                                 </button>
 </div>
@@ -211,7 +211,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern green John Deere tractor with rotavator attachment, parked in a lush farmland in Maharashtra, bright afternoon light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAYmBOqO1gcGtGsxu-MX6nYB5T3CPQoMetm077FFwaz6t7Um2bL6sFwi7v-Tdw9uhbeYB31EoF4VKueenl2LJHsu3e641Rwn9gAo4oGuOuWd2Q8IYNGOXVbeuyKNIFASoTaUinR8Fop72gEnZ4m9QUcgd_kJhzLIAEu-a9gDjmt1T5ZyQseOLzZj6p0ClWcvBCELatHl5iMCpYnjNcLPkOUMBPhuX1Qr-qpu3rXlmQOPq-l66xTXdgbCSuABD12ElNurJaD859E-zlz"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern green John Deere tractor with rotavator attachment, parked in a lush farmland in Maharashtra, bright afternoon light" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">५० HP</span>
 </div>
@@ -236,7 +236,7 @@ export default function MR_RentEquipment() {
 <p className="marathi-font text-xs text-on-surface-variant font-bold">भाडे (प्रति तास)</p>
 <p className="marathi-font text-2xl font-black text-emerald-900">₹९५०</p>
 </div>
-<button className="marathi-font bg-emerald-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
+<button className="marathi-font bg-slate-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
                                     बुक करा
                                 </button>
 </div>
@@ -245,7 +245,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card (Compact for Grid variation)  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Massive combine harvester in field, realistic professional agricultural equipment photography, golden hour" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYrlEQVxL4vrpl2ymUrVZ_2TOmPpLmyWrJBtgoMTVX0yqSlmltCZuqOtnEbCfqcMB-27hNDf59OBln9QtdynAtOqWNI7K4ZpTYQ5fG4LwWknUc-j4FP2nb_cDxAQ0INVNSsCD7ejVWq4agjhEGQvBUC-wYrb7TIKEbg3CHjtu1bf0HKeWg-nzoxQg-KFD1fuEjHZXomNPE5Bt7n6WsTQCNL4cruHkFlyFGfetTalsc1fakfbkmfJ-sEQ1dSuuEb-4yqfiZmA0vclQq"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Massive combine harvester in field, realistic professional agricultural equipment photography, golden hour" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">हार्वेस्टर</span>
 </div>
@@ -263,7 +263,7 @@ export default function MR_RentEquipment() {
 <p className="marathi-font text-xs text-on-surface-variant font-bold">भाडे (प्रति तास)</p>
 <p className="marathi-font text-2xl font-black text-emerald-900">₹२,२००</p>
 </div>
-<button className="marathi-font bg-emerald-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
+<button className="marathi-font bg-slate-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
                                     बुक करा
                                 </button>
 </div>
@@ -272,7 +272,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty rotary tiller attachment on a tractor, detailed mechanical shot in a field environment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqBUFRVL7Wabi6uTdg4h7R89tPbfdlODbp41_Sk06EqciwoEWAe6HKki5WvCSNoi-KxBufUd21mIV-Ad1WDLsCoaIq4C2JefLsmBwuzQj3eUneViYOAbW8j9nrf8YKZ30LCWdOMEkzDzjz4p1lJU3Oz8SkEB2WCTs5aZSUKxiDqWaWkJi4MeKtlCw7pgiIy-qla88LbLSlDT_lgfm4s97PnmicggW1Vu-za5OggrD1UYxQRLlcbyBG2mEDbNMcVqFZtb5thug2r2p0"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty rotary tiller attachment on a tractor, detailed mechanical shot in a field environment" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">रोटाव्हेटर</span>
 </div>
@@ -290,7 +290,7 @@ export default function MR_RentEquipment() {
 <p className="marathi-font text-xs text-on-surface-variant font-bold">भाडे (प्रति तास)</p>
 <p className="marathi-font text-2xl font-black text-emerald-900">₹४५०</p>
 </div>
-<button className="marathi-font bg-emerald-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
+<button className="marathi-font bg-slate-900 text-white px-6 py-3 rounded-2xl font-bold hover:bg-emerald-800 transition-colors">
                                     बुक करा
                                 </button>
 </div>
@@ -302,7 +302,7 @@ export default function MR_RentEquipment() {
 <button className="w-12 h-12 rounded-full border border-emerald-100 flex items-center justify-center text-emerald-900 hover:bg-emerald-50">
 <span className="material-symbols-outlined">chevron_left</span>
 </button>
-<button className="w-12 h-12 rounded-full bg-emerald-900 text-white flex items-center justify-center font-bold">१</button>
+<button className="w-12 h-12 rounded-full bg-slate-900 text-white flex items-center justify-center font-bold">१</button>
 <button className="w-12 h-12 rounded-full border border-emerald-100 flex items-center justify-center text-emerald-900 hover:bg-emerald-50 font-bold">२</button>
 <button className="w-12 h-12 rounded-full border border-emerald-100 flex items-center justify-center text-emerald-900 hover:bg-emerald-50 font-bold">३</button>
 <button className="w-12 h-12 rounded-full border border-emerald-100 flex items-center justify-center text-emerald-900 hover:bg-emerald-50">

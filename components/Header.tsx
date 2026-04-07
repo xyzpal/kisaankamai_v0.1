@@ -22,47 +22,36 @@ export const Header = () => {
 
   return (
     <>
-      <header className="fixed top-0 w-full z-50 bg-white/95 dark:bg-emerald-950/95 backdrop-blur-md border-b border-emerald-100 dark:border-emerald-800/50 shadow-sm">
+      <header className="fixed top-0 w-full z-50 bg-white/95 dark:bg-slate-950/95 backdrop-blur-md border-b border-emerald-100 dark:border-slate-800/50 shadow-sm">
         <div className="flex justify-between items-center w-full px-6 h-20 max-w-7xl mx-auto">
           <div className="flex items-center gap-8">
             <Link href="/" className="text-2xl font-extrabold tracking-tighter text-emerald-900 dark:text-emerald-50 font-headline">
               Kisan Kamai
             </Link>
-            <div className="hidden lg:relative lg:block">
-              <button 
-                onClick={() => setDesktopMenuOpen(!desktopMenuOpen)}
-                className="flex items-center gap-1 text-slate-600 dark:text-slate-400 font-medium hover:text-emerald-700 dark:hover:text-emerald-300 transition-colors duration-200"
-              >
-                {langText("Menu", "मेनू")} <span className="material-symbols-outlined text-sm">{desktopMenuOpen ? 'expand_less' : 'expand_more'}</span>
-              </button>
-              {desktopMenuOpen && (
-                <div className="absolute top-full left-0 mt-4 w-56 bg-white dark:bg-emerald-950 rounded-xl shadow-xl border border-emerald-100 dark:border-emerald-800 overflow-hidden py-2" onMouseLeave={() => setDesktopMenuOpen(false)}>
-                  {navLinks.map((link) => {
-                    const isActive = pathname === link.href;
-                    return (
-                      <Link
-                        key={link.href}
-                        href={link.href}
-                        onClick={() => setDesktopMenuOpen(false)}
-                        className={`block px-5 py-3 text-sm transition-colors ${
-                          isActive
-                            ? "bg-emerald-50 dark:bg-emerald-900/30 text-emerald-700 dark:text-emerald-400 font-bold"
-                            : "text-slate-600 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/50 font-medium"
-                        }`}
-                      >
-                        {langText(link.label, link.labelMr)}
-                      </Link>
-                    );
-                  })}
-                </div>
-              )}
+            <div className="hidden lg:flex items-center gap-6 ml-4">
+              {navLinks.map((link) => {
+                const isActive = pathname === link.href;
+                return (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className={`text-sm tracking-wide transition-colors ${
+                      isActive
+                        ? "text-emerald-700 dark:text-emerald-400 font-bold"
+                        : "text-slate-600 dark:text-slate-300 hover:text-emerald-700 dark:hover:text-emerald-400 font-medium"
+                    }`}
+                  >
+                    {langText(link.label, link.labelMr)}
+                  </Link>
+                );
+              })}
             </div>
           </div>
           <div className="flex items-center gap-3">
             <ThemeToggle />
             <button
               onClick={() => setLanguage(language === "en" ? "mr" : "en")}
-              className="hidden md:flex items-center gap-1.5 text-slate-600 dark:text-slate-400 px-3 py-2 hover:bg-emerald-50 dark:hover:bg-emerald-900/30 rounded-lg transition-all font-mukta text-sm font-semibold"
+              className="hidden md:flex items-center gap-1.5 text-slate-600 dark:text-slate-400 px-3 py-2 hover:bg-emerald-50 dark:hover:bg-slate-900/50 rounded-lg transition-all font-mukta text-sm font-semibold"
             >
               {language === "en" ? "मराठी" : "English"}
             </button>
@@ -72,7 +61,7 @@ export const Header = () => {
             {/* Mobile menu button */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="lg:hidden p-2 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-emerald-900/30 rounded-lg transition-all"
+              className="lg:hidden p-2 text-slate-600 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/50 rounded-lg transition-all"
             >
               <span className="material-symbols-outlined">{mobileOpen ? "close" : "menu"}</span>
             </button>
@@ -84,7 +73,7 @@ export const Header = () => {
       {mobileOpen && (
         <div className="fixed inset-0 z-[60] lg:hidden">
           <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" onClick={() => setMobileOpen(false)} />
-          <div className="absolute top-20 left-0 right-0 bg-white dark:bg-emerald-950 border-b border-emerald-100 dark:border-emerald-800 shadow-xl p-6 space-y-2">
+          <div className="absolute top-20 left-0 right-0 bg-white dark:bg-slate-950 border-b border-emerald-100 dark:border-slate-800 shadow-xl p-6 space-y-2">
             {navLinks.map((link) => {
               const isActive = pathname === link.href;
               return (
@@ -95,18 +84,18 @@ export const Header = () => {
                   className={`block px-4 py-3 rounded-xl font-medium transition-colors ${
                     isActive
                       ? "bg-primary-container/10 text-emerald-700 dark:text-emerald-400 font-bold"
-                      : "text-slate-700 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-emerald-900/30"
+                      : "text-slate-700 dark:text-slate-300 hover:bg-emerald-50 dark:hover:bg-slate-900/50"
                   }`}
                 >
                   {link.label}
                 </Link>
               );
             })}
-            <div className="pt-4 border-t border-slate-100 dark:border-emerald-800 flex gap-3">
+            <div className="pt-4 border-t border-slate-100 dark:border-slate-800 flex gap-3">
               <Link href="/partner" onClick={() => setMobileOpen(false)} className="flex-1 text-center px-4 py-3 bg-secondary/10 text-secondary rounded-xl font-bold text-sm">
                 Partner With Us
               </Link>
-              <Link href="/legal" onClick={() => setMobileOpen(false)} className="flex-1 text-center px-4 py-3 bg-slate-100 dark:bg-emerald-900/30 text-slate-700 dark:text-slate-300 rounded-xl font-medium text-sm">
+              <Link href="/legal" onClick={() => setMobileOpen(false)} className="flex-1 text-center px-4 py-3 bg-slate-100 dark:bg-slate-900/50 text-slate-700 dark:text-slate-300 rounded-xl font-medium text-sm">
                 Legal
               </Link>
             </div>

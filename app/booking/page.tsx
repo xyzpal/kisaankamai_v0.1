@@ -8,7 +8,7 @@ export default function BookingFlowPage() {
   const { langText } = useLanguage();
 
   return (
-    <main className="bg-background dark:bg-[#0f1a14] min-h-screen">
+    <main className="bg-background dark:bg-slate-950 min-h-screen">
       <Header />
       <div className="pt-28 pb-32 px-4 md:px-8 max-w-5xl mx-auto">
         {/* Header Section */}
@@ -31,17 +31,17 @@ export default function BookingFlowPage() {
           </div>
           {/* Step 2 */}
           <div className="flex flex-col items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-emerald-900/50 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">2</div>
+            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-slate-900/70 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">2</div>
             <span className="text-xs font-medium text-outline dark:text-slate-400 uppercase tracking-wider">{langText("Location", "स्थान")}</span>
           </div>
           {/* Step 3 */}
           <div className="flex flex-col items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-emerald-900/50 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">3</div>
+            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-slate-900/70 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">3</div>
             <span className="text-xs font-medium text-outline dark:text-slate-400 uppercase tracking-wider">{langText("Review", "पुनरावलोकन")}</span>
           </div>
           {/* Step 4 */}
           <div className="flex flex-col items-center gap-2">
-            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-emerald-900/50 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">4</div>
+            <div className="w-10 h-10 rounded-full bg-surface-variant dark:bg-slate-900/70 text-outline dark:text-emerald-200 flex items-center justify-center font-bold">4</div>
             <span className="text-xs font-medium text-outline dark:text-slate-400 uppercase tracking-wider">{langText("Status", "स्थिती")}</span>
           </div>
         </div>
@@ -50,7 +50,7 @@ export default function BookingFlowPage() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-10">
           {/* Step Content: Left Column */}
           <div className="lg:col-span-7 space-y-8">
-            <div className="bg-white dark:bg-emerald-900/20 rounded-[32px] p-8 md:p-10 shadow-sm border border-surface-variant dark:border-emerald-800/50">
+            <div className="bg-white dark:bg-slate-900/40 rounded-[32px] p-8 md:p-10 shadow-sm border border-surface-variant dark:border-slate-800/50">
               <h2 className="text-2xl font-bold text-primary dark:text-emerald-50 mb-6 flex items-center gap-3">
                 <span className="material-symbols-outlined text-secondary dark:text-amber-500">event_available</span>
                 {langText("Date & Task Details", "तारीख आणि कार्याचा तपशील")}
@@ -60,12 +60,12 @@ export default function BookingFlowPage() {
                   <div className="space-y-2">
                     <label className="text-sm font-semibold text-on-surface-variant dark:text-emerald-100 block">{langText("Start Date", "सुरुवात तारीख")}</label>
                     <div className="relative">
-                      <input className="w-full bg-surface-container-lowest dark:bg-emerald-950 border border-surface-variant dark:border-emerald-800 rounded-xl p-4 text-on-surface dark:text-emerald-50 focus:ring-2 focus:ring-secondary-container transition-all" type="date" />
+                      <input className="w-full bg-surface-container-lowest dark:bg-slate-950 border border-surface-variant dark:border-slate-800 rounded-xl p-4 text-on-surface dark:text-emerald-50 focus:ring-2 focus:ring-secondary-container transition-all" type="date" />
                     </div>
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-semibold text-on-surface-variant dark:text-emerald-100 block">{langText("Duration (Days)", "कालावधी (दिवस)")}</label>
-                    <select className="w-full bg-surface-container-lowest dark:bg-emerald-950 border border-surface-variant dark:border-emerald-800 rounded-xl p-4 text-on-surface dark:text-emerald-50 focus:ring-2 focus:ring-secondary-container transition-all">
+                    <select className="w-full bg-surface-container-lowest dark:bg-slate-950 border border-surface-variant dark:border-slate-800 rounded-xl p-4 text-on-surface dark:text-emerald-50 focus:ring-2 focus:ring-secondary-container transition-all">
                       <option>{langText("1 Day", "१ दिवस")}</option>
                       <option>{langText("2-3 Days", "२-३ दिवस")}</option>
                       <option>{langText("1 Week", "१ आठवडा")}</option>
@@ -81,11 +81,11 @@ export default function BookingFlowPage() {
                       <span className="material-symbols-outlined mb-2" style={{ fontVariationSettings: "'FILL' 1" }}>agriculture</span>
                       <span className="text-xs font-bold">{langText("Ploughing", "नांगरणी")}</span>
                     </button>
-                    <button className="flex flex-col items-center justify-center p-4 border-2 border-transparent bg-surface-container-low dark:bg-emerald-900/30 rounded-2xl text-on-surface dark:text-emerald-100 hover:border-surface-variant dark:hover:border-emerald-700 transition-all" type="button">
+                    <button className="flex flex-col items-center justify-center p-4 border-2 border-transparent bg-surface-container-low dark:bg-slate-900/50 rounded-2xl text-on-surface dark:text-emerald-100 hover:border-surface-variant dark:hover:border-slate-700 transition-all" type="button">
                       <span className="material-symbols-outlined mb-2">grain</span>
                       <span className="text-xs font-bold">{langText("Sowing", "पेरणी")}</span>
                     </button>
-                    <button className="flex flex-col items-center justify-center p-4 border-2 border-transparent bg-surface-container-low dark:bg-emerald-900/30 rounded-2xl text-on-surface dark:text-emerald-100 hover:border-surface-variant dark:hover:border-emerald-700 transition-all" type="button">
+                    <button className="flex flex-col items-center justify-center p-4 border-2 border-transparent bg-surface-container-low dark:bg-slate-900/50 rounded-2xl text-on-surface dark:text-emerald-100 hover:border-surface-variant dark:hover:border-slate-700 transition-all" type="button">
                       <span className="material-symbols-outlined mb-2">water_drop</span>
                       <span className="text-xs font-bold">{langText("Spraying", "फवारणी")}</span>
                     </button>
@@ -95,7 +95,7 @@ export default function BookingFlowPage() {
                 <div className="space-y-2">
                   <label className="text-sm font-semibold text-on-surface-variant dark:text-emerald-100 block">{langText("Field Size (Acres)", "शेत आकार (एकर)")}</label>
                   <div className="flex items-center gap-4">
-                    <input className="w-full h-2 bg-surface-container dark:bg-emerald-900 rounded-lg appearance-none cursor-pointer accent-secondary dark:accent-amber-500" max="50" min="1" type="range" defaultValue={5} />
+                    <input className="w-full h-2 bg-surface-container dark:bg-slate-900 rounded-lg appearance-none cursor-pointer accent-secondary dark:accent-amber-500" max="50" min="1" type="range" defaultValue={5} />
                     <span className="bg-secondary-container dark:bg-amber-600 text-on-secondary-container dark:text-white px-4 py-1 rounded-full font-bold min-w-[60px] text-center">5</span>
                   </div>
                 </div>
@@ -110,7 +110,7 @@ export default function BookingFlowPage() {
             </div>
 
             {/* Trust Signal */}
-            <div className="bg-primary-fixed/30 dark:bg-emerald-900/50 rounded-2xl p-6 flex items-start gap-4 border border-primary-fixed dark:border-emerald-800">
+            <div className="bg-primary-fixed/30 dark:bg-slate-900/70 rounded-2xl p-6 flex items-start gap-4 border border-primary-fixed dark:border-slate-800">
               <span className="material-symbols-outlined text-primary-container dark:text-emerald-400" style={{ fontVariationSettings: "'FILL' 1" }}>verified_user</span>
               <div>
                 <h4 className="font-bold text-primary-container dark:text-emerald-100">{langText("Kisan Kamai Guarantee", "किसान कमाईची हमी")}</h4>
@@ -128,10 +128,10 @@ export default function BookingFlowPage() {
           <div className="lg:col-span-5">
             <div className="sticky top-28 space-y-6">
               {/* Equipment Card Preview */}
-              <div className="bg-white dark:bg-emerald-900/20 rounded-[32px] overflow-hidden shadow-sm border border-surface-variant dark:border-emerald-800/50">
+              <div className="bg-white dark:bg-slate-900/40 rounded-[32px] overflow-hidden shadow-sm border border-surface-variant dark:border-slate-800/50">
                 <div className="h-48 relative">
-                  <img className="w-full h-full object-cover" alt="Tractor" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCnFJi0w34H16W-3vWg7CoKeBwmAqAqLAW-u1X0_JuEsrP68JXfkctxn2FSg6-2JXcqEZ8Rk2oXcqyY7HDgnHYL9zReL2O6ezhoKNCURyRpmZEFuPhAJNrRPP-iJ9vAXZ3Ml7czlpzrzjwYYu8uczAnE8SjfupprNjmaad1cEPDW6mI4T2G605wCqEsHdY2mWH1FDJElkFzMyLrmW_5_vN7wuK_FUr_IunV_aEOiA_eeiHhPwmyLdbWICS3t5_-49ehIJFDpeASTF12" />
-                  <div className="absolute top-4 left-4 bg-white/90 dark:bg-emerald-900/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary dark:text-emerald-100 flex items-center gap-1">
+                  <img className="w-full h-full object-cover" alt="Tractor" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+                  <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary dark:text-emerald-100 flex items-center gap-1">
                     <span className="material-symbols-outlined text-sm text-amber-500" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                     4.9 {langText("(120+ Bookings)", "(१२०+ बुकिंग्ज)")}
                   </div>
@@ -139,7 +139,7 @@ export default function BookingFlowPage() {
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-primary dark:text-emerald-50 mb-1">Mahindra Novo 605 DI-i</h3>
                   <p className="text-sm text-on-surface-variant dark:text-slate-400 mb-4">{langText("65 HP • Heavy Duty • 2023 Model", "६५ अश्वशक्ती • हेवी ड्युटी • २०२३ मॉडेल")}</p>
-                  <div className="flex justify-between items-end border-t border-surface-variant dark:border-emerald-800/50 pt-4">
+                  <div className="flex justify-between items-end border-t border-surface-variant dark:border-slate-800/50 pt-4">
                     <div>
                       <p className="text-xs text-on-surface-variant dark:text-slate-400 uppercase font-bold tracking-widest">{langText("Base Rate", "मूळ दर")}</p>
                       <p className="text-2xl font-black text-secondary dark:text-amber-500">₹1,200 <span className="text-sm font-normal text-on-surface-variant dark:text-slate-400">{langText("/ hour", "/ तास")}</span></p>
@@ -153,7 +153,7 @@ export default function BookingFlowPage() {
               </div>
 
               {/* Help Card */}
-              <div className="bg-emerald-950 dark:bg-emerald-900 text-white rounded-[32px] p-8 space-y-4">
+              <div className="bg-slate-950 dark:bg-slate-900 text-white rounded-[32px] p-8 space-y-4">
                 <h4 className="text-lg font-bold">{langText("Need Assistance?", "मदत हवी आहे?")}</h4>
                 <p className="text-emerald-200/70 text-sm leading-relaxed">
                   {langText("Our support team is available in Marathi & English to help you complete your booking.", "तुमचे बुकिंग पूर्ण करण्यात मदत करण्यासाठी आमची सपोर्ट टीम मराठी आणि इंग्रजीमध्ये उपलब्ध आहे.")}

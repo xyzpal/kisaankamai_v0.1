@@ -8,7 +8,7 @@ export default function ListEquipment() {
   const { langText } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col bg-background dark:bg-[#0f1a14]">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950">
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
@@ -16,7 +16,7 @@ export default function ListEquipment() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-primary-container via-primary-container/80 to-transparent z-10"></div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Farmer with tractor in sugarcane field" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpJNrHUhz2IVLOk8s20PA7GB7Td4tJa3tkVfqY2uvx4s3YdLgn1vqZX12LfmdgfhNIPSsL-yc67FdukLdGtl02Z8M_XgXPkHu5fN0MHfiib-OLwDso9DhjaNGZ85EJs484Lth2-XlFRgZ7D8Z7YwRujfWl6at-ANFRZ7JiNgI9_zqJOF9FThdiLwtaGJsEJxNTJw3kw9dTyquLXw2IL6PNz5OygaUfcoFoHdCDNRs4CqLnCQm0F9nbvG59y_VaMsoTZbnAUWgzUIM7" />
+            <img alt="Farmer with tractor in sugarcane field" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
           </div>
           <div className="relative z-20 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl">
@@ -44,7 +44,7 @@ export default function ListEquipment() {
         </section>
 
         {/* Why List Section */}
-        <section className="py-24 bg-white dark:bg-emerald-950">
+        <section className="py-24 bg-white dark:bg-slate-950">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex flex-col md:flex-row justify-between items-end mb-16 gap-6">
               <div className="max-w-2xl">
@@ -58,7 +58,7 @@ export default function ListEquipment() {
                 { icon: "verified_user", title: langText("Verified Trust", "सत्यापित विश्वास"), desc: langText("Every renter is identity-verified. We provide the security layer you need to lease your equipment with complete peace of mind.", "प्रत्येक भाडेकरू ओळख-सत्यापित आहे. तुमची उपकरणे पूर्ण मनःशांतीने भाडेपट्ट्यावर देण्यासाठी आम्ही सुरक्षा स्तर प्रदान करतो.") },
                 { icon: "payments", title: langText("Secure Payments", "सुरक्षित पेमेंट"), desc: langText("No more chasing collections. Payments are handled securely through the platform and transferred directly to your bank account.", "आता संकलन मागेपुढे करण्याची गरज नाही. पेमेंट प्लॅटफॉर्मद्वारे सुरक्षितपणे हाताळले जातात आणि थेट तुमच्या बँक खात्यात हस्तांतरित होतात.") },
               ].map((item) => (
-                <div key={item.title} className="p-8 rounded-3xl bg-surface-container-low dark:bg-emerald-900/20 border border-surface-container-highest dark:border-emerald-800/50 group hover:border-primary-container/30 transition-all">
+                <div key={item.title} className="p-8 rounded-3xl bg-surface-container-low dark:bg-slate-900/40 border border-surface-container-highest dark:border-slate-800/50 group hover:border-primary-container/30 transition-all">
                   <div className="w-14 h-14 rounded-2xl bg-primary-container flex items-center justify-center mb-6 shadow-inner">
                     <span className="material-symbols-outlined text-on-primary-container text-3xl">{item.icon}</span>
                   </div>
@@ -98,21 +98,21 @@ export default function ListEquipment() {
         </section>
 
         {/* Categories */}
-        <section className="py-24 bg-surface dark:bg-[#0f1a14]">
+        <section className="py-24 bg-surface dark:bg-slate-950">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex items-center justify-between mb-12">
               <h2 className="font-headline text-4xl font-extrabold text-primary dark:text-emerald-50">{langText("What Can You List?", "तुम्ही काय सूचीबद्ध करू शकता?")}</h2>
               <div className="flex gap-2">
                 {["Sangli", "Satara", "Kolhapur"].map((d) => (
-                  <span key={d} className="px-4 py-1 bg-primary/5 dark:bg-emerald-800/30 rounded-full text-primary dark:text-emerald-300 text-sm font-semibold border border-primary/10 dark:border-emerald-700">{d}</span>
+                  <span key={d} className="px-4 py-1 bg-primary/5 dark:bg-emerald-800/30 rounded-full text-primary dark:text-emerald-300 text-sm font-semibold border border-primary/10 dark:border-slate-700">{d}</span>
                 ))}
               </div>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { title: langText("Tractors", "ट्रॅक्टर"), desc: langText("40HP - 90HP utility and heavy-duty tractors.", "40HP - 90HP उपयुक्त आणि हेवी-ड्यूटी ट्रॅक्टर."), img: "https://lh3.googleusercontent.com/aida-public/AB6AXuBukZQoo5oJvbevO4qV7eu-5dby7ya1GJpkvTMIXTHsCIrNR6cgRzo54NK0074M6OhAGoPYJL7szxrJXEW3vAOYUh4e_pUxtCu3znzHcm7ShNPbxPIoP8acImacO4UjCMtLAGeP2mXB-JmZ78MhhwAzue44BgWw1EJwAMrFa3BWEYMmEMqYumO7OKgY92HBbto86xJyvIwUcgxhiqldIEd0n98NDTjiLHckPI4JRm7m_q_KXPMF5d_Qv7126uqqthXj-L1H8OJXQh4p" },
-                { title: langText("Harvesters", "हार्वेस्टर"), desc: langText("Sugar cane, maize, and grain combine harvesters.", "ऊस, मका, आणि धान्य कंबाइन हार्वेस्टर."), img: "https://lh3.googleusercontent.com/aida-public/AB6AXuC07V_J8rC9ZxUmwsJkDMPLUHPrVlFCfmLY6NrCUUoob2MglR3lPKgWnIl1Tb16YvOvE9Wdt-Iqeo8dF97x5ZlbTyhSu_8ax0tIXeAbxif6c6zi1G8mIqdv4_z88AqrjDPNGgCFJFN2jEjJOn3KHawqmuKn0k7psO3qpSSz_9Q74gdoP5Cm2HnzmqYgbS8YeQwce_YUqbJ-6TYD5icCHJAHSx5KvD88HDqlQVc0n7I6xV7vtPYTdEAE6xa_EVGjcKmBt_EFnCrcVCbM" },
-                { title: langText("Implements", "उपकरणे"), desc: langText("Rotavators, seeders, plows, and sprayers.", "रोटाव्हेटर, सीडर, नांगर, आणि फवारणी यंत्रे."), img: "https://lh3.googleusercontent.com/aida-public/AB6AXuDWNILv7etn7BACAHYnqBIb4d8ktEUtzdDUp6alIpwc94MAjjKoI9hxCiggbV8_SsvJyYmq4pMBsLby8-7S6tdwZrLF8qMGRWduXvnORhMyuPWrracmAskfqO34CzCDw5zfkJG3qtLsPFMtisgo8rgOWaojAMva6bPQAwBdQFWtj6SOWHz9MgR_Xw0qwYb23vHe9MXWo2tUnWd46qkthXZN_gwFkn2u2M19IVTNFPNB5R52l-jj_1m8HT9OPCa9V9z-jSLXqR75jjIK" },
+                { title: langText("Tractors", "ट्रॅक्टर"), desc: langText("40HP - 90HP utility and heavy-duty tractors.", "40HP - 90HP उपयुक्त आणि हेवी-ड्यूटी ट्रॅक्टर."), img: "https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" },
+                { title: langText("Harvesters", "हार्वेस्टर"), desc: langText("Sugar cane, maize, and grain combine harvesters.", "ऊस, मका, आणि धान्य कंबाइन हार्वेस्टर."), img: "https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" },
+                { title: langText("Implements", "उपकरणे"), desc: langText("Rotavators, seeders, plows, and sprayers.", "रोटाव्हेटर, सीडर, नांगर, आणि फवारणी यंत्रे."), img: "https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" },
               ].map((cat) => (
                 <div key={cat.title} className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
                   {/* eslint-disable-next-line @next/next/no-img-element */}

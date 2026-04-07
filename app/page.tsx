@@ -17,7 +17,7 @@ const homepageMarkers = [
 ];
 
 const heroImages = [
-  "https://lh3.googleusercontent.com/aida-public/AB6AXuBhZ6nzq8ftAMceWSrFYkP1nwSI2jAbJwA7ZWwvOf_Z9ZQdUCvUZwUYtR1yqnz9pdq72MP6BLfd1WhABoQcet8jPpzUyxcQdd6wLaENEFoGWcKF2YfFxRxGIWtUzNCJVCiAzw7923oSc8s18vysXR1cL1BsIQOWKrXHjNHlMozyqkR3hjioSQ3_AXyjeA12oP6d1gdjPieMLdlt-yyQ1X5dbVnJ6sQc6K0pW8VAgdL-pQ2brKvNmj9paok8mnQroq5W7U1lbTkysUZ3",
+  "https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80",
   "https://images.unsplash.com/photo-1628189689456-bf55b0a3f683?auto=format&fit=crop&q=80",
   "https://images.unsplash.com/photo-1592982537447-6f29e1dbdd0f?auto=format&fit=crop&q=80",
   "https://images.unsplash.com/photo-1586771107445-d3af15c2ba5c?auto=format&fit=crop&q=80",
@@ -48,7 +48,7 @@ export default function Home() {
   };
 
   return (
-    <div className="min-h-screen flex flex-col bg-background dark:bg-[#0f1a14] text-on-surface">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950 text-on-surface">
       <Header />
       <main className="flex-grow">
         {/* Hero Section */}
@@ -93,8 +93,8 @@ export default function Home() {
               <p className="text-xl text-white/80 mb-10 max-w-lg leading-relaxed">
                 {langText("Rent high-quality agricultural equipment from trusted local owners. Smarter farming, powered by technology, rooted in trust.", "विश्वसनीय स्थानिक मालकांकडून उच्च दर्जाची कृषी उपकरणे भाड्याने घ्या. स्मार्ट शेती, तंत्रज्ञानाने समर्थित, विश्वासात रुजलेली.")}
               </p>
-              <div className="bg-white dark:bg-emerald-950 p-2 rounded-xl shadow-2xl flex flex-col md:flex-row gap-2 max-w-2xl border border-transparent dark:border-emerald-800">
-                <div className="flex-1 flex items-center gap-3 px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100 dark:border-emerald-800/50">
+              <div className="bg-white dark:bg-slate-950 p-2 rounded-xl shadow-2xl flex flex-col md:flex-row gap-2 max-w-2xl border border-transparent dark:border-slate-800">
+                <div className="flex-1 flex items-center gap-3 px-4 py-3 border-b md:border-b-0 md:border-r border-slate-100 dark:border-slate-800/50">
                   <span className="material-symbols-outlined text-secondary dark:text-emerald-400">location_on</span>
                   <select 
                     className="w-full border-none focus:ring-0 text-on-surface dark:text-emerald-50 bg-transparent cursor-pointer font-medium"
@@ -130,7 +130,7 @@ export default function Home() {
 
 
         {/* Featured Categories */}
-        <section className="py-24 bg-white dark:bg-emerald-950">
+        <section className="py-24 bg-white dark:bg-slate-950">
           <div className="max-w-7xl mx-auto px-6">
             <div className="flex justify-between items-end mb-12">
               <div>
@@ -145,7 +145,7 @@ export default function Home() {
               {/* Tractors */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="High-horsepower tractor parked in a vibrant green farm field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBeYZkgPtT1CB2DRr74jXatRMZxsAdZPeHXb9EZLzta1OkRzg-51UM6cU9fwtEyq1Fxe0DNDNzxhmQpzS3XT78_inszbrqKHipCjgAtAnmQHJ2DF47aaWisB0j9cg9qookoOgvlXfRMwDoATcDX2mCgHeM9s4vkJZxH3lEP2bHUGRRcl3icIHYwaaW_JRHf9_ftAKddSlqzk-_RR_vgYXT_cdFYfpbZ-_bhdehYLIjyfwKUAnU5dqvcN1Lnuv1GZqT0MDreKEDaNYQv" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="High-horsepower tractor parked in a vibrant green farm field" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Tractors", "ट्रॅक्टर्स")}</h3>
@@ -157,7 +157,7 @@ export default function Home() {
               {/* Harvesters */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Combine harvester working through a wheat field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAVmvbUiNz9Y79Yb45dHYtKeuMnBHJbbyltug7gB6AP4g77aPrvgd53M28uBrNqj3aMOSDVc7AArhGhEm1WgvEpfJrsJ52N7og-SIjmTqQvosoc6HHWBhO93tJO1TcYGg4AMunwMP4L3lNVCCxKnq9bIA44W5v82XwooWnyNy-iwGUQmTRSijWuY30IxW2ltnvhzFiDW7WREeNHUb4QETd4Z_u4t64CSreHmIK0tCFKrjDxjNyFRghffOI61VCF-YOAGZQfFfZfKpqi" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Combine harvester working through a wheat field" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Harvesters", "हार्वेस्टर्स")}</h3>
@@ -169,7 +169,7 @@ export default function Home() {
               {/* Implements */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBxAyAip2db-I7yhNxtnmMQiY4x8GjoDKqNbDpry_5Otkuux9iqpLbBaKpwcvVpPlI57lOgEwpHLrmy7C9lb6YuMJAPRO9Vrrdz4uNltn7v2BQvff5nFy7RxCRDIz6cVDrZWoR_aRGlz4n5Jkzx9CkpwPJFQlZ51TmGOnlZcMDz-uoeDVYHGFKL1iO4Jaq-_0Zs9hAUu57ILEypAsIwlzR4OQFotLlKfbtGuowQ3wQLUMV5f3dJDhvQ5-lFlBa-BA5hbDOPb4hkVs7K" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Implements", "उपकरणे")}</h3>
@@ -207,7 +207,7 @@ export default function Home() {
         </section>
 
         {/* How it Works */}
-        <section className="py-24 bg-surface-container-low dark:bg-emerald-950/30">
+        <section className="py-24 bg-surface-container-low dark:bg-slate-950/30">
           <div className="max-w-7xl mx-auto px-6">
             <div className="text-center mb-16">
               <h2 className="text-4xl font-black text-primary dark:text-emerald-50 mb-4 tracking-tight">{langText("The Kisan Kamai Way", "किसान कमाई पद्धत")}</h2>
@@ -215,7 +215,7 @@ export default function Home() {
             </div>
             <div className="grid md:grid-cols-2 gap-12">
               {/* Renter Path */}
-              <div className="bg-white dark:bg-emerald-900/20 p-10 rounded-3xl shadow-sm border border-slate-100 dark:border-emerald-800/50">
+              <div className="bg-white dark:bg-slate-900/40 p-10 rounded-3xl shadow-sm border border-slate-100 dark:border-slate-800/50">
                 <div className="w-16 h-16 bg-emerald-100 rounded-2xl flex items-center justify-center text-emerald-900 mb-8">
                   <span className="material-symbols-outlined text-3xl">shopping_cart</span>
                 </div>
@@ -288,15 +288,15 @@ export default function Home() {
         </section>
 
         {/* Why Kisan Kamai */}
-        <section className="py-24 bg-white dark:bg-emerald-950 overflow-hidden">
+        <section className="py-24 bg-white dark:bg-slate-950 overflow-hidden">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid md:grid-cols-2 gap-20 items-center">
               <div className="relative">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="rounded-[2.5rem] shadow-2xl relative z-10" alt="Indian farmer leaning against a tractor with pride" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBDMzHO4Tio64idkoL0ZhBW4GvohrJcmuRJCPFHeWT6wxM2_KVHId_NBo0DHKJM8PxSmFyXlHJBlcJwSjZchgLdd-6BxesLYZnNmrNZJ8NLI93-sTXyoXsvYSod3MGM1MhU2Usr2TsJqydD_3Nf6y6Jk0NYDrkz2WVghU246PzwWaTi7EsKozZxUX7ggp_K3IJtMO11dpGUvRepRw6IpHK6CkgEsPBDjRvS17-UvYp-Rf0dChWpKPMJQuBozFE573rHuG-JAL-RG0fA" />
+                <img className="rounded-[2.5rem] shadow-2xl relative z-10" alt="Indian farmer leaning against a tractor with pride" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-secondary/5 rounded-full -z-0"></div>
                 <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/5 rounded-full -z-0"></div>
-                <div className="absolute top-1/2 -right-8 bg-white dark:bg-emerald-900 p-6 rounded-2xl shadow-xl z-20 max-w-[200px] border border-slate-50 dark:border-emerald-800/50">
+                <div className="absolute top-1/2 -right-8 bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-xl z-20 max-w-[200px] border border-slate-50 dark:border-slate-800/50">
                   <div className="flex items-center gap-1 text-amber-500 mb-2">
                     <span className="material-symbols-outlined text-sm" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
                     <span className="material-symbols-outlined text-sm" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
@@ -314,7 +314,7 @@ export default function Home() {
                 </h2>
                 <div className="space-y-8">
                   <div className="flex gap-6">
-                    <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/40 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
+                    <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/60 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
                       <span className="material-symbols-outlined">verified_user</span>
                     </div>
                     <div>
@@ -323,7 +323,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/40 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
+                    <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/60 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
                       <span className="material-symbols-outlined">support_agent</span>
                     </div>
                     <div>
@@ -332,7 +332,7 @@ export default function Home() {
                     </div>
                   </div>
                   <div className="flex gap-6">
-                    <div className="w-12 h-12 bg-emerald-50 dark:bg-emerald-900/40 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
+                    <div className="w-12 h-12 bg-emerald-50 dark:bg-slate-900/60 rounded-xl flex items-center justify-center text-primary-container dark:text-emerald-400 flex-shrink-0">
                       <span className="material-symbols-outlined">payments</span>
                     </div>
                     <div>
@@ -347,7 +347,7 @@ export default function Home() {
         </section>
 
         {/* Operating Area Map */}
-        <section className="py-24 bg-surface-container-low dark:bg-emerald-950/50">
+        <section className="py-24 bg-surface-container-low dark:bg-slate-950/50">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid md:grid-cols-12 gap-12 items-center">
               <div className="md:col-span-4">
@@ -360,13 +360,13 @@ export default function Home() {
                     </li>
                   ))}
                 </ul>
-                <div className="mt-12 p-6 bg-white dark:bg-emerald-900/20 rounded-2xl shadow-sm border border-slate-100 dark:border-emerald-800/50">
+                <div className="mt-12 p-6 bg-white dark:bg-slate-900/40 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800/50">
                   <p className="text-sm font-label text-slate-500 dark:text-slate-400 mb-2">{langText("Are you from another district?", "तुम्ही दुसऱ्या जिल्ह्यातून आहात?")}</p>
                   <a className="text-secondary dark:text-amber-400 font-bold underline underline-offset-4" href="#">{langText("Notify me when you launch nearby", "जवळ लॉन्च होईल तेव्हा मला कळवा")}</a>
                 </div>
               </div>
               <div className="md:col-span-8">
-                <div className="bg-white dark:bg-emerald-900/20 p-4 rounded-[2rem] shadow-xl border border-white dark:border-emerald-800/50">
+                <div className="bg-white dark:bg-slate-900/40 p-4 rounded-[2rem] shadow-xl border border-white dark:border-slate-800/50">
                   <div className="w-full h-[500px] rounded-[1.5rem] overflow-hidden">
                     <MapComponent
                       center={[16.85, 74.27]}
@@ -384,11 +384,11 @@ export default function Home() {
         </section>
 
         {/* Farmer Stories */}
-        <section className="py-24 bg-white dark:bg-emerald-950">
+        <section className="py-24 bg-white dark:bg-slate-950">
           <div className="max-w-7xl mx-auto px-6">
             <h2 className="text-4xl font-black text-primary dark:text-emerald-50 text-center mb-16 tracking-tight">{langText("Rooted Success Stories", "यशस्वी शेतकरी कथा")}</h2>
             <div className="grid md:grid-cols-3 gap-8">
-              <div className="bg-surface-container-low dark:bg-emerald-900/20 p-8 rounded-3xl border border-slate-100 dark:border-emerald-800/50">
+              <div className="bg-surface-container-low dark:bg-slate-900/40 p-8 rounded-3xl border border-slate-100 dark:border-slate-800/50">
                 <div className="flex gap-1 text-amber-500 mb-6">
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
@@ -399,14 +399,14 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;Renting a harvester through Kisan Kamai saved me 4 days of labor costs during the last peak season. The process was seamless.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Rajesh Deshmukh" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBECQPldXwQfgHLF5Bff3yr6CBOMqRm2HEbEw0Pv5jwQ5npz5TvXhDFr6UquZg6hSkf7qG-DXCPLXxQ07Skxj8AMimnuORjPBtKW2y9aS-EzXty8rGctvza0VjhaJ5SdyZ2bbY3xD_z9jFq93Y6jcA-mgWcMp4ehtbWKsRYi1XTIYkIuVRjUoRPw-N1wVQclG4B3zh_MToBMPpq9za_nGVXbDG_6599TyG8bOmobskoTJHgvsZR3B-zwOfZd5jXG8tBOdlfW9FiFCc_" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Rajesh Deshmukh" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Rajesh Deshmukh</h5>
                     <p className="text-xs font-label text-slate-400">Sangli District</p>
                   </div>
                 </div>
               </div>
-              <div className="bg-surface-container-low dark:bg-emerald-900/20 p-8 rounded-3xl border border-slate-100 dark:border-emerald-800/50">
+              <div className="bg-surface-container-low dark:bg-slate-900/40 p-8 rounded-3xl border border-slate-100 dark:border-slate-800/50">
                 <div className="flex gap-1 text-amber-500 mb-6">
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
@@ -417,14 +417,14 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;As a tractor owner, I was worried about utilization. Kisan Kamai helped me find local farmers who needed my equipment exactly when it was idle.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Sanjay Kulkarni" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAeYUy0W6eRy965-Z4qGpnFDcDUxYXNdsInKsHc1CsNfvydqHWJIJtG7PYMgJatPXtl_90047dgJyHHh6mzISoeD1rFr09_xXwyrcRPoEAdhqTcVfxRRJ8xiwuAqXsSrR3YdmtwxWPm_qn-e8Z-4TEdR1iWPD8LpCtbY7UQ7-1oNHL6xKiaDviqU_1LN_vQPFJtCkaOMGwqfN6QmhfW-wkC9zHl1dFbZsbMK21FBTUz69cNb1evA_9bYIA3pC9v8QmL_9wH9ygqNBsu" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Sanjay Kulkarni" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Sanjay Kulkarni</h5>
                     <p className="text-xs font-label text-slate-400">Satara District</p>
                   </div>
                 </div>
               </div>
-              <div className="bg-surface-container-low dark:bg-emerald-900/20 p-8 rounded-3xl border border-slate-100 dark:border-emerald-800/50">
+              <div className="bg-surface-container-low dark:bg-slate-900/40 p-8 rounded-3xl border border-slate-100 dark:border-slate-800/50">
                 <div className="flex gap-1 text-amber-500 mb-6">
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
                   <span className="material-symbols-outlined" style={{fontVariationSettings: "'FILL' 1"}}>star</span>
@@ -435,7 +435,7 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;The verification process for equipment is what makes me trust this platform. I know I&apos;m getting high-quality machinery every time.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Vikas More" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdU-7cynwqVi0SfINCsm0g4VhZFfVTxlwL7LFVWZFyeU_D5njgt9z60E80g6aOwdupTyTbFJkfwr1Mf_YaXGQ9c4Pcp-_tebRONcHti4XRui5PI0GZgkiNqCzgoGbneLR4J_sE-8l-J52g6xpPNCkYxUKnpl3jah87qoBDAL-wiSNH0vhWTgc_UGaKERzyRV2RDBSZyT53tL-0T_9qhFIUo_xBQ15VculnMzh73K8OVXS6iR7IgiuHLYF0ZDl4nem0CfLjjHKNBfRc" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Vikas More" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Vikas More</h5>
                     <p className="text-xs font-label text-slate-400">Kolhapur District</p>
@@ -447,30 +447,30 @@ export default function Home() {
         </section>
 
         {/* FAQ Section */}
-        <section className="py-24 bg-surface-container-low dark:bg-emerald-950/50">
+        <section className="py-24 bg-surface-container-low dark:bg-slate-950/50">
           <div className="max-w-4xl mx-auto px-6">
             <h2 className="text-4xl font-black text-primary dark:text-emerald-50 text-center mb-16 tracking-tight">{langText("Frequently Asked Questions", "वारंवार विचारले जाणारे प्रश्न")}</h2>
             <div className="space-y-4">
-              <div className="bg-white dark:bg-emerald-900/20 rounded-2xl shadow-sm border border-slate-100 dark:border-emerald-800/50 p-6 cursor-pointer group">
+              <div className="bg-white dark:bg-slate-900/40 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800/50 p-6 cursor-pointer group">
                 <div className="flex justify-between items-center">
                   <h4 className="font-bold text-lg text-primary dark:text-emerald-50">How do I verify the condition of the equipment?</h4>
                   <span className="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">add</span>
                 </div>
                 <p className="mt-4 text-slate-600 dark:text-slate-400 hidden group-hover:block">All equipment listed undergoes a preliminary verification. We also encourage renters to inspect the machinery upon delivery before signing off on the rental period.</p>
               </div>
-              <div className="bg-white dark:bg-emerald-900/20 rounded-2xl shadow-sm border border-slate-100 dark:border-emerald-800/50 p-6 cursor-pointer group">
+              <div className="bg-white dark:bg-slate-900/40 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800/50 p-6 cursor-pointer group">
                 <div className="flex justify-between items-center">
                   <h4 className="font-bold text-lg text-primary dark:text-emerald-50">What happens if the equipment breaks down during work?</h4>
                   <span className="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">add</span>
                 </div>
               </div>
-              <div className="bg-white dark:bg-emerald-900/20 rounded-2xl shadow-sm border border-slate-100 dark:border-emerald-800/50 p-6 cursor-pointer group">
+              <div className="bg-white dark:bg-slate-900/40 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800/50 p-6 cursor-pointer group">
                 <div className="flex justify-between items-center">
                   <h4 className="font-bold text-lg text-primary dark:text-emerald-50">Are there any hidden service charges?</h4>
                   <span className="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">add</span>
                 </div>
               </div>
-              <div className="bg-white dark:bg-emerald-900/20 rounded-2xl shadow-sm border border-slate-100 dark:border-emerald-800/50 p-6 cursor-pointer group">
+              <div className="bg-white dark:bg-slate-900/40 rounded-2xl shadow-sm border border-slate-100 dark:border-slate-800/50 p-6 cursor-pointer group">
                 <div className="flex justify-between items-center">
                   <h4 className="font-bold text-lg text-primary dark:text-emerald-50">How can I pay for my rental?</h4>
                   <span className="material-symbols-outlined text-slate-400 group-hover:text-primary transition-colors">add</span>
@@ -484,7 +484,7 @@ export default function Home() {
         <section className="py-24 bg-primary text-white overflow-hidden relative">
           <div className="absolute inset-0 z-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="w-full h-full object-cover opacity-20 grayscale" alt="Tractors parked in a rural equipment yard at dusk" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDzruxyY8zMMkzC_4EGzGBHlnuqZcz-3msOCewvl5pkEJasNFAsLSWTRb2MlAaBpZrewD8EjbwB20KHw7NegfKhVvOzUAHZeH89O3YaUDELSr4vnmxchfMWt7UGR_xN5KV7GnI8rJxP7YyJ1DglyD3cqLmRYXIMfn5kO5Vlguzjmz54j9mQvGroDs0Tc6ey4V1cy5nfKTRB6JCp8zWcbV9BHfDnNVyJ7oVNOXvFjZljfLCXvulUs7G4p-080mK4lGYPdg6kT2DR0_e4" />
+            <img className="w-full h-full object-cover opacity-20 grayscale" alt="Tractors parked in a rural equipment yard at dusk" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
             <div className="absolute inset-0 bg-primary/80"></div>
           </div>
           <div className="max-w-4xl mx-auto px-6 text-center relative z-10">

@@ -17,7 +17,7 @@ export default function Support() {
   const { langText } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col bg-background dark:bg-[#0f1a14]">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950">
       <Header />
       <main className="flex-grow pt-12 pb-20">
         {/* Hero */}
@@ -35,7 +35,7 @@ export default function Support() {
             </div>
             <div className="absolute right-0 top-0 w-1/3 h-full opacity-20 pointer-events-none hidden lg:block">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="Farmer with phone" className="object-cover h-full w-full" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAOnb7gT4i9DaS72Cvx5ehtJmPfLPgx6NNBRIGGQ80_YduVJc2N2OIoxn_aBTZQQRxakmtQ3BGiFg19DFo_sc48bdZ2-oad8K31RA5_YrPG7IPA6y2orfKk9kN1yRIe7LG1j8VKJABd1h0eR8DVDz9se6B5A2b0LBGSAyE4uYdjj9iRg3jwd4iu5xSiCs1MHOjHXomRbTkbKW0ylKZjzcnedU_wQiulPb4DHAaI3w0uaGHBefuFGlEbRXClLM0LPWU0ZhuuuI7Jmgfe" />
+              <img alt="Farmer with phone" className="object-cover h-full w-full" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
             </div>
           </div>
         </section>
@@ -44,7 +44,7 @@ export default function Support() {
         <section className="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {/* Sidebar */}
           <div className="lg:col-span-1 space-y-6">
-            <div className="bg-white dark:bg-emerald-900/20 p-8 rounded-xl shadow-sm border border-emerald-50 dark:border-emerald-800/50">
+            <div className="bg-white dark:bg-slate-900/40 p-8 rounded-xl shadow-sm border border-emerald-50 dark:border-slate-800/50">
               <h2 className="text-xl font-bold font-headline mb-6 text-emerald-900 dark:text-emerald-50">{langText("Direct Support Channels", "थेट सपोर्ट चॅनेल")}</h2>
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
@@ -79,7 +79,7 @@ export default function Support() {
                 </div>
               </div>
             </div>
-            <div className="bg-surface-container-low dark:bg-emerald-900/30 p-8 rounded-xl border border-surface-container-highest dark:border-emerald-800/50">
+            <div className="bg-surface-container-low dark:bg-slate-900/50 p-8 rounded-xl border border-surface-container-highest dark:border-slate-800/50">
               <h3 className="font-bold text-lg mb-4 flex items-center gap-2 text-on-surface dark:text-emerald-50">
                 <span className="material-symbols-outlined text-secondary">schedule</span>
                 {langText("Service Hours", "सेवा वेळ")}
@@ -87,12 +87,12 @@ export default function Support() {
               <p className="text-on-surface-variant dark:text-slate-300 font-medium">{langText("Daily: 8 AM to 8 PM", "दररोज: सकाळी ८ ते रात्री ८")}</p>
             </div>
             <div className="grid grid-cols-2 gap-4">
-              <a className="bg-white dark:bg-emerald-900/20 p-6 rounded-xl border border-emerald-100 dark:border-emerald-800/50 hover:border-emerald-500 hover:shadow-md transition-all" href="/faq">
+              <a className="bg-white dark:bg-slate-900/40 p-6 rounded-xl border border-emerald-100 dark:border-slate-800/50 hover:border-emerald-500 hover:shadow-md transition-all" href="/faq">
                 <span className="material-symbols-outlined text-secondary mb-3 block">menu_book</span>
                 <span className="font-bold block text-emerald-900 dark:text-emerald-50">{langText("How to Rent", "कसे भाड्याने घ्यावे")}</span>
                 <span className="text-xs text-slate-500 dark:text-slate-400 mt-1 uppercase font-bold tracking-tighter">{langText("Guide", "मार्गदर्शक")}</span>
               </a>
-              <a className="bg-white dark:bg-emerald-900/20 p-6 rounded-xl border border-emerald-100 dark:border-emerald-800/50 hover:border-emerald-500 hover:shadow-md transition-all" href="/list-equipment">
+              <a className="bg-white dark:bg-slate-900/40 p-6 rounded-xl border border-emerald-100 dark:border-slate-800/50 hover:border-emerald-500 hover:shadow-md transition-all" href="/list-equipment">
                 <span className="material-symbols-outlined text-secondary mb-3 block">handyman</span>
                 <span className="font-bold block text-emerald-900 dark:text-emerald-50">{langText("Owner Guide", "मालक मार्गदर्शक")}</span>
                 <span className="text-xs text-slate-500 dark:text-slate-400 mt-1 uppercase font-bold tracking-tighter">{langText("Help", "मदत")}</span>
@@ -102,7 +102,7 @@ export default function Support() {
 
           {/* Contact Form */}
           <div className="lg:col-span-2">
-            <div className="bg-white dark:bg-emerald-900/20 p-8 md:p-12 rounded-xl shadow-sm border border-emerald-50 dark:border-emerald-800/50">
+            <div className="bg-white dark:bg-slate-900/40 p-8 md:p-12 rounded-xl shadow-sm border border-emerald-50 dark:border-slate-800/50">
               <div className="mb-8">
                 <h2 className="text-3xl font-extrabold font-headline text-emerald-900 dark:text-emerald-50 mb-2">{langText("Send a Message", "संदेश पाठवा")}</h2>
                 <p className="text-slate-500 dark:text-slate-400">{langText("Fill out the form below and our team will get back to you within 2-4 business hours.", "खालील फॉर्म भरा आणि आमची टीम 2-4 व्यावसायिक तासांत तुम्हाला प्रतिसाद देईल.")}</p>
@@ -111,21 +111,21 @@ export default function Support() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-emerald-900 dark:text-emerald-200 tracking-wide">{langText("FULL NAME / पूर्ण नाव", "पूर्ण नाव / FULL NAME")}</label>
-                    <input className="w-full bg-surface-container-lowest dark:bg-emerald-900/30 dark:text-white border-outline-variant dark:border-emerald-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder={langText("Enter your name", "तुमचे नाव टाका")} type="text" />
+                    <input className="w-full bg-surface-container-lowest dark:bg-slate-900/50 dark:text-white border-outline-variant dark:border-slate-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder={langText("Enter your name", "तुमचे नाव टाका")} type="text" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-emerald-900 dark:text-emerald-200 tracking-wide">{langText("PHONE NUMBER / फोन नंबर", "फोन नंबर / PHONE NUMBER")}</label>
-                    <input className="w-full bg-surface-container-lowest dark:bg-emerald-900/30 dark:text-white border-outline-variant dark:border-emerald-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder="+91 00000 00000" type="tel" />
+                    <input className="w-full bg-surface-container-lowest dark:bg-slate-900/50 dark:text-white border-outline-variant dark:border-slate-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder="+91 00000 00000" type="tel" />
                   </div>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-emerald-900 dark:text-emerald-200 tracking-wide">{langText("EMAIL ADDRESS (OPTIONAL)", "ईमेल पत्ता (ऐच्छिक)")}</label>
-                    <input className="w-full bg-surface-container-lowest dark:bg-emerald-900/30 dark:text-white border-outline-variant dark:border-emerald-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder="email@example.com" type="email" />
+                    <input className="w-full bg-surface-container-lowest dark:bg-slate-900/50 dark:text-white border-outline-variant dark:border-slate-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder="email@example.com" type="email" />
                   </div>
                   <div className="space-y-2">
                     <label className="text-sm font-bold text-emerald-900 dark:text-emerald-200 tracking-wide">{langText("CATEGORY / श्रेणी", "श्रेणी / CATEGORY")}</label>
-                    <select className="w-full bg-surface-container-lowest dark:bg-emerald-900/30 dark:text-white border-outline-variant dark:border-emerald-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none appearance-none">
+                    <select className="w-full bg-surface-container-lowest dark:bg-slate-900/50 dark:text-white border-outline-variant dark:border-slate-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none appearance-none">
                       <option>{langText("I want to Rent (भाड्याने घेणे)", "मला भाड्याने घ्यायचे आहे")}</option>
                       <option>{langText("I want to List (उपकरणे जोडणे)", "मला सूचीबद्ध करायचे आहे")}</option>
                       <option>{langText("Payment Issue (पेमेंट समस्या)", "पेमेंट समस्या")}</option>
@@ -135,13 +135,13 @@ export default function Support() {
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-bold text-emerald-900 dark:text-emerald-200 tracking-wide">{langText("MESSAGE / संदेश", "संदेश / MESSAGE")}</label>
-                  <textarea className="w-full bg-surface-container-lowest dark:bg-emerald-900/30 dark:text-white border-outline-variant dark:border-emerald-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder={langText("How can we help you today?", "आम्ही आज तुम्हाला कशी मदत करू शकतो?")} rows={5}></textarea>
+                  <textarea className="w-full bg-surface-container-lowest dark:bg-slate-900/50 dark:text-white border-outline-variant dark:border-slate-700 rounded-lg p-4 focus:ring-2 focus:ring-secondary/20 focus:border-secondary transition-all outline-none" placeholder={langText("How can we help you today?", "आम्ही आज तुम्हाला कशी मदत करू शकतो?")} rows={5}></textarea>
                 </div>
                 <div className="flex flex-col md:flex-row gap-4 pt-4">
                   <button className="flex-1 bg-primary-container text-white py-4 rounded-lg font-bold text-lg hover:shadow-xl active:scale-[0.98] transition-all" type="submit">
                     {langText("Send Message", "संदेश पाठवा")}
                   </button>
-                  <button className="flex-1 bg-white dark:bg-transparent border-2 border-primary-container text-primary-container dark:text-emerald-400 py-4 rounded-lg font-bold text-lg hover:bg-emerald-50 dark:hover:bg-emerald-900/30 active:scale-[0.98] transition-all flex items-center justify-center gap-2" type="button">
+                  <button className="flex-1 bg-white dark:bg-transparent border-2 border-primary-container text-primary-container dark:text-emerald-400 py-4 rounded-lg font-bold text-lg hover:bg-emerald-50 dark:hover:bg-slate-900/50 active:scale-[0.98] transition-all flex items-center justify-center gap-2" type="button">
                     <span className="material-symbols-outlined">phone_callback</span>
                     {langText("Request Callback", "कॉलबॅक विनंती")}
                   </button>
@@ -153,7 +153,7 @@ export default function Support() {
 
         {/* Regional Hubs with Real Map */}
         <section className="max-w-7xl mx-auto px-6 mt-20">
-          <div className="bg-white dark:bg-emerald-900/20 rounded-xl shadow-sm border border-emerald-50 dark:border-emerald-800/50 overflow-hidden">
+          <div className="bg-white dark:bg-slate-900/40 rounded-xl shadow-sm border border-emerald-50 dark:border-slate-800/50 overflow-hidden">
             <div className="grid grid-cols-1 lg:grid-cols-2">
               <div className="p-8 md:p-12">
                 <h2 className="text-2xl font-bold font-headline text-emerald-900 dark:text-emerald-50 mb-4">{langText("Visit our Regional Hubs", "आमच्या प्रादेशिक हबला भेट द्या")}</h2>

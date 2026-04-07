@@ -8,7 +8,7 @@ export default function OwnerRegistration() {
   const { langText } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col bg-surface dark:bg-[#0f1a14] font-body text-on-background dark:text-slate-200 selection:bg-secondary-container/30">
+    <div className="min-h-screen flex flex-col bg-surface dark:bg-slate-950 font-body text-on-background dark:text-slate-200 selection:bg-secondary-container/30">
       <Header />
       <main className="flex-grow pt-32 pb-20 px-6 max-w-5xl mx-auto w-full">
         {/* Registration Progress Header */}
@@ -26,8 +26,8 @@ export default function OwnerRegistration() {
             { num: "3", label: langText("Equipment", "उपकरणे"), active: false },
             { num: "4", label: langText("Verify", "पडताळणी"), active: false },
           ].map((step) => (
-            <div key={step.num} className="flex flex-col items-center gap-2 bg-surface dark:bg-[#0f1a14] px-4">
-              <div className={`w-10 h-10 rounded-full border-2 flex items-center justify-center font-bold ${step.active ? "border-primary dark:border-emerald-400 text-primary dark:text-emerald-400 bg-white dark:bg-emerald-900/30" : "border-surface-container-highest dark:border-emerald-800 text-outline dark:text-slate-500 bg-white dark:bg-emerald-900/20"}`}>{step.num}</div>
+            <div key={step.num} className="flex flex-col items-center gap-2 bg-surface dark:bg-slate-950 px-4">
+              <div className={`w-10 h-10 rounded-full border-2 flex items-center justify-center font-bold ${step.active ? "border-primary dark:border-emerald-400 text-primary dark:text-emerald-400 bg-white dark:bg-slate-900/50" : "border-surface-container-highest dark:border-slate-800 text-outline dark:text-slate-500 bg-white dark:bg-slate-900/40"}`}>{step.num}</div>
               <span className={`text-xs font-label font-semibold uppercase tracking-wider ${step.active ? "text-primary dark:text-emerald-400" : "text-outline dark:text-slate-500"}`}>{step.label}</span>
             </div>
           ))}
@@ -37,7 +37,7 @@ export default function OwnerRegistration() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
           {/* Main Form Card */}
-          <div className="lg:col-span-7 bg-white dark:bg-emerald-900/20 p-8 md:p-10 rounded-2xl shadow-sm border border-emerald-50 dark:border-emerald-800/50">
+          <div className="lg:col-span-7 bg-white dark:bg-slate-900/40 p-8 md:p-10 rounded-2xl shadow-sm border border-emerald-50 dark:border-slate-800/50">
             <div className="space-y-8">
               <div className="flex items-center justify-between">
                 <h2 className="text-2xl font-headline font-bold text-primary dark:text-emerald-50">{langText("Account Setup", "खाते सेटअप")}</h2>
@@ -47,20 +47,20 @@ export default function OwnerRegistration() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="space-y-2">
                   <label className="text-sm font-label font-bold text-on-surface dark:text-emerald-200">{langText("Full Name / पूर्ण नाव", "पूर्ण नाव / Full Name")}</label>
-                  <input className="w-full bg-surface-container-low dark:bg-emerald-900/30 dark:text-white border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary-container/20 placeholder:text-outline-variant dark:placeholder:text-slate-500" placeholder={langText("Enter name", "नाव टाका")} type="text"/>
+                  <input className="w-full bg-surface-container-low dark:bg-slate-900/50 dark:text-white border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary-container/20 placeholder:text-outline-variant dark:placeholder:text-slate-500" placeholder={langText("Enter name", "नाव टाका")} type="text"/>
                 </div>
                 <div className="space-y-2">
                   <label className="text-sm font-label font-bold text-on-surface dark:text-emerald-200">{langText("Phone Number / फोन नंबर", "फोन नंबर / Phone Number")}</label>
                   <div className="relative">
-                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-outline dark:text-slate-400 font-medium border-r border-outline-variant dark:border-emerald-700 pr-3">+91</span>
-                    <input className="w-full bg-surface-container-low dark:bg-emerald-900/30 dark:text-white border-none rounded-xl pl-16 pr-4 py-3 focus:ring-2 focus:ring-primary-container/20 placeholder:text-outline-variant dark:placeholder:text-slate-500" placeholder="9876543210" type="tel"/>
+                    <span className="absolute left-4 top-1/2 -translate-y-1/2 text-outline dark:text-slate-400 font-medium border-r border-outline-variant dark:border-slate-700 pr-3">+91</span>
+                    <input className="w-full bg-surface-container-low dark:bg-slate-900/50 dark:text-white border-none rounded-xl pl-16 pr-4 py-3 focus:ring-2 focus:ring-primary-container/20 placeholder:text-outline-variant dark:placeholder:text-slate-500" placeholder="9876543210" type="tel"/>
                   </div>
                 </div>
               </div>
 
               <div className="space-y-2">
                 <label className="text-sm font-label font-bold text-on-surface dark:text-emerald-200">{langText("Village or Town / गाव किंवा शहर", "गाव किंवा शहर / Village or Town")}</label>
-                <select defaultValue="" className="w-full bg-surface-container-low dark:bg-emerald-900/30 dark:text-white border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary-container/20 appearance-none">
+                <select defaultValue="" className="w-full bg-surface-container-low dark:bg-slate-900/50 dark:text-white border-none rounded-xl px-4 py-3 focus:ring-2 focus:ring-primary-container/20 appearance-none">
                   <option value="" disabled>{langText("Select District / जिल्हा निवडा", "जिल्हा निवडा / Select District")}</option>
                   <option value="sangli">{langText("Sangli / सांगली", "सांगली / Sangli")}</option>
                   <option value="satara">{langText("Satara / सातारा", "सातारा / Satara")}</option>
@@ -69,7 +69,7 @@ export default function OwnerRegistration() {
                 </select>
               </div>
 
-              <div className="pt-6 border-t border-surface-container-highest dark:border-emerald-800/50 flex items-center justify-between">
+              <div className="pt-6 border-t border-surface-container-highest dark:border-slate-800/50 flex items-center justify-between">
                 <p className="text-xs text-on-surface-variant dark:text-slate-400 font-medium max-w-[200px]">{langText("By continuing, you agree to our Terms of Service.", "पुढे जाऊन, तुम्ही आमच्या सेवा अटींशी सहमत आहात.")}</p>
                 <button className="bg-primary-container text-white px-10 py-3.5 rounded-xl font-bold hover:shadow-lg transition-all flex items-center gap-2 group">
                   {langText("Next Step", "पुढील पायरी")}
@@ -96,16 +96,16 @@ export default function OwnerRegistration() {
               <div className="absolute -bottom-10 -right-10 w-48 h-48 bg-white/5 rounded-full blur-3xl"></div>
             </div>
 
-            <div className="bg-white dark:bg-emerald-900/20 p-6 rounded-2xl border border-emerald-50 dark:border-emerald-800/50 shadow-sm flex gap-4">
+            <div className="bg-white dark:bg-slate-900/40 p-6 rounded-2xl border border-emerald-50 dark:border-slate-800/50 shadow-sm flex gap-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="Smiling farmer" className="w-16 h-16 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAe1l4Rc-GUuzR3V1QmZL3Dx_Eh9y_2-2Ccd0mq_0xQPMgDwu2zOiqPJQnhEf2bZ0dvByc_z-AH0-qrFDr2WluU5B9icN4761QJjuqgxpfWIIFXCIQh3kajZIygqwiUF6G-_-0s30ZmxEOIuuaqYpRyx7dTCb4Hb0USO5eRVw2vXAO3mxIFFErO6cWbGWwRdrxnbPpPbPFv2tX7HbEFrxHb0OSVS_C9mWbX7rbamP5SPub42ricZrVH_xMbIc3FNbi3Sv0mm2Fu6BSL"/>
+              <img alt="Smiling farmer" className="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
               <div>
                 <p className="italic text-on-surface-variant dark:text-slate-300 text-sm mb-2">{langText("\"Kisan Kamai helped me earn extra income from my rotavator when I wasn't using it. Very trustworthy.\"", "\"किसान कमाईने मला माझा रोटाव्हेटर वापरत नसताना अतिरिक्त उत्पन्न कमवण्यास मदत केली. अत्यंत विश्वासार्ह.\"")}</p>
                 <p className="font-bold text-primary dark:text-emerald-400 text-sm">— Rahul P., {langText("Sangli", "सांगली")}</p>
               </div>
             </div>
 
-            <div className="flex items-center justify-center gap-4 py-4 px-6 border-2 border-dashed border-surface-container-highest dark:border-emerald-800/50 rounded-2xl">
+            <div className="flex items-center justify-center gap-4 py-4 px-6 border-2 border-dashed border-surface-container-highest dark:border-slate-800/50 rounded-2xl">
               <span className="material-symbols-outlined text-outline dark:text-slate-500">help</span>
               <p className="text-sm text-outline dark:text-slate-400 font-medium">{langText("Need help registering?", "नोंदणीसाठी मदत हवी?")} <a className="text-secondary dark:text-amber-400 font-bold hover:underline" href="#">{langText("Call Support", "सपोर्ट कॉल करा")}</a></p>
             </div>

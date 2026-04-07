@@ -8,13 +8,13 @@ export default function RenterJourneyPage() {
   const { langText } = useLanguage();
 
   return (
-    <main className="bg-background dark:bg-[#0f1a14] min-h-screen pt-32 pb-24 text-on-surface">
+    <main className="bg-background dark:bg-slate-950 min-h-screen pt-32 pb-24 text-on-surface">
       <Header />
       <div className="max-w-7xl mx-auto px-6 pt-20">
         
         {/* Journey Map Header */}
         <div className="text-center mb-20">
-          <span className="inline-block px-4 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed dark:bg-emerald-900 dark:text-emerald-300 text-sm font-bold tracking-widest uppercase mb-4">
+          <span className="inline-block px-4 py-1.5 rounded-full bg-secondary-fixed text-on-secondary-fixed dark:bg-slate-900 dark:text-emerald-300 text-sm font-bold tracking-widest uppercase mb-4">
             {langText("Discovery Flow", "डिस्कव्हरी फ्लो")}
           </span>
           <h1 className="text-5xl md:text-6xl font-black text-primary dark:text-emerald-50 tracking-tight mb-6 leading-tight">
@@ -36,8 +36,8 @@ export default function RenterJourneyPage() {
             {/* Step 1: Home */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Home" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBTuNDLmOL-OKGKaMB3dozyTNgObXzlEjh7ZUMFw_sjP_fWHLSxvovTx14ozKhGfw1rH5rVCNs8QSkSDgA84sRkA224iihoCr8eOmhHoMH38TBLeXMFBLtect1yCoUDPpCebeIHJqtVazrSXXI6gknpO0PNNAhiYUSt1lU-Bb90PgUSWB-cqSrc29unqLDOSCBBzNn_9xo_FByFbwM_J8Yq-FIfjnRAKS9Ghgr0pt1p2vUGwcXzRDxvQz3JLriMaWcmPmdybnn5V_b4" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Home" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 01</p>
@@ -56,8 +56,8 @@ export default function RenterJourneyPage() {
             {/* Step 2: Rent Equipment */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Rent Equipment" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCQ2h2wuahxUN_si41VChBhAxKTSOK4RivgKB3lLoqClk_HQJGmY66KPe1r1MXjcl5J8g5q-kNElLqEWMMqDD-USw3BSby7_ZYYPc2gaZrA4-Yz7ul7L19V8LiNhm75tq6IsSO5ucm2OWAXf8JSNiTxvyqz2MjTHtsxkOOpUxQXnmJvtwe_YGt5s-0juuFPZhv1rGAgFnfwyOzW23EHMaK0WgPTzlNmC0BtJIZcMxXsVNoiMMI9ZqIq2yhm2x49pCRgQXdBHPWBDmfZ" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Rent Equipment" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 02</p>
@@ -76,8 +76,8 @@ export default function RenterJourneyPage() {
             {/* Step 3: Browse */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Browse" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDffvwuy-mpD9oyjT-1SkvN48hIHCduf2YMCPOHOLR5SYxM8t9ZGhc2htpc7u_deehA0o_sUdOW3e7R9lnf1mx3t6geZxyKo6uEjPyYy-Ji2iXHEkFCRf3IUBWGPrPXrcT4jTsxoBeDF9eu7UyV5FxsCxGof3fK1_2cSvNSAIsEd4ykMe1F73DgHOQLH0h0ohFITvi2o98VxM8D5WvuttUUSbWfHJ5lrPbXgde9cFDYal6JJN0cJKjaMwzhgtgE2DBPbp1HAq93WSfV" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Browse" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 03</p>
@@ -96,8 +96,8 @@ export default function RenterJourneyPage() {
             {/* Step 4: Details */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuArQS4Sxe9bro7wD6ErKQkRbsgSN5evUZkXrd3gcPdSSSXlPu7NsRML_mtnZGbb8uDKgpMf_SCC-eY0ungAQ8j-Qre50Y349YTLdxQYGmk31OIwzmDa1ThIVJIFFlNbtNiUK4aIUhLVRU1wyN5vvtzyfv8vNyQOL-4qW5q5c4yfODt3MKx-VE7ROoM5_YeILtu-Bv-7qzx5mIeHyJXzfhMSpLAn65VFRCdSMnX9uwAI9vmsEdrCxV3JHORv-4ixJepYxCBpJ-cOgT2e" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Details" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 04</p>
@@ -116,8 +116,8 @@ export default function RenterJourneyPage() {
             {/* Step 5: Booking */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Booking" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDSN9cdW9Wb2t_X0c-wxCh3D7ueulzds8bxArtQqHMraQF56toaLjwrCjwbI0_Q38DmZny2H9e3ckNA1VEzgCjGMPXlId4fFs9sRllNgfNHpMQ9h3MAI2zq16Z0h0XPvwIdcii-5VKGwfTpclbR_OGOaJ9DOM2dq93XulIT7bdAo-KQggu2UvR_7H3P9cCe1R40zdjS08mui1roAcDTax8FhLjp0KCP8uniHOJzIwhC-CvIMcpkFUPW0bEjmwHmxoLCukQtskKEAEIP" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Booking" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 05</p>
@@ -136,8 +136,8 @@ export default function RenterJourneyPage() {
             {/* Step 6: Success */}
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
-                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-emerald-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Success" src="https://lh3.googleusercontent.com/aida-public/AB6AXuApSQG-UEKOa-m5Y3MRYffOda1mcyMpq0iOMspsoGgf-qamd59mTHkN34yActuhKiEGupFC1bqOu1KqoNvBHVTy42pkmwln0yXnaGixqu_WEIfLFVn22jBPDtsZ_XgaYaTsbPuIrMp49pLPCcRsD-yyQvKo3gFCxXEtZaSrap1XwCGf-LoqF1nC7AqMnlXhnu3D3WXg70cguppaQvK8JCBr1XRxT-THmmiwyM1eB1gU7BcOyX4N1IyBb94MSXfVNRP86NEsv1Tx6iOh" />
+                <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
+                  <img className="w-full h-full object-cover" alt="Success" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 06</p>
@@ -154,7 +154,7 @@ export default function RenterJourneyPage() {
 
         {/* Featured Renter UX Principles */}
         <div className="mt-32 grid md:grid-cols-3 gap-8">
-          <div className="p-8 rounded-[2rem] bg-white dark:bg-emerald-900/20 border border-surface-variant dark:border-emerald-800 hover:shadow-xl transition-all duration-300">
+          <div className="p-8 rounded-[2rem] bg-white dark:bg-slate-900/40 border border-surface-variant dark:border-slate-800 hover:shadow-xl transition-all duration-300">
             <div className="w-12 h-12 rounded-2xl bg-primary-fixed dark:bg-emerald-800 flex items-center justify-center text-primary-container dark:text-emerald-300 mb-6">
               <span className="material-symbols-outlined">explore</span>
             </div>
@@ -163,7 +163,7 @@ export default function RenterJourneyPage() {
               {langText("The search adjusts based on current season and local farming cycles to show relevant equipment first.", "सर्च सध्याच्या हंगामावर आणि स्थानिक शेतीच्या चक्रावर आधारित समायोजित करते जेणेकरून संबंधित उपकरणे प्रथम दिसतील.")}
             </p>
           </div>
-          <div className="p-8 rounded-[2rem] bg-white dark:bg-emerald-900/20 border border-surface-variant dark:border-emerald-800 hover:shadow-xl transition-all duration-300">
+          <div className="p-8 rounded-[2rem] bg-white dark:bg-slate-900/40 border border-surface-variant dark:border-slate-800 hover:shadow-xl transition-all duration-300">
             <div className="w-12 h-12 rounded-2xl bg-secondary-fixed dark:bg-amber-900/50 flex items-center justify-center text-on-secondary-fixed dark:text-amber-400 mb-6">
               <span className="material-symbols-outlined">verified_user</span>
             </div>
@@ -172,8 +172,8 @@ export default function RenterJourneyPage() {
               {langText("Every listing features verified photographs, transparent per-hour pricing, and maintenance history.", "प्रत्येक सूचीमध्ये सत्यापित छायाचित्रे, पारदर्शक प्रति-तास किंमत आणि देखभालीचा इतिहास असतो.")}
             </p>
           </div>
-          <div className="p-8 rounded-[2rem] bg-white dark:bg-emerald-900/20 border border-surface-variant dark:border-emerald-800 hover:shadow-xl transition-all duration-300">
-            <div className="w-12 h-12 rounded-2xl bg-tertiary-fixed dark:bg-emerald-900/50 flex items-center justify-center text-on-tertiary-fixed dark:text-emerald-400 mb-6">
+          <div className="p-8 rounded-[2rem] bg-white dark:bg-slate-900/40 border border-surface-variant dark:border-slate-800 hover:shadow-xl transition-all duration-300">
+            <div className="w-12 h-12 rounded-2xl bg-tertiary-fixed dark:bg-slate-900/70 flex items-center justify-center text-on-tertiary-fixed dark:text-emerald-400 mb-6">
               <span className="material-symbols-outlined">support_agent</span>
             </div>
             <h3 className="text-xl font-bold mb-3 text-primary dark:text-emerald-50">{langText("Assisted Booking", "सहाय्यक बुकिंग")}</h3>

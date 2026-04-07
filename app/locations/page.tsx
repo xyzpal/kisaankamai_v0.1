@@ -17,7 +17,7 @@ export default function Locations() {
   const { langText } = useLanguage();
 
   return (
-    <div className="min-h-screen flex flex-col bg-surface dark:bg-[#0f1a14] text-on-surface dark:text-slate-200">
+    <div className="min-h-screen flex flex-col bg-surface dark:bg-slate-950 text-on-surface dark:text-slate-200">
       <Header />
       <main className="flex-grow pt-20">
 
@@ -25,7 +25,7 @@ export default function Locations() {
         <section className="relative h-[400px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Expansive green sugarcane fields in Western Maharashtra" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDrSpZOMk74aBsSIese2JWI0cHKeiaZObCNMRdhtYhkXOrrPS9QzTvPz2EIGQpSNPJtnZDKU-JA8YEgSIrUPakgZ-KJTyWZ7xWSPn_Veki49pHC2NCiEVFBDSjKLvJbRXXov-hx9BUF1gYISDkDtFiDNHPDNZhV4xRd6yViNV5bNTUlybVsxBTolfJGEjFMhFq_EKr8YjUmhfS49tYOgQjELe3e5s_soLwqjfNHTo96lgGbkHo1J434kxWHKuqozZ_lB_Q6bWCdn2q6"/>
+            <img alt="Expansive green sugarcane fields in Western Maharashtra" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"/>
             <div className="absolute inset-0 bg-gradient-to-r from-primary-container/80 to-transparent"></div>
           </div>
           <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
@@ -38,13 +38,13 @@ export default function Locations() {
         </section>
 
         {/* Interactive Map & Coverage Details */}
-        <section className="py-24 bg-surface-container-low dark:bg-emerald-950">
+        <section className="py-24 bg-surface-container-low dark:bg-slate-950">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
 
               <div className="lg:col-span-8 space-y-8">
                 {/* Real Interactive Map */}
-                <div className="bg-white dark:bg-emerald-900/30 rounded-2xl shadow-xl shadow-emerald-900/5 dark:shadow-none p-4 border border-emerald-100 dark:border-emerald-800/50 overflow-hidden">
+                <div className="bg-white dark:bg-slate-900/50 rounded-2xl shadow-xl shadow-emerald-900/5 dark:shadow-none p-4 border border-emerald-100 dark:border-slate-800/50 overflow-hidden">
                   <div className="mb-4">
                     <h2 className="text-xl font-bold text-primary dark:text-emerald-50">{langText("Interactive Service Map", "इंटरॅक्टिव्ह सेवा नकाशा")}</h2>
                     <p className="text-sm text-slate-500 dark:text-slate-400 font-medium">{langText("Explore active clusters and equipment hubs.", "सक्रिय क्लस्टर आणि उपकरण हब शोधा.")}</p>
@@ -54,7 +54,7 @@ export default function Locations() {
                     zoom={9}
                     markers={locationMarkers}
                     height="550px"
-                    className="border border-emerald-100 dark:border-emerald-800/50"
+                    className="border border-emerald-100 dark:border-slate-800/50"
                   />
                 </div>
 
@@ -65,7 +65,7 @@ export default function Locations() {
                     { name: langText("Sangli", "सांगली"), areas: [langText("Miraj Cluster", "मिरज क्लस्टर"), langText("Tasgaon Hub", "तासगाव हब"), langText("Walwa Region", "वाळवा प्रदेश")] },
                     { name: langText("Kolhapur", "कोल्हापूर"), areas: [langText("Hatkanangale Hub", "हातकणंगले हब"), langText("Shirol Cluster", "शिरोळ क्लस्टर"), langText("Panhala Region", "पन्हाळा प्रदेश")] },
                   ].map((district) => (
-                    <div key={district.name} className="bg-white dark:bg-emerald-900/20 p-8 rounded-2xl border border-emerald-50 dark:border-emerald-800/50 shadow-sm">
+                    <div key={district.name} className="bg-white dark:bg-slate-900/40 p-8 rounded-2xl border border-emerald-50 dark:border-slate-800/50 shadow-sm">
                       <h3 className="text-3xl font-extrabold text-primary dark:text-emerald-50 mb-1">{district.name}</h3>
                       <p className="text-sm text-slate-500 dark:text-slate-400 mb-4 font-medium">{langText("District Coverage", "जिल्हा कव्हरेज")}</p>
                       <ul className="space-y-2 text-on-surface-variant dark:text-slate-300 font-medium">
@@ -86,19 +86,19 @@ export default function Locations() {
                   <form className="space-y-4">
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-emerald-300 mb-1.5">{langText("Full Name", "पूर्ण नाव")}</label>
-                      <input className="w-full bg-emerald-900/50 border border-emerald-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder={langText("Enter your name", "तुमचे नाव टाका")} type="text" />
+                      <input className="w-full bg-slate-900/70 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder={langText("Enter your name", "तुमचे नाव टाका")} type="text" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-emerald-300 mb-1.5">{langText("WhatsApp Number", "व्हॉट्सअ‍ॅप नंबर")}</label>
-                      <input className="w-full bg-emerald-900/50 border border-emerald-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder="+91 00000 00000" type="tel" />
+                      <input className="w-full bg-slate-900/70 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder="+91 00000 00000" type="tel" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-emerald-300 mb-1.5">{langText("Your Village / Taluka", "तुमचे गाव / तालुका")}</label>
-                      <input className="w-full bg-emerald-900/50 border border-emerald-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder={langText("e.g. Vita, Khanapur", "उदा. विटा, खानापूर")} type="text" />
+                      <input className="w-full bg-slate-900/70 border border-slate-800 rounded-xl px-4 py-3 text-white placeholder-emerald-700 focus:ring-secondary focus:border-secondary" placeholder={langText("e.g. Vita, Khanapur", "उदा. विटा, खानापूर")} type="text" />
                     </div>
                     <div>
                       <label className="block text-xs font-bold uppercase tracking-widest text-emerald-300 mb-1.5">{langText("Primary Equipment Needed", "प्राथमिक उपकरण आवश्यक")}</label>
-                      <select className="flex-1 w-full bg-emerald-900/50 border border-emerald-800 rounded-xl px-4 py-3 text-white focus:ring-secondary focus:border-secondary">
+                      <select className="flex-1 w-full bg-slate-900/70 border border-slate-800 rounded-xl px-4 py-3 text-white focus:ring-secondary focus:border-secondary">
                         <option>{langText("Tractors & Implements", "ट्रॅक्टर व उपकरणे")}</option>
                         <option>{langText("Sugarcane Harvesters", "ऊस कापणी यंत्र")}</option>
                         <option>{langText("Rotavators", "रोटाव्हेटर")}</option>
@@ -126,7 +126,7 @@ export default function Locations() {
 
         {/* Info Section */}
         <section className="py-24 max-w-7xl mx-auto px-6">
-          <div className="bg-white dark:bg-emerald-900/20 p-12 rounded-[40px] border border-emerald-50 dark:border-emerald-800/50 shadow-sm">
+          <div className="bg-white dark:bg-slate-900/40 p-12 rounded-[40px] border border-emerald-50 dark:border-slate-800/50 shadow-sm">
             <div className="max-w-3xl mb-16">
               <h2 className="text-4xl font-extrabold text-primary dark:text-emerald-50 tracking-tight mb-6">{langText("Empowering Maharashtra's Farmers through Modern Mechanisation.", "आधुनिक यांत्रिकीकरणाद्वारे महाराष्ट्रातील शेतकऱ्यांना सक्षम करणे.")}</h2>
               <p className="text-lg text-on-surface-variant dark:text-slate-400 leading-relaxed">{langText("At Kisan Kamai, we understand that timely access to the right equipment is the difference between a successful harvest and a lost season. By digitizing equipment rental across Sangli, Satara, and Kolhapur, we are reducing costs and increasing efficiency for thousands of local growers.", "किसान कमाईमध्ये, आम्हाला समजते की योग्य उपकरणांचा वेळीच प्रवेश हा यशस्वी कापणी आणि हरवलेला हंगाम यातील फरक आहे. सांगली, सातारा आणि कोल्हापूरमध्ये उपकरण भाडे डिजिटल करून, आम्ही हजारो स्थानिक शेतकऱ्यांसाठी खर्च कमी करत आहोत आणि कार्यक्षमता वाढवत आहोत.")}</p>
@@ -154,7 +154,7 @@ export default function Locations() {
         <section className="mb-24 px-6">
           <div className="max-w-7xl mx-auto rounded-[40px] h-[500px] overflow-hidden relative">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Close up of a large modern orange tractor tyre" className="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDKZC6B7aV2-8Ka9mee1ZzwnZknocKwMstNFKqdI5VdFgsEv7OEScTd_0nxSJ6PdwftGGGCIuUlukLZKyXDe8A3pLtMEOhRvRRujpMxR4-zjp_DRGqdtBZbo2ESf7qLwNOBZfFtHzOykNve4CfJiYPxHWKZayfNjEHubp01zEBp6tEb3AaIUhEboTWBBdBCzny9FFiQOPivIHi_i06-UZnOamQm8h4rNnAcrI34PRNhBIIeXWkPo5m0aTw3lBuijXENUoHQ-IiGYjb_"/>
+            <img alt="Close up of a large modern orange tractor tyre" className="w-full h-full object-cover" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"/>
             <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex flex-col justify-end p-12">
               <div className="max-w-2xl">
                 <h2 className="text-4xl font-extrabold text-white mb-6">{langText("Rooted in Trust.", "विश्वासात रुजलेले.")} <br/>{langText("Serving Indian Agriculture.", "भारतीय शेतीची सेवा.")}</h2>

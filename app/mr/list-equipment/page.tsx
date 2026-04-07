@@ -13,7 +13,7 @@ export default function MR_ListEquipment() {
 {/*  Hero Section  */}
 <section className="relative h-[600px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img alt="Agricultural Equipment" className="w-full h-full object-cover" data-alt="Modern powerful tractor parked in a vibrant green Indian farm field during late afternoon golden hour lighting with realistic textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdDs3b2LOFv3Gpkr0K6p62jNofGI1zG36CxsA35k3IEKg1_a6MPHJTSQBqTQLh4z0y115jYOflNqGiB-DR7Lla3y6zCv-08w1o65thlVp1F6O1aARBIapJgJxwIutzPKldEKuR3OyhnewuMy5Q3OhECXv0cVi6XZiXyc7RRXgiYlVAb0noCUnvSE13lG-AdR5Ej5qZZrU2EHRry29eeeOfI4P8quBfVdBc8vxEYXQzLfH3xvXP0qbC9NswmzmnXvOcIOCGqezHSUk9"/>
+<img alt="Agricultural Equipment" className="w-full h-full object-cover" data-alt="Modern powerful tractor parked in a vibrant green Indian farm field during late afternoon golden hour lighting with realistic textures" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/90 via-emerald-950/60 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -57,7 +57,7 @@ export default function MR_ListEquipment() {
                             </p>
 </div>
 <div className="relative rounded-xl overflow-hidden h-48 mt-4">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Two Indian farmers smiling and shaking hands in a rural landscape, representing trust and business partnership" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDwGelD-xOllXISuguVtTx57QgfheSqtZZBzvkLlhagmMzKLZA5MHwe40e5OUaoR3anYMhXkEdRl5KS0ct8NOIQzNtspyNBR110RxwoVWMQ1B6yqPAVYAUk1sjWdA3tEKMcJsqni_UtKmxb-rPa70xp-FUS8lChYi0HgVrYvjXFZmOzASRqMtb7RKxFy_bzz7vd8QcCB89mEMkwfyyYreOjDReFFOl7ykCyNtjDPm4wOwe0mpmbRq6Vpx4e8qy7-n__mjlsySb7QqGi"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Two Indian farmers smiling and shaking hands in a rural landscape, representing trust and business partnership" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
 </div>
 </div>
 {/*  Feature 2  */}
@@ -120,7 +120,7 @@ export default function MR_ListEquipment() {
 {/*  Category 1  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of a heavy duty agricultural harvester machine in a field, highly detailed and professional photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBpZ2itypr46S4n_-B53Ko0jyi3cI_Crc-pFl8C1ond8VXqDbUm1AcV6Ddo4joSZu66WmV6PTHIQcNDPre5AwYACofP7FnehCQmdZ_gX9BJxvaO9n1vDbhjtP3GzUEZp3djFEV5vgDP83lpb4vtSvHyd1aFrDxiyVBZd8ah7kZblmh-UCKG9_wlfM6S10o2RgzO8NXeaEjItuvfG32_6qZASyeU0nJapOB6uxUaxp3PaA_OjU55O_2ItwLqPe1g8hE8HcsDp8yrF8v1"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of a heavy duty agricultural harvester machine in a field, highly detailed and professional photography" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">हार्वेस्टर</h4>
@@ -131,7 +131,7 @@ export default function MR_ListEquipment() {
 {/*  Category 2  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Powerful tractor pulling a rotavator implement through rich soil on an Indian farm, low angle shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBJYo8mTqMJG8dhpTa93xMV4wYEnzjyREDUYtiOo1ntwIVltm5GWPG_oSw2ZmT_sIkViv2gsDh92Etg0tHz7oMFx6CPJGHWKScs0hZGZXUAfI9syyk-_EtOrdiqzkjs0dkOCQi3TCxVrdyIEoJVn1gj4Y7nYSqr-pKpqI1kbItO0cdSCqtXi71-D1NDDHiJFPbTUGAUmUqaHtJYuWwjQ-qYUg-58ujfflBos1K3CHDykTc6hcd_SfqZiagipgJkZ6uw2iK-JdqzMM2"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Powerful tractor pulling a rotavator implement through rich soil on an Indian farm, low angle shot" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">रोटाव्हेटर</h4>
@@ -142,7 +142,7 @@ export default function MR_ListEquipment() {
 {/*  Category 3  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Automatic seed drill machine attached to a tractor in a sunlit field, focus on mechanical details" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBWuaPQl-DSx561ZbYVVWeF_K2y6dfObeMMIEtKArtse1CRGbdA2xij-UVGv23vgoROdKeARSQcY-nA-qc7zK4jN900I1fhOe2sHHoENfHAj2qaIltvp4zEV5tdreLtSrgSIBKWgdX3v5oezw43B47oT5nPy6ilusJlk5iiW3wn2HPEXsAzEQqcAPH-urvx3b0w6F3vecHz_ws7-FI8pNTYPgI-OJVZJ75dCUuuLTfsyvyAGAPCGJNKtJYEi2_uy9oikvlmr4vZ6QCO"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Automatic seed drill machine attached to a tractor in a sunlit field, focus on mechanical details" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">पेरणी यंत्रे</h4>
@@ -153,7 +153,7 @@ export default function MR_ListEquipment() {
 {/*  Category 4  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern crop sprayer equipment being prepared in an agricultural field, professional and clean look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHxqFJ8vJSNnPQIUKuLWV2mMszhkgPrFAexdb8UjHP9ipCf5tr_0_ZJm024IkMYmVQ00q-4GqnhvSpTf-JGgyQE6xRJLSYbhM4X4qfw8qpJwVHiLvy6eOlPOPc4QG9YteRjJRbR63s1Ro7_t96Tt9Z1WN66YrEiczpY1YwrDJIWSFSDf9wIMMRpzYhyfzCH2VQq-p5WgmgVNvq7fPOonHSZAWLaGKvaF8N_rFyFWdRWMUEcoGPz_KkWLx074VanwyPkThbE8x7M2Bc"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern crop sprayer equipment being prepared in an agricultural field, professional and clean look" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">फवारणी यंत्रे</h4>
@@ -167,7 +167,7 @@ export default function MR_ListEquipment() {
 {/*  Final CTA Section  */}
 <section className="py-20 relative overflow-hidden bg-primary-container text-white">
 <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
-<img className="w-full h-full object-cover grayscale" data-alt="Abstract patterns in a tilled field from top view, organic and geometric farming textures" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDXtNdnhNA4eW-WV4mvDkrDQCViu-1qLwWi2olE2H23zNHsGzpu7Flubc6SpUYLYQVjYTK8zISS3iP21MT8Ohfoq937ybtS51joE9So0zXwsXn21tLHRwSr47fy4Fk1kIOahxwcqMEoy7qVVUgbKrEUL1OzFaW9V131ZtJFqnfKW9cPTrTq2DVoR06NEI2YYDry-aXZJOLFd15fAeUGY7GzcwkDQI46MQpqTjz_p4rmFVMbknGUt5xGzbjKZHEvUosEz-B8DHxhans5"/>
+<img className="w-full h-full object-cover grayscale" data-alt="Abstract patterns in a tilled field from top view, organic and geometric farming textures" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"/>
 </div>
 <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
 <div className="max-w-2xl">
