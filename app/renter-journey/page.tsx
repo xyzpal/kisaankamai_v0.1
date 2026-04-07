@@ -37,7 +37,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Home" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Home" src="https://picsum.photos/seed/page1/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 01</p>
@@ -57,7 +57,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Rent Equipment" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Rent Equipment" src="https://picsum.photos/seed/page2/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 02</p>
@@ -77,7 +77,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Browse" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Browse" src="https://picsum.photos/seed/page3/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 03</p>
@@ -97,7 +97,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Details" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Details" src="https://picsum.photos/seed/page4/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 04</p>
@@ -117,7 +117,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Booking" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Booking" src="https://picsum.photos/seed/page5/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 05</p>
@@ -137,7 +137,7 @@ export default function RenterJourneyPage() {
             <div className="xl:col-span-1 group">
               <div className="relative mb-6">
                 <div className="aspect-[4/5] rounded-2xl overflow-hidden shadow-lg border border-surface-variant dark:border-slate-800 group-hover:border-primary-container dark:group-hover:border-emerald-400 transition-colors duration-500">
-                  <img className="w-full h-full object-cover" alt="Success" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Success" src="https://picsum.photos/seed/page6/800/600" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
                   <div className="absolute bottom-4 left-4 text-white">
                     <p className="text-[10px] font-bold uppercase tracking-widest opacity-70">Step 06</p>

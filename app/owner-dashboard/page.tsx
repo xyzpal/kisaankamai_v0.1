@@ -24,7 +24,7 @@ export default function OwnerDashboardPage() {
               <img
                 className="w-full h-full object-cover"
                 alt="Owner portrait"
-                src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80"
+                src="https://picsum.photos/seed/page1/800/600"
               />
             </div>
             <div className="flex flex-col">
@@ -38,23 +38,23 @@ export default function OwnerDashboardPage() {
           </div>
         </div>
         <nav className="flex-1 px-3 space-y-1">
-          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#tab">
             <span className="material-symbols-outlined group-hover:scale-110 transition-transform">dashboard</span>
             <span className="font-manrope text-sm font-medium">{langText("Dashboard", "डॅशबोर्ड")}</span>
           </a>
-          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#tab">
             <span className="material-symbols-outlined group-hover:scale-110 transition-transform">agriculture</span>
             <span className="font-manrope text-sm font-medium">{langText("My Equipment", "माझी उपकरणे")}</span>
           </a>
-          <a className="flex items-center gap-3 px-4 py-3 bg-emerald-50 dark:bg-slate-900/60 text-emerald-700 dark:text-emerald-300 border-r-4 border-slate-700 dark:border-emerald-400 font-bold rounded-l-lg transition-all duration-200" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 bg-emerald-50 dark:bg-slate-900/60 text-emerald-700 dark:text-emerald-300 border-r-4 border-slate-700 dark:border-emerald-400 font-bold rounded-l-lg transition-all duration-200" href="#tab">
             <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>calendar_today</span>
             <span className="font-manrope text-sm font-medium">{langText("Bookings", "बुकिंग्ज")}</span>
           </a>
-          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#tab">
             <span className="material-symbols-outlined group-hover:scale-110 transition-transform">payments</span>
             <span className="font-manrope text-sm font-medium">{langText("Earnings", "उत्पन्न")}</span>
           </a>
-          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all duration-200 group" href="#tab">
             <span className="material-symbols-outlined group-hover:scale-110 transition-transform">settings</span>
             <span className="font-manrope text-sm font-medium">{langText("Settings", "सेटिंग्ज")}</span>
           </a>
@@ -64,7 +64,7 @@ export default function OwnerDashboardPage() {
             <span className="material-symbols-outlined text-sm">add</span>
             {langText("Add New Listing", "नवीन नोंद जोडा")}
           </button>
-          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all" href="#">
+          <a className="flex items-center gap-3 px-4 py-3 text-slate-500 dark:text-slate-400 hover:bg-slate-50 dark:hover:bg-slate-900/60 rounded-lg transition-all" href="#tab">
             <span className="material-symbols-outlined">support_agent</span>
             <span className="font-manrope text-sm font-medium">{langText("Support", "मदत")}</span>
           </a>
@@ -124,7 +124,7 @@ export default function OwnerDashboardPage() {
               <div className="bg-white dark:bg-slate-900/40 rounded-2xl p-5 border border-surface-container-highest dark:border-slate-800/50 shadow-sm hover:card-shadow-lg transition-all group">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="w-full md:w-32 h-32 rounded-xl overflow-hidden bg-surface-container dark:bg-slate-900 flex-shrink-0">
-                    <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Tractor" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
+                    <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Tractor" src="https://picsum.photos/seed/page2/800/600" />
                   </div>
                   <div className="flex-1 flex flex-col justify-between">
                     <div className="flex justify-between items-start">
@@ -132,7 +132,7 @@ export default function OwnerDashboardPage() {
                         <h3 className="text-base font-bold text-primary dark:text-emerald-100">Mahindra Yuvo 575 DI</h3>
                         <div className="flex items-center gap-2 mt-1">
                           <div className="w-6 h-6 rounded-full overflow-hidden bg-surface-container-highest">
-                            <img className="w-full h-full object-cover" alt="User portrait" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
+                            <img className="w-full h-full object-cover" alt="User portrait" src="https://picsum.photos/seed/page3/800/600" />
                           </div>
                           <span className="text-sm font-semibold text-on-surface dark:text-slate-300">Rajesh Deshmukh <span className="text-on-surface-variant dark:text-slate-500 font-normal">{langText("from Satara", "साताऱ्याहून")}</span></span>
                         </div>
@@ -195,19 +195,19 @@ export default function OwnerDashboardPage() {
 
       {/* Mobile Navigation Bar */}
       <nav className="lg:hidden fixed bottom-0 left-0 right-0 bg-white dark:bg-slate-950 border-t border-surface-container-highest dark:border-slate-800/50 px-4 py-2 flex justify-around items-center z-50">
-        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#">
+        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#tab">
           <span className="material-symbols-outlined">dashboard</span>
         </a>
-        <a className="flex flex-col items-center p-2 text-primary dark:text-emerald-400" href="#">
+        <a className="flex flex-col items-center p-2 text-primary dark:text-emerald-400" href="#tab">
           <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>calendar_today</span>
         </a>
-        <a className="bg-primary-container text-white w-12 h-12 rounded-full flex items-center justify-center -mt-8 shadow-lg" href="#">
+        <a className="bg-primary-container text-white w-12 h-12 rounded-full flex items-center justify-center -mt-8 shadow-lg" href="#tab">
           <span className="material-symbols-outlined">add</span>
         </a>
-        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#">
+        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#tab">
           <span className="material-symbols-outlined">payments</span>
         </a>
-        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#">
+        <a className="flex flex-col items-center p-2 text-slate-500 dark:text-slate-400" href="#tab">
           <span className="material-symbols-outlined">person</span>
         </a>
       </nav>

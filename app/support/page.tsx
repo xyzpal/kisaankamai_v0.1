@@ -35,7 +35,7 @@ export default function Support() {
             </div>
             <div className="absolute right-0 top-0 w-1/3 h-full opacity-20 pointer-events-none hidden lg:block">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="Farmer with phone" className="object-cover h-full w-full" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" />
+              <img alt="Farmer with phone" className="object-cover h-full w-full" src="https://picsum.photos/seed/page1/800/600" />
             </div>
           </div>
         </section>
@@ -63,7 +63,7 @@ export default function Support() {
                   </div>
                   <div>
                     <p className="text-sm font-bold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-1">{langText("WhatsApp", "व्हॉट्सअ‍ॅप")}</p>
-                    <a className="text-lg font-bold text-emerald-900 dark:text-emerald-50 hover:text-secondary transition-colors" href="#">{langText("Chat with Support", "सपोर्टशी चॅट करा")}</a>
+                    <a className="text-lg font-bold text-emerald-900 dark:text-emerald-50 hover:text-secondary transition-colors" href="mailto:support@kisankamai.com">{langText("Chat with Support", "सपोर्टशी चॅट करा")}</a>
                     <p className="text-sm text-slate-400 dark:text-slate-500 mt-1">{langText("Average response: 15 mins", "सरासरी प्रतिसाद: 15 मिनिटे")}</p>
                   </div>
                 </div>

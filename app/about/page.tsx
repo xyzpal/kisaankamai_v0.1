@@ -15,7 +15,7 @@ export default function About() {
         <section className="relative h-[716px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="w-full h-full object-cover grayscale-[20%] brightness-75" alt="Vast green wheat field in rural India during golden hour" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
+            <img className="w-full h-full object-cover grayscale-[20%] brightness-75" alt="Vast green wheat field in rural India during golden hour" src="https://picsum.photos/seed/page1/800/600" />
             <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-transparent"></div>
           </div>
           <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -49,7 +49,7 @@ export default function About() {
               </div>
               <div className="md:col-span-4 h-80 rounded-3xl overflow-hidden group">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Tractor wheel moving through rich dark soil" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Tractor wheel moving through rich dark soil" src="https://picsum.photos/seed/page2/800/600" />
               </div>
               <div className="md:col-span-8 p-12 bg-white dark:bg-slate-900/40 rounded-3xl border border-emerald-100 dark:border-slate-800/50 flex flex-col justify-center relative overflow-hidden">
                 <div className="relative z-10">
@@ -112,10 +112,10 @@ export default function About() {
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
               {[
-                { title: langText("Founder & CEO", "संस्थापक व सीईओ"), role: langText("Agricultural Strategy", "कृषी धोरण"), img: "https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" },
-                { title: langText("Chief Technology Officer", "मुख्य तंत्रज्ञान अधिकारी"), role: langText("Product & Logistics", "उत्पादन व लॉजिस्टिक्स"), img: "https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" },
-                { title: langText("Head of Operations", "ऑपरेशन प्रमुख"), role: langText("Rural Network & Support", "ग्रामीण नेटवर्क व सपोर्ट"), img: "https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" },
-                { title: langText("Lead Experience Designer", "मुख्य अनुभव डिझायनर"), role: langText("Farmer-Centric UX", "शेतकरी-केंद्रित UX"), img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" },
+                { title: langText("Founder & CEO", "संस्थापक व सीईओ"), role: langText("Agricultural Strategy", "कृषी धोरण"), img: "https://picsum.photos/seed/page3/800/600" },
+                { title: langText("Chief Technology Officer", "मुख्य तंत्रज्ञान अधिकारी"), role: langText("Product & Logistics", "उत्पादन व लॉजिस्टिक्स"), img: "https://picsum.photos/seed/page4/800/600" },
+                { title: langText("Head of Operations", "ऑपरेशन प्रमुख"), role: langText("Rural Network & Support", "ग्रामीण नेटवर्क व सपोर्ट"), img: "https://picsum.photos/seed/page5/800/600" },
+                { title: langText("Lead Experience Designer", "मुख्य अनुभव डिझायनर"), role: langText("Farmer-Centric UX", "शेतकरी-केंद्रित UX"), img: "https://picsum.photos/seed/page6/800/600" },
               ].map((member) => (
                 <div key={member.title} className="group">
                   <div className="aspect-[4/5] bg-surface-container-high dark:bg-slate-900/50 rounded-2xl overflow-hidden mb-6 relative">
@@ -160,7 +160,7 @@ export default function About() {
               <div className="relative z-10 w-full md:w-1/2">
                 <div className="aspect-video bg-slate-900 rounded-3xl overflow-hidden border border-slate-800 shadow-2xl">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-full h-full object-cover" alt="Multiple combines harvesting a golden grain field" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Multiple combines harvesting a golden grain field" src="https://picsum.photos/seed/page7/800/600" />
                 </div>
               </div>
             </div>

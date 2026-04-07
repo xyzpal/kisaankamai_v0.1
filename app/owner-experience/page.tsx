@@ -17,7 +17,7 @@ export default function OwnerExperiencePage() {
             <img
               className="w-full h-full object-cover"
               alt="Cinematic shot of a modern green tractor in a golden wheat field at sunset, high-end agricultural photography with warm light"
-              src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"
+              src="https://picsum.photos/seed/page1/800/600"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary-container dark:from-emerald-950 via-primary-container/40 dark:via-emerald-950/60 to-transparent"></div>
           </div>
@@ -76,7 +76,7 @@ export default function OwnerExperiencePage() {
                   <img
                     className="w-full h-full object-cover"
                     alt="Modern Mahindra tractor parked in a clean farmyard, bright natural daylight, crisp focus on agricultural machinery"
-                    src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"
+                    src="https://picsum.photos/seed/page2/800/600"
                   />
                   <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">{langText("Active Listing", "सक्रिय सूची")}</div>
                 </div>

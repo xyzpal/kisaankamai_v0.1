@@ -11,34 +11,34 @@ const modelData: Record<string, { en: string, mr: string, items: { name: string,
   tractors: {
     en: "Tractors", mr: "ट्रॅक्टर्स",
     items: [
-      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" },
-      { name: "Swaraj 744 FE", hp: "48 HP", img: "https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" },
-      { name: "John Deere 5310", hp: "55 HP", img: "https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" }
+      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "https://picsum.photos/seed/page1/800/600" },
+      { name: "Swaraj 744 FE", hp: "48 HP", img: "https://picsum.photos/seed/page2/800/600" },
+      { name: "John Deere 5310", hp: "55 HP", img: "https://picsum.photos/seed/page3/800/600" }
     ]
   },
   harvesters: {
     en: "Harvesters", mr: "हार्वेस्टर्स",
     items: [
-      { name: "John Deere W70 Combine", hp: "100 HP", img: "https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" },
-      { name: "Preet 987", hp: "76 HP", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" }
+      { name: "John Deere W70 Combine", hp: "100 HP", img: "https://picsum.photos/seed/page4/800/600" },
+      { name: "Preet 987", hp: "76 HP", img: "https://picsum.photos/seed/page5/800/600" }
     ]
   },
   ploughs: {
     en: "Ploughs", mr: "नांगर",
     items: [
-      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" }
+      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "https://picsum.photos/seed/page6/800/600" }
     ]
   },
   sprayers: {
     en: "Sprayers", mr: "फवारणी यंत्रे",
     items: [
-      { name: "ASPEE Boom Sprayer", hp: "Tractor Mounted", img: "https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" }
+      { name: "ASPEE Boom Sprayer", hp: "Tractor Mounted", img: "https://picsum.photos/seed/page7/800/600" }
     ]
   },
   implements: {
     en: "Implements", mr: "उपकरणे",
     items: [
-        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" }
+        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "https://picsum.photos/seed/page8/800/600" }
     ]
   }
 };

@@ -20,10 +20,10 @@ export const Footer = () => {
             )}
           </p>
           <div className="flex gap-4">
-            <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-white hover:bg-emerald-600 transition-colors">
+            <a href="https://linkedin.com/company/kisankamai" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-white hover:bg-emerald-600 transition-colors">
               <span className="material-symbols-outlined text-lg">social_leaderboard</span>
             </a>
-            <a href="#" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-white hover:bg-emerald-600 transition-colors">
+            <a href="https://twitter.com/kisankamai" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-white hover:bg-emerald-600 transition-colors">
               <span className="material-symbols-outlined text-lg">language</span>
             </a>
             <a href="mailto:support@kisankamai.com" className="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center text-white hover:bg-emerald-600 transition-colors">

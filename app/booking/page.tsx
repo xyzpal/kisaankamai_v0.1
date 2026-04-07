@@ -101,7 +101,11 @@ export default function BookingFlowPage() {
                 </div>
 
                 <div className="pt-6">
-                  <button className="w-full bg-primary-container text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg active:scale-[0.98] transition-all flex items-center justify-center gap-3" type="button">
+                  <button 
+                    className="w-full bg-primary-container text-white py-4 rounded-2xl font-bold text-lg hover:shadow-lg active:scale-[0.98] transition-all flex items-center justify-center gap-3" 
+                    type="button"
+                    onClick={() => alert(langText("Booking request sent! Connecting you to the owner...", "बुकिंग विनंती पाठवली! तुम्हाला मालकाशी जोडत आहे..."))}
+                  >
                     {langText("Save & Continue", "जतन करा आणि पुढे जा")}
                     <span className="material-symbols-outlined">arrow_forward</span>
                   </button>
@@ -130,7 +134,7 @@ export default function BookingFlowPage() {
               {/* Equipment Card Preview */}
               <div className="bg-white dark:bg-slate-900/40 rounded-[32px] overflow-hidden shadow-sm border border-surface-variant dark:border-slate-800/50">
                 <div className="h-48 relative">
-                  <img className="w-full h-full object-cover" alt="Tractor" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Tractor" src="https://picsum.photos/seed/page1/800/600" />
                   <div className="absolute top-4 left-4 bg-white/90 dark:bg-slate-900/90 backdrop-blur px-3 py-1 rounded-full text-xs font-bold text-primary dark:text-emerald-100 flex items-center gap-1">
                     <span className="material-symbols-outlined text-sm text-amber-500" style={{ fontVariationSettings: "'FILL' 1" }}>star</span>
                     4.9 {langText("(120+ Bookings)", "(१२०+ बुकिंग्ज)")}

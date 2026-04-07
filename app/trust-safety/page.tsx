@@ -13,7 +13,7 @@ export default function TrustSafetyPage() {
       {/* Hero Section */}
       <section className="relative pt-32 pb-20 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <img className="w-full h-full object-cover opacity-10 grayscale-[20%]" alt="Golden wheat field at dawn" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" />
+          <img className="w-full h-full object-cover opacity-10 grayscale-[20%]" alt="Golden wheat field at dawn" src="https://picsum.photos/seed/page1/800/600" />
           <div className="absolute inset-0 bg-gradient-to-b from-surface dark:from-[#0f1a14] via-transparent to-surface dark:to-[#0f1a14]" />
         </div>
         <div className="max-w-7xl mx-auto px-6 relative z-10 text-center">
@@ -130,7 +130,7 @@ export default function TrustSafetyPage() {
                 </p>
               </div>
               <div className="flex-1 w-full h-full min-h-[200px]">
-                <img className="w-full h-full object-cover rounded-2xl" alt="Farmers shaking hands" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
+                <img className="w-full h-full object-cover rounded-2xl" alt="Farmers shaking hands" src="https://picsum.photos/seed/page2/800/600" />
               </div>
             </div>
           </div>
@@ -141,7 +141,7 @@ export default function TrustSafetyPage() {
       <section className="bg-primary-container py-24">
         <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center gap-16">
           <div className="w-full md:w-1/2">
-            <img className="rounded-3xl shadow-2xl w-full aspect-video object-cover" alt="Heavy duty agricultural machine" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+            <img className="rounded-3xl shadow-2xl w-full aspect-video object-cover" alt="Heavy duty agricultural machine" src="https://picsum.photos/seed/page3/800/600" />
           </div>
           <div className="w-full md:w-1/2 text-white">
             <h2 className="text-4xl font-extrabold mb-8 leading-tight">{langText("Every Machine is Inspected. Every Owner is Known.", "प्रत्येक मशीनची तपासणी होते. प्रत्येक मालक ओळखला जातो.")}</h2>

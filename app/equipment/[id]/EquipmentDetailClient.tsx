@@ -32,7 +32,7 @@ export default function EquipmentDetailClient({ id }: { id: string }) {
                 <img
                   className="w-full h-full object-cover"
                   alt="Modern John Deere tractor in Indian sugarcane field at sunrise"
-                  src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"
+                  src="https://picsum.photos/seed/EquipmentDetailClient1/800/600"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity flex items-end p-8">
                   <span className="text-white font-headline font-medium">Main Field View - Sangli, Maharashtra</span>
@@ -40,13 +40,13 @@ export default function EquipmentDetailClient({ id }: { id: string }) {
               </div>
               <div className="grid grid-cols-4 gap-4">
                 <div className="aspect-square rounded-2xl overflow-hidden bg-surface-variant dark:bg-slate-900/50">
-                  <img className="w-full h-full object-cover" alt="Tractor engine close-up" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Tractor engine close-up" src="https://picsum.photos/seed/EquipmentDetailClient2/800/600" />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden bg-surface-variant dark:bg-slate-900/50">
-                  <img className="w-full h-full object-cover" alt="Dashboard controls" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Dashboard controls" src="https://picsum.photos/seed/EquipmentDetailClient3/800/600" />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden bg-surface-variant dark:bg-slate-900/50">
-                  <img className="w-full h-full object-cover" alt="Rear view with rotavator" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80" />
+                  <img className="w-full h-full object-cover" alt="Rear view with rotavator" src="https://picsum.photos/seed/EquipmentDetailClient4/800/600" />
                 </div>
                 <div className="aspect-square rounded-2xl overflow-hidden bg-surface-variant dark:bg-slate-900/50 relative flex items-center justify-center cursor-pointer group">
                   <div className="absolute inset-0 bg-primary-container/80 backdrop-blur-sm group-hover:bg-primary-container transition-colors" />
@@ -126,7 +126,7 @@ export default function EquipmentDetailClient({ id }: { id: string }) {
                 <h2 className="text-2xl font-headline font-bold text-primary dark:text-emerald-50">{langText("Owner Details", "मालक माहिती")}</h2>
                 <div className="bg-surface-container-low dark:bg-slate-900/40 p-6 rounded-3xl flex items-center gap-5 border border-outline-variant/20 dark:border-slate-800/50 card-shadow">
                   <div className="w-16 h-16 rounded-full overflow-hidden border-2 border-white dark:border-slate-800 shadow-lg">
-                    <img className="w-full h-full object-cover" alt="Owner Sanjay Patil" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80" />
+                    <img className="w-full h-full object-cover" alt="Owner Sanjay Patil" src="https://picsum.photos/seed/EquipmentDetailClient5/800/600" />
                   </div>
                   <div>
                     <p className="text-xs font-label text-outline dark:text-slate-500 uppercase tracking-widest">Listing Owner</p>
@@ -184,9 +184,11 @@ export default function EquipmentDetailClient({ id }: { id: string }) {
                       <input className="w-full pl-10 pr-4 py-3 bg-surface-container dark:bg-slate-950/50 rounded-xl border-none focus:ring-2 focus:ring-primary dark:focus:ring-emerald-500 text-sm font-label text-on-surface dark:text-white" placeholder="+91 00000 00000" type="tel" />
                     </div>
                   </div>
-                  <button type="button" className="w-full bg-secondary text-on-secondary font-headline font-black py-4 rounded-xl shadow-lg shadow-secondary/20 hover:scale-[1.02] active:scale-95 transition-all">
-                    {langText("Request Booking Callback", "बुकिंग कॉलबॅक विनंती")}
-                  </button>
+                  <Link href="/booking" className="block w-full">
+                    <button type="button" className="w-full bg-secondary text-on-secondary font-headline font-black py-4 rounded-xl shadow-lg shadow-secondary/20 hover:scale-[1.02] active:scale-95 transition-all">
+                      {langText("Request Booking Callback", "बुकिंग कॉलबॅक विनंती")}
+                    </button>
+                  </Link>
                 </form>
                 <div className="flex items-center gap-3 p-4 bg-tertiary-fixed dark:bg-amber-900/20 rounded-2xl">
                   <span className="material-symbols-outlined text-on-tertiary-fixed-variant dark:text-amber-400">verified_user</span>
@@ -219,9 +221,9 @@ export default function EquipmentDetailClient({ id }: { id: string }) {
           </div>
           <div className="flex gap-6 overflow-x-auto no-scrollbar pb-8">
             {[
-              { name: "Mahindra 575 DI", location: "Tasgaon, Sangli", hp: "45 HP", price: "₹750/hr", rating: "4.7", img: "https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80" },
-              { name: "Kubota MU5502", location: "Miraj, Sangli", hp: "50 HP", price: "₹600/hr", rating: "4.8", img: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80" },
-              { name: "Swaraj 855 FE", location: "Vita, Sangli", hp: "55 HP", price: "₹800/hr", rating: "4.9", img: "https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80" },
+              { name: "Mahindra 575 DI", location: "Tasgaon, Sangli", hp: "45 HP", price: "₹750/hr", rating: "4.7", img: "https://picsum.photos/seed/EquipmentDetailClient6/800/600" },
+              { name: "Kubota MU5502", location: "Miraj, Sangli", hp: "50 HP", price: "₹600/hr", rating: "4.8", img: "https://picsum.photos/seed/EquipmentDetailClient7/800/600" },
+              { name: "Swaraj 855 FE", location: "Vita, Sangli", hp: "55 HP", price: "₹800/hr", rating: "4.9", img: "https://picsum.photos/seed/EquipmentDetailClient8/800/600" },
             ].map((eq) => (
               <Link key={eq.name} href="/equipment/1" className="min-w-[320px] bg-white dark:bg-slate-900/40 rounded-3xl border border-outline-variant/30 dark:border-slate-800/50 overflow-hidden group card-shadow hover:card-shadow-lg transition-all">
                 <div className="h-48 overflow-hidden relative">

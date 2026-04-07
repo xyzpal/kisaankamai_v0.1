@@ -3,6 +3,7 @@
 import { Header } from "@/components/Header";
 import { Footer } from "@/components/Footer";
 import { useLanguage } from "@/components/LanguageContext";
+import Link from "next/link";
 
 export default function OwnerRegistration() {
   const { langText } = useLanguage();
@@ -98,7 +99,7 @@ export default function OwnerRegistration() {
 
             <div className="bg-white dark:bg-slate-900/40 p-6 rounded-2xl border border-emerald-50 dark:border-slate-800/50 shadow-sm flex gap-4">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="Smiling farmer" className="w-16 h-16 rounded-full object-cover" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
+              <img alt="Smiling farmer" className="w-16 h-16 rounded-full object-cover" src="https://picsum.photos/seed/page1/800/600"/>
               <div>
                 <p className="italic text-on-surface-variant dark:text-slate-300 text-sm mb-2">{langText("\"Kisan Kamai helped me earn extra income from my rotavator when I wasn't using it. Very trustworthy.\"", "\"किसान कमाईने मला माझा रोटाव्हेटर वापरत नसताना अतिरिक्त उत्पन्न कमवण्यास मदत केली. अत्यंत विश्वासार्ह.\"")}</p>
                 <p className="font-bold text-primary dark:text-emerald-400 text-sm">— Rahul P., {langText("Sangli", "सांगली")}</p>
@@ -107,7 +108,7 @@ export default function OwnerRegistration() {
 
             <div className="flex items-center justify-center gap-4 py-4 px-6 border-2 border-dashed border-surface-container-highest dark:border-slate-800/50 rounded-2xl">
               <span className="material-symbols-outlined text-outline dark:text-slate-500">help</span>
-              <p className="text-sm text-outline dark:text-slate-400 font-medium">{langText("Need help registering?", "नोंदणीसाठी मदत हवी?")} <a className="text-secondary dark:text-amber-400 font-bold hover:underline" href="#">{langText("Call Support", "सपोर्ट कॉल करा")}</a></p>
+              <p className="text-sm text-outline dark:text-slate-400 font-medium">{langText("Need help registering?", "नोंदणीसाठी मदत हवी?")} <Link className="text-secondary dark:text-amber-400 font-bold hover:underline" href="/support">{langText("Call Support", "सपोर्ट कॉल करा")}</Link></p>
             </div>
           </div>
         </div>

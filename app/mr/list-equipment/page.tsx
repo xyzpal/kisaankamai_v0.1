@@ -13,7 +13,7 @@ export default function MR_ListEquipment() {
 {/*  Hero Section  */}
 <section className="relative h-[600px] flex items-center overflow-hidden">
 <div className="absolute inset-0 z-0">
-<img alt="Agricultural Equipment" className="w-full h-full object-cover" data-alt="Modern powerful tractor parked in a vibrant green Indian farm field during late afternoon golden hour lighting with realistic textures" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"/>
+<img alt="Agricultural Equipment" className="w-full h-full object-cover" data-alt="Modern powerful tractor parked in a vibrant green Indian farm field during late afternoon golden hour lighting with realistic textures" src="https://picsum.photos/seed/page1/800/600"/>
 <div className="absolute inset-0 bg-gradient-to-r from-emerald-950/90 via-emerald-950/60 to-transparent"></div>
 </div>
 <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">
@@ -57,7 +57,7 @@ export default function MR_ListEquipment() {
                             </p>
 </div>
 <div className="relative rounded-xl overflow-hidden h-48 mt-4">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Two Indian farmers smiling and shaking hands in a rural landscape, representing trust and business partnership" src="https://images.unsplash.com/photo-1589922589088-34eb1bb9b2b3?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" data-alt="Two Indian farmers smiling and shaking hands in a rural landscape, representing trust and business partnership" src="https://picsum.photos/seed/page2/800/600"/>
 </div>
 </div>
 {/*  Feature 2  */}
@@ -120,7 +120,7 @@ export default function MR_ListEquipment() {
 {/*  Category 1  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of a heavy duty agricultural harvester machine in a field, highly detailed and professional photography" src="https://images.unsplash.com/photo-1530836369250-ef71a3f5e481?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Close up of a heavy duty agricultural harvester machine in a field, highly detailed and professional photography" src="https://picsum.photos/seed/page3/800/600"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">हार्वेस्टर</h4>
@@ -131,7 +131,7 @@ export default function MR_ListEquipment() {
 {/*  Category 2  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Powerful tractor pulling a rotavator implement through rich soil on an Indian farm, low angle shot" src="https://images.unsplash.com/photo-1615671524827-0cf04cb35be4?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Powerful tractor pulling a rotavator implement through rich soil on an Indian farm, low angle shot" src="https://picsum.photos/seed/page4/800/600"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">रोटाव्हेटर</h4>
@@ -142,7 +142,7 @@ export default function MR_ListEquipment() {
 {/*  Category 3  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Automatic seed drill machine attached to a tractor in a sunlit field, focus on mechanical details" src="https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Automatic seed drill machine attached to a tractor in a sunlit field, focus on mechanical details" src="https://picsum.photos/seed/page5/800/600"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">पेरणी यंत्रे</h4>
@@ -153,7 +153,7 @@ export default function MR_ListEquipment() {
 {/*  Category 4  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-[4/5] rounded-2xl overflow-hidden mb-4 shadow-md">
-<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern crop sprayer equipment being prepared in an agricultural field, professional and clean look" src="https://images.unsplash.com/photo-1592982537447-6f29e16d4fb0?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" data-alt="Modern crop sprayer equipment being prepared in an agricultural field, professional and clean look" src="https://picsum.photos/seed/page6/800/600"/>
 <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent"></div>
 <div className="absolute bottom-6 left-6 text-white">
 <h4 className="text-xl font-bold">फवारणी यंत्रे</h4>
@@ -167,7 +167,7 @@ export default function MR_ListEquipment() {
 {/*  Final CTA Section  */}
 <section className="py-20 relative overflow-hidden bg-primary-container text-white">
 <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
-<img className="w-full h-full object-cover grayscale" data-alt="Abstract patterns in a tilled field from top view, organic and geometric farming textures" src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?auto=format&fit=crop&q=80"/>
+<img className="w-full h-full object-cover grayscale" data-alt="Abstract patterns in a tilled field from top view, organic and geometric farming textures" src="https://picsum.photos/seed/page7/800/600"/>
 </div>
 <div className="max-w-7xl mx-auto px-6 relative z-10 flex flex-col md:flex-row items-center justify-between gap-12">
 <div className="max-w-2xl">
