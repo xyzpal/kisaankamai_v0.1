@@ -35,7 +35,7 @@ export default function Support() {
             </div>
             <div className="absolute right-0 top-0 w-1/3 h-full opacity-20 pointer-events-none hidden lg:block">
               {/* eslint-disable-next-line @next/next/no-img-element */}
-              <img alt="Farmer with phone" className="object-cover h-full w-full" src="/assets/generated/seed_drill.png" />
+              <img alt="Farmer with phone" className="object-cover h-full w-full" src="/assets/generated/hero_tractor.png" />
             </div>
           </div>
         </section>
