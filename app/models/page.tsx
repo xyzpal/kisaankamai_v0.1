@@ -11,34 +11,34 @@ const modelData: Record<string, { en: string, mr: string, items: { name: string,
   tractors: {
     en: "Tractors", mr: "ट्रॅक्टर्स",
     items: [
-      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "https://picsum.photos/seed/page1/800/600" },
-      { name: "Swaraj 744 FE", hp: "48 HP", img: "https://picsum.photos/seed/page2/800/600" },
-      { name: "John Deere 5310", hp: "55 HP", img: "https://picsum.photos/seed/page3/800/600" }
+      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "/assets/generated/seed_drill.png" },
+      { name: "Swaraj 744 FE", hp: "48 HP", img: "/assets/generated/seed_drill.png" },
+      { name: "John Deere 5310", hp: "55 HP", img: "/assets/generated/seed_drill.png" }
     ]
   },
   harvesters: {
     en: "Harvesters", mr: "हार्वेस्टर्स",
     items: [
-      { name: "John Deere W70 Combine", hp: "100 HP", img: "https://picsum.photos/seed/page4/800/600" },
-      { name: "Preet 987", hp: "76 HP", img: "https://picsum.photos/seed/page5/800/600" }
+      { name: "John Deere W70 Combine", hp: "100 HP", img: "/assets/generated/harvester_action.png" },
+      { name: "Preet 987", hp: "76 HP", img: "/assets/generated/seed_drill.png" }
     ]
   },
   ploughs: {
     en: "Ploughs", mr: "नांगर",
     items: [
-      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "https://picsum.photos/seed/page6/800/600" }
+      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "/assets/generated/seed_drill.png" }
     ]
   },
   sprayers: {
     en: "Sprayers", mr: "फवारणी यंत्रे",
     items: [
-      { name: "ASPEE Boom Sprayer", hp: "Tractor Mounted", img: "https://picsum.photos/seed/page7/800/600" }
+      { name: "ASPEE Boom Sprayer", hp: "Tractor Mounted", img: "/assets/generated/seed_drill.png" }
     ]
   },
   implements: {
     en: "Implements", mr: "उपकरणे",
     items: [
-        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "https://picsum.photos/seed/page8/800/600" }
+        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "/assets/generated/rotavator.png" }
     ]
   }
 };

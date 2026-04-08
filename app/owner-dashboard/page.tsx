@@ -24,7 +24,7 @@ export default function OwnerDashboardPage() {
               <img
                 className="w-full h-full object-cover"
                 alt="Owner portrait"
-                src="https://picsum.photos/seed/page1/800/600"
+                src="/assets/generated/seed_drill.png"
               />
             </div>
             <div className="flex flex-col">
@@ -124,7 +124,7 @@ export default function OwnerDashboardPage() {
               <div className="bg-white dark:bg-slate-900/40 rounded-2xl p-5 border border-surface-container-highest dark:border-slate-800/50 shadow-sm hover:card-shadow-lg transition-all group">
                 <div className="flex flex-col md:flex-row gap-6">
                   <div className="w-full md:w-32 h-32 rounded-xl overflow-hidden bg-surface-container dark:bg-slate-900 flex-shrink-0">
-                    <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Tractor" src="https://picsum.photos/seed/page2/800/600" />
+                    <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" alt="Tractor" src="/assets/generated/seed_drill.png" />
                   </div>
                   <div className="flex-1 flex flex-col justify-between">
                     <div className="flex justify-between items-start">
@@ -132,7 +132,7 @@ export default function OwnerDashboardPage() {
                         <h3 className="text-base font-bold text-primary dark:text-emerald-100">Mahindra Yuvo 575 DI</h3>
                         <div className="flex items-center gap-2 mt-1">
                           <div className="w-6 h-6 rounded-full overflow-hidden bg-surface-container-highest">
-                            <img className="w-full h-full object-cover" alt="User portrait" src="https://picsum.photos/seed/page3/800/600" />
+                            <img className="w-full h-full object-cover" alt="User portrait" src="/assets/generated/seed_drill.png" />
                           </div>
                           <span className="text-sm font-semibold text-on-surface dark:text-slate-300">Rajesh Deshmukh <span className="text-on-surface-variant dark:text-slate-500 font-normal">{langText("from Satara", "साताऱ्याहून")}</span></span>
                         </div>

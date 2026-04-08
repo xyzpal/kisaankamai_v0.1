@@ -17,7 +17,7 @@ export default function OwnerExperiencePage() {
             <img
               className="w-full h-full object-cover"
               alt="Cinematic shot of a modern green tractor in a golden wheat field at sunset, high-end agricultural photography with warm light"
-              src="https://picsum.photos/seed/page1/800/600"
+              src="/assets/generated/seed_drill.png"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary-container dark:from-emerald-950 via-primary-container/40 dark:via-emerald-950/60 to-transparent"></div>
           </div>
@@ -76,7 +76,7 @@ export default function OwnerExperiencePage() {
                   <img
                     className="w-full h-full object-cover"
                     alt="Modern Mahindra tractor parked in a clean farmyard, bright natural daylight, crisp focus on agricultural machinery"
-                    src="https://picsum.photos/seed/page2/800/600"
+                    src="/assets/generated/seed_drill.png"
                   />
                   <div className="absolute top-4 left-4 bg-emerald-500 text-white text-[10px] font-bold px-2 py-1 rounded uppercase tracking-widest">{langText("Active Listing", "सक्रिय सूची")}</div>
                 </div>

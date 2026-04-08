@@ -32,7 +32,7 @@ export default function PartnerPage() {
           </div>
           <div className="relative">
             <div className="aspect-square rounded-3xl overflow-hidden shadow-2xl">
-              <img className="w-full h-full object-cover" alt="Farmer and agritech representative in wheat field" src="https://picsum.photos/seed/page1/800/600" />
+              <img className="w-full h-full object-cover" alt="Farmer and agritech representative in wheat field" src="/assets/generated/seed_drill.png" />
             </div>
             <div className="absolute -bottom-8 -left-8 bg-white dark:bg-slate-900/80 p-6 rounded-2xl card-shadow-xl hidden md:block max-w-[240px]">
               <div className="flex items-center gap-3 mb-2">
@@ -113,7 +113,7 @@ export default function PartnerPage() {
                 </div>
               </div>
               <div className="hidden lg:block w-1/3 aspect-video rounded-2xl overflow-hidden shadow-inner">
-                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Farm equipment facility" src="https://picsum.photos/seed/page2/800/600" />
+                <img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" alt="Farm equipment facility" src="/assets/generated/seed_drill.png" />
               </div>
             </div>
           </div>
@@ -146,7 +146,7 @@ export default function PartnerPage() {
             </div>
             <div className="relative grid grid-cols-2 gap-4">
               <div className="pt-12">
-                <img className="rounded-2xl shadow-lg mb-4 h-64 w-full object-cover" alt="Agricultural dealers" src="https://picsum.photos/seed/page3/800/600" />
+                <img className="rounded-2xl shadow-lg mb-4 h-64 w-full object-cover" alt="Agricultural dealers" src="/assets/generated/seed_drill.png" />
                 <div className="bg-primary-container p-6 rounded-2xl text-white">
                   <p className="text-3xl font-bold mb-1">98%</p>
                   <p className="text-sm opacity-80">Partner retention rate</p>
@@ -157,7 +157,7 @@ export default function PartnerPage() {
                   <p className="text-3xl font-bold mb-1">₹12Cr+</p>
                   <p className="text-sm opacity-80">Total partner earnings</p>
                 </div>
-                <img className="rounded-2xl shadow-lg h-80 w-full object-cover" alt="Entrepreneur with tablet" src="https://picsum.photos/seed/page4/800/600" />
+                <img className="rounded-2xl shadow-lg h-80 w-full object-cover" alt="Entrepreneur with tablet" src="/assets/generated/seed_drill.png" />
               </div>
             </div>
           </div>

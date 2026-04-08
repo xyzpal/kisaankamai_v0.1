@@ -25,7 +25,7 @@ export default function Locations() {
         <section className="relative h-[400px] flex items-center overflow-hidden">
           <div className="absolute inset-0 z-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Expansive green sugarcane fields in Western Maharashtra" className="w-full h-full object-cover" src="https://picsum.photos/seed/page1/800/600"/>
+            <img alt="Expansive green sugarcane fields in Western Maharashtra" className="w-full h-full object-cover" src="/assets/generated/seed_drill.png"/>
             <div className="absolute inset-0 bg-gradient-to-r from-primary-container/80 to-transparent"></div>
           </div>
           <div className="max-w-7xl mx-auto px-6 relative z-10 w-full">
@@ -154,7 +154,7 @@ export default function Locations() {
         <section className="mb-24 px-6">
           <div className="max-w-7xl mx-auto rounded-[40px] h-[500px] overflow-hidden relative">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Close up of a large modern orange tractor tyre" className="w-full h-full object-cover" src="https://picsum.photos/seed/page2/800/600"/>
+            <img alt="Close up of a large modern orange tractor tyre" className="w-full h-full object-cover" src="/assets/generated/seed_drill.png"/>
             <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent flex flex-col justify-end p-12">
               <div className="max-w-2xl">
                 <h2 className="text-4xl font-extrabold text-white mb-6">{langText("Rooted in Trust.", "विश्वासात रुजलेले.")} <br/>{langText("Serving Indian Agriculture.", "भारतीय शेतीची सेवा.")}</h2>

@@ -19,17 +19,17 @@ export default function Categories() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {[
-              { id: "tractors", img: "https://picsum.photos/seed/page1/800/600", name: "Tractors", mrName: "ट्रॅक्टर्स" },
-              { id: "harvesters", img: "https://picsum.photos/seed/page2/800/600", name: "Harvesters", mrName: "हार्वेस्टर्स" },
-              { id: "implements", img: "https://picsum.photos/seed/page3/800/600", name: "Implements", mrName: "उपकरणे" },
-              { id: "ploughs", img: "https://picsum.photos/seed/page4/800/600", name: "Ploughs", mrName: "नांगर" },
-              { id: "sprayers", img: "https://picsum.photos/seed/page5/800/600", name: "Sprayers", mrName: "फवारणी यंत्रे" },
-              { id: "rotavators", img: "https://picsum.photos/seed/page6/800/600", name: "Rotavators", mrName: "रोटाव्हेटर्स" },
-              { id: "seeders", img: "https://picsum.photos/seed/page7/800/600", name: "Seeders", mrName: "सीडर्स" },
-              { id: "threshers", img: "https://picsum.photos/seed/page8/800/600", name: "Threshers", mrName: "थ्रेशर्स" },
-              { id: "pumps", img: "https://picsum.photos/seed/page9/800/600", name: "Water Pumps", mrName: "पाण्याचे पंप" },
-              { id: "balers", img: "https://picsum.photos/seed/page10/800/600", name: "Balers", mrName: "बेलर्स" },
-              { id: "trolleys", img: "https://picsum.photos/seed/page11/800/600", name: "Trolleys & Trailers", mrName: "ट्रॉली आणि ट्रेलर्स" }
+              { id: "tractors", img: "/assets/generated/seed_drill.png", name: "Tractors", mrName: "ट्रॅक्टर्स" },
+              { id: "harvesters", img: "/assets/generated/harvester_action.png", name: "Harvesters", mrName: "हार्वेस्टर्स" },
+              { id: "implements", img: "/assets/generated/seed_drill.png", name: "Implements", mrName: "उपकरणे" },
+              { id: "ploughs", img: "/assets/generated/seed_drill.png", name: "Ploughs", mrName: "नांगर" },
+              { id: "sprayers", img: "/assets/generated/seed_drill.png", name: "Sprayers", mrName: "फवारणी यंत्रे" },
+              { id: "rotavators", img: "/assets/generated/rotavator.png", name: "Rotavators", mrName: "रोटाव्हेटर्स" },
+              { id: "seeders", img: "/assets/generated/seed_drill.png", name: "Seeders", mrName: "सीडर्स" },
+              { id: "threshers", img: "/assets/generated/seed_drill.png", name: "Threshers", mrName: "थ्रेशर्स" },
+              { id: "pumps", img: "/assets/generated/seed_drill.png", name: "Water Pumps", mrName: "पाण्याचे पंप" },
+              { id: "balers", img: "/assets/generated/seed_drill.png", name: "Balers", mrName: "बेलर्स" },
+              { id: "trolleys", img: "/assets/generated/seed_drill.png", name: "Trolleys & Trailers", mrName: "ट्रॉली आणि ट्रेलर्स" }
             ].map(cat => (
               <Link key={cat.id} href={`/models?category=${cat.id}`} className="group relative h-[400px] overflow-hidden rounded-3xl shadow-xl cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}

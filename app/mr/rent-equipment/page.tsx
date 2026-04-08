@@ -13,7 +13,7 @@ export default function MR_RentEquipment() {
 {/*  Hero Section / Discovery Header  */}
 <section className="px-8 max-w-screen-2xl mx-auto mt-8 mb-12">
 <div className="relative rounded-[40px] overflow-hidden min-h-[400px] flex items-center p-12 bg-primary-container">
-<img className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay" data-alt="Premium close-up of a modern high-performance tractor in a sun-drenched Indian wheat field during golden hour, cinematic lighting" src="https://picsum.photos/seed/page1/800/600"/>
+<img className="absolute inset-0 w-full h-full object-cover opacity-50 mix-blend-overlay" data-alt="Premium close-up of a modern high-performance tractor in a sun-drenched Indian wheat field during golden hour, cinematic lighting" src="/assets/generated/seed_drill.png"/>
 <div className="relative z-10 max-w-2xl">
 <span className="marathi-font bg-orange-700 text-white px-4 py-1 rounded-full text-sm font-bold tracking-wide uppercase mb-4 inline-block">उच्च दर्जाची अवजारे</span>
 <h1 className="marathi-font text-5xl md:text-6xl font-extrabold text-white leading-[1.2] mb-6">शेतीसाठी सर्वोत्तम अवजारे आता भाड्याने उपलब्ध</h1>
@@ -50,7 +50,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Realistic close-up of a modern green tractor with large tires parked in a rural Indian farm setting, bright daylight" src="https://picsum.photos/seed/page2/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Realistic close-up of a modern green tractor with large tires parked in a rural Indian farm setting, bright daylight" src="/assets/generated/seed_drill.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">ट्रॅक्टर</p>
@@ -60,7 +60,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A massive combine harvester working in a golden grain field in Maharashtra, realistic agricultural photography" src="https://picsum.photos/seed/page3/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="A massive combine harvester working in a golden grain field in Maharashtra, realistic agricultural photography" src="/assets/generated/harvester_action.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">हार्वेस्टर</p>
@@ -70,7 +70,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Powerful tractor-mounted rotavator tilling dark rich soil in an Indian farm, focus on mechanical details" src="https://picsum.photos/seed/page4/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Powerful tractor-mounted rotavator tilling dark rich soil in an Indian farm, focus on mechanical details" src="/assets/generated/rotavator.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">रोटाव्हेटर</p>
@@ -80,7 +80,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Agricultural seed drill machine attached to a tractor in a plowed field ready for planting, clear rural background" src="https://picsum.photos/seed/page5/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Agricultural seed drill machine attached to a tractor in a plowed field ready for planting, clear rural background" src="/assets/generated/seed_drill.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">पेरणी यंत्र</p>
@@ -90,7 +90,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modern tractor-pulled spraying equipment in a lush green orchard, fine mist visible, professional farm lighting" src="https://picsum.photos/seed/page6/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Modern tractor-pulled spraying equipment in a lush green orchard, fine mist visible, professional farm lighting" src="/assets/generated/seed_drill.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">फवारणी यंत्र</p>
@@ -100,7 +100,7 @@ export default function MR_RentEquipment() {
 {/*  Category Card  */}
 <div className="group cursor-pointer">
 <div className="relative aspect-square rounded-3xl overflow-hidden mb-3 shadow-md group-hover:shadow-xl transition-all">
-<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Heavy duty agricultural trailer and transport equipment in a farmyard setting, high resolution mechanical details" src="https://picsum.photos/seed/page7/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500" data-alt="Heavy duty agricultural trailer and transport equipment in a farmyard setting, high resolution mechanical details" src="/assets/generated/seed_drill.png"/>
 <div className="absolute inset-0 bg-gradient-to-t from-emerald-950/80 to-transparent"></div>
 <div className="absolute bottom-4 left-4 text-white">
 <p className="marathi-font font-bold text-lg">वाहतूक यंत्रे</p>
@@ -176,7 +176,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Side profile of a red Mahindra tractor in pristine condition, shot in a sunlit village farmyard, high-end commercial quality" src="https://picsum.photos/seed/page8/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Side profile of a red Mahindra tractor in pristine condition, shot in a sunlit village farmyard, high-end commercial quality" src="/assets/generated/seed_drill.png"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">५५ HP</span>
 <span className="marathi-font bg-orange-700 px-3 py-1 rounded-full text-xs font-bold text-white shadow-lg">पॉप्युलर</span>
@@ -211,7 +211,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern green John Deere tractor with rotavator attachment, parked in a lush farmland in Maharashtra, bright afternoon light" src="https://picsum.photos/seed/page9/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Modern green John Deere tractor with rotavator attachment, parked in a lush farmland in Maharashtra, bright afternoon light" src="/assets/generated/rotavator.png"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">५० HP</span>
 </div>
@@ -245,7 +245,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card (Compact for Grid variation)  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Massive combine harvester in field, realistic professional agricultural equipment photography, golden hour" src="https://picsum.photos/seed/page10/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Massive combine harvester in field, realistic professional agricultural equipment photography, golden hour" src="/assets/generated/harvester_action.png"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">हार्वेस्टर</span>
 </div>
@@ -272,7 +272,7 @@ export default function MR_RentEquipment() {
 {/*  Product Card  */}
 <div className="bg-white rounded-[32px] p-4 shadow-sm border border-emerald-50 hover:shadow-xl transition-shadow group">
 <div className="relative h-64 rounded-2xl overflow-hidden mb-4">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty rotary tiller attachment on a tractor, detailed mechanical shot in a field environment" src="https://picsum.photos/seed/page11/800/600"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty rotary tiller attachment on a tractor, detailed mechanical shot in a field environment" src="/assets/generated/rotavator.png"/>
 <div className="absolute top-4 left-4 flex gap-2">
 <span className="marathi-font bg-white/90 backdrop-blur-md px-3 py-1 rounded-full text-xs font-bold text-emerald-900">रोटाव्हेटर</span>
 </div>

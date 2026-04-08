@@ -17,12 +17,12 @@ const homepageMarkers = [
 ];
 
 const heroImages = [
-  "https://picsum.photos/seed/page1/800/600",
-  "https://picsum.photos/seed/page2/800/600",
-  "https://picsum.photos/seed/page3/800/600",
-  "https://picsum.photos/seed/page4/800/600",
-  "https://picsum.photos/seed/page5/800/600",
-  "https://picsum.photos/seed/page6/800/600"
+  "/assets/generated/seed_drill.png",
+  "/assets/generated/seed_drill.png",
+  "/assets/generated/seed_drill.png",
+  "/assets/generated/seed_drill.png",
+  "/assets/generated/seed_drill.png",
+  "/assets/generated/seed_drill.png"
 ];
 
 export default function Home() {
@@ -145,7 +145,7 @@ export default function Home() {
               {/* Tractors */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="High-horsepower tractor parked in a vibrant green farm field" src="https://picsum.photos/seed/page7/800/600" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="High-horsepower tractor parked in a vibrant green farm field" src="/assets/generated/seed_drill.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Tractors", "ट्रॅक्टर्स")}</h3>
@@ -157,7 +157,7 @@ export default function Home() {
               {/* Harvesters */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Combine harvester working through a wheat field" src="https://picsum.photos/seed/page8/800/600" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Combine harvester working through a wheat field" src="/assets/generated/harvester_action.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Harvesters", "हार्वेस्टर्स")}</h3>
@@ -169,7 +169,7 @@ export default function Home() {
               {/* Implements */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="https://picsum.photos/seed/page9/800/600" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="/assets/generated/rotavator.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Implements", "उपकरणे")}</h3>
@@ -181,7 +181,7 @@ export default function Home() {
               {/* Ploughs */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Ploughing" src="https://picsum.photos/seed/page10/800/600" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Ploughing" src="/assets/generated/seed_drill.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Ploughs", "नांगर")}</h3>
@@ -193,7 +193,7 @@ export default function Home() {
               {/* Sprayers */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sprayer" src="https://picsum.photos/seed/page11/800/600" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Sprayer" src="/assets/generated/seed_drill.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Sprayers", "फवारणी यंत्रे")}</h3>
@@ -293,7 +293,7 @@ export default function Home() {
             <div className="grid md:grid-cols-2 gap-20 items-center">
               <div className="relative">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="rounded-[2.5rem] shadow-2xl relative z-10" alt="Indian farmer leaning against a tractor with pride" src="https://picsum.photos/seed/page12/800/600" />
+                <img className="rounded-[2.5rem] shadow-2xl relative z-10" alt="Indian farmer leaning against a tractor with pride" src="/assets/generated/seed_drill.png" />
                 <div className="absolute -top-10 -left-10 w-40 h-40 bg-secondary/5 rounded-full -z-0"></div>
                 <div className="absolute -bottom-10 -right-10 w-64 h-64 bg-primary/5 rounded-full -z-0"></div>
                 <div className="absolute top-1/2 -right-8 bg-white dark:bg-slate-900 p-6 rounded-2xl shadow-xl z-20 max-w-[200px] border border-slate-50 dark:border-slate-800/50">
@@ -399,7 +399,7 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;Renting a harvester through Kisan Kamai saved me 4 days of labor costs during the last peak season. The process was seamless.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Rajesh Deshmukh" src="https://picsum.photos/seed/page13/800/600" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Rajesh Deshmukh" src="/assets/generated/seed_drill.png" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Rajesh Deshmukh</h5>
                     <p className="text-xs font-label text-slate-400">Sangli District</p>
@@ -417,7 +417,7 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;As a tractor owner, I was worried about utilization. Kisan Kamai helped me find local farmers who needed my equipment exactly when it was idle.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Sanjay Kulkarni" src="https://picsum.photos/seed/page14/800/600" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Sanjay Kulkarni" src="/assets/generated/seed_drill.png" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Sanjay Kulkarni</h5>
                     <p className="text-xs font-label text-slate-400">Satara District</p>
@@ -435,7 +435,7 @@ export default function Home() {
                 <p className="text-slate-600 dark:text-slate-400 mb-8 italic leading-relaxed">&quot;The verification process for equipment is what makes me trust this platform. I know I&apos;m getting high-quality machinery every time.&quot;</p>
                 <div className="flex items-center gap-4">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
-                  <img className="w-12 h-12 rounded-full object-cover" alt="Vikas More" src="https://picsum.photos/seed/page15/800/600" />
+                  <img className="w-12 h-12 rounded-full object-cover" alt="Vikas More" src="/assets/generated/seed_drill.png" />
                   <div>
                     <h5 className="font-bold text-primary dark:text-emerald-50">Vikas More</h5>
                     <p className="text-xs font-label text-slate-400">Kolhapur District</p>
@@ -484,7 +484,7 @@ export default function Home() {
         <section className="py-24 bg-primary text-white overflow-hidden relative">
           <div className="absolute inset-0 z-0">
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img className="w-full h-full object-cover opacity-20 grayscale" alt="Tractors parked in a rural equipment yard at dusk" src="https://picsum.photos/seed/page16/800/600" />
+            <img className="w-full h-full object-cover opacity-20 grayscale" alt="Tractors parked in a rural equipment yard at dusk" src="/assets/generated/seed_drill.png" />
             <div className="absolute inset-0 bg-primary/80"></div>
           </div>
           <div className="max-w-4xl mx-auto px-6 text-center relative z-10">

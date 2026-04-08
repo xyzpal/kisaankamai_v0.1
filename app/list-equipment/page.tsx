@@ -16,7 +16,7 @@ export default function ListEquipment() {
           <div className="absolute inset-0 z-0">
             <div className="absolute inset-0 bg-gradient-to-r from-primary-container via-primary-container/80 to-transparent z-10"></div>
             {/* eslint-disable-next-line @next/next/no-img-element */}
-            <img alt="Farmer with tractor in sugarcane field" className="w-full h-full object-cover" src="https://picsum.photos/seed/page1/800/600" />
+            <img alt="Farmer with tractor in sugarcane field" className="w-full h-full object-cover" src="/assets/generated/seed_drill.png" />
           </div>
           <div className="relative z-20 max-w-7xl mx-auto px-6 w-full">
             <div className="max-w-2xl">
@@ -110,9 +110,9 @@ export default function ListEquipment() {
             </div>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { title: langText("Tractors", "ट्रॅक्टर"), desc: langText("40HP - 90HP utility and heavy-duty tractors.", "40HP - 90HP उपयुक्त आणि हेवी-ड्यूटी ट्रॅक्टर."), img: "https://picsum.photos/seed/page2/800/600" },
-                { title: langText("Harvesters", "हार्वेस्टर"), desc: langText("Sugar cane, maize, and grain combine harvesters.", "ऊस, मका, आणि धान्य कंबाइन हार्वेस्टर."), img: "https://picsum.photos/seed/page3/800/600" },
-                { title: langText("Implements", "उपकरणे"), desc: langText("Rotavators, seeders, plows, and sprayers.", "रोटाव्हेटर, सीडर, नांगर, आणि फवारणी यंत्रे."), img: "https://picsum.photos/seed/page4/800/600" },
+                { title: langText("Tractors", "ट्रॅक्टर"), desc: langText("40HP - 90HP utility and heavy-duty tractors.", "40HP - 90HP उपयुक्त आणि हेवी-ड्यूटी ट्रॅक्टर."), img: "/assets/generated/seed_drill.png" },
+                { title: langText("Harvesters", "हार्वेस्टर"), desc: langText("Sugar cane, maize, and grain combine harvesters.", "ऊस, मका, आणि धान्य कंबाइन हार्वेस्टर."), img: "/assets/generated/harvester_action.png" },
+                { title: langText("Implements", "उपकरणे"), desc: langText("Rotavators, seeders, plows, and sprayers.", "रोटाव्हेटर, सीडर, नांगर, आणि फवारणी यंत्रे."), img: "/assets/generated/rotavator.png" },
               ].map((cat) => (
                 <div key={cat.title} className="relative group rounded-3xl overflow-hidden aspect-[4/5] shadow-lg">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
