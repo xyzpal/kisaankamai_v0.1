@@ -56,6 +56,7 @@ export const Footer = () => {
             <li><Link href="/partner" className="text-slate-400 hover:text-emerald-400 hover:underline underline-offset-4 transition-all duration-300">{langText("Partner with Us", "आमच्यासोबत भागीदारी")}</Link></li>
             <li><Link href="/support" className="text-slate-400 hover:text-emerald-400 hover:underline underline-offset-4 transition-all duration-300">{langText("Contact Support", "मदत संपर्क")}</Link></li>
             <li><Link href="/locations" className="text-slate-400 hover:text-emerald-400 hover:underline underline-offset-4 transition-all duration-300">{langText("Locations", "स्थाने")}</Link></li>
+            <li><Link href="/feedback" className="text-slate-400 hover:text-emerald-400 hover:underline underline-offset-4 transition-all duration-300">{langText("Share Feedback", "अभिप्राय द्या")}</Link></li>
             <li><Link href="/legal" className="text-slate-400 hover:text-emerald-400 hover:underline underline-offset-4 transition-all duration-300">{langText("Legal & Policies", "कायदेशीर आणि धोरणे")}</Link></li>
           </ul>
         </div>
