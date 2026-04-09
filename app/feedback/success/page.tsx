@@ -2,12 +2,16 @@
 
 import Link from "next/link";
 import { useLanguage } from "@/components/LanguageContext";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export default function FeedbackSuccessPage() {
   const { langText } = useLanguage();
 
   return (
-    <main className="flex-1 flex flex-col justify-center items-center py-12 px-4 @container bg-surface-container-low">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950 text-on-surface">
+      <Header />
+      <main className="flex-1 flex flex-col justify-center items-center py-12 px-4 @container bg-surface-container-low">
       <div className="max-w-[800px] w-full bg-surface rounded-2xl shadow-sm border border-outline-variant overflow-hidden flex flex-col">
         {/* Banner Image */}
         <div 
@@ -61,5 +65,7 @@ export default function FeedbackSuccessPage() {
         </div>
       </div>
     </main>
+    <Footer />
+  </div>
   );
 }

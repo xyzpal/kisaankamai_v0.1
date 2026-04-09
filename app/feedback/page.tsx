@@ -3,6 +3,8 @@
 import Link from "next/link";
 import { useLanguage } from "@/components/LanguageContext";
 import { useRouter } from "next/navigation";
+import { Header } from "@/components/Header";
+import { Footer } from "@/components/Footer";
 
 export default function FeedbackPage() {
   const { langText } = useLanguage();
@@ -14,7 +16,9 @@ export default function FeedbackPage() {
   };
 
   return (
-    <main className="flex-grow flex flex-col items-center pb-20">
+    <div className="min-h-screen flex flex-col bg-background dark:bg-slate-950 text-on-surface">
+      <Header />
+      <main className="flex-grow flex flex-col items-center pb-20">
       {/* Hero Section */}
       <section className="w-full max-w-[1200px] px-4 md:px-8 py-8 md:py-12 mt-4">
         <div className="relative w-full rounded-2xl overflow-hidden bg-surface-container shadow-sm border border-surface-variant flex flex-col md:flex-row min-h-[300px]">
@@ -215,5 +219,7 @@ export default function FeedbackPage() {
         </div>
       </section>
     </main>
+    <Footer />
+  </div>
   );
 }
