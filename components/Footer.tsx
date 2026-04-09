@@ -12,10 +12,30 @@ export const Footer = () => {
         <div className="col-span-1 md:col-span-1">
           <Link 
             href="/" 
-            className="text-5xl md:text-[54px] font-headline tracking-wider block mb-8 transition-transform hover:-translate-y-1"
-            style={{ color: 'transparent', WebkitTextStroke: '1px #10b981' }}
+            className="block mb-8 transition-transform hover:-translate-y-1"
+            aria-label="Kisan Kamai"
           >
-            Kisan Kamai
+            <svg viewBox="0 0 350 80" className="w-full max-w-[280px] h-auto pointer-events-none select-none">
+              <defs>
+                <linearGradient id="cropin-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stopColor="#10b981" />
+                  <stop offset="100%" stopColor="#06b6d4" />
+                </linearGradient>
+              </defs>
+              <text 
+                x="0" 
+                y="60" 
+                fontFamily="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" 
+                fontSize="64" 
+                fontWeight="200" 
+                fill="none" 
+                stroke="url(#cropin-grad)" 
+                strokeWidth="1.5"
+                letterSpacing="-1.5"
+              >
+                Kisan Kamai
+              </text>
+            </svg>
           </Link>
           <p className="text-slate-400 leading-relaxed mb-6">
             {langText(

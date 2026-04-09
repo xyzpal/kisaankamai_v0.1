@@ -9,6 +9,7 @@ import { useLanguage } from "./LanguageContext";
 const navLinks = [
   { 
     href: "/rent-equipment", label: "Find Equipment", labelMr: "उपकरणे शोधा",
+    featured: { img: "/assets/generated/harvester_action.png", title: "Harvesting Season Ready", titleMr: "कापणीचा हंगाम", label: "Book Heavy Machinery Now", url: "/models" },
     dropdown: [
       { href: "/categories", label: "All Categories", labelMr: "सर्व वर्गवारी", icon: "category", desc: "Browse by machine type" },
       { href: "/models", label: "Browse Models", labelMr: "मॉडेल्स पहा", icon: "agriculture", desc: "Find specific tractors" },
@@ -17,6 +18,7 @@ const navLinks = [
   },
   { 
     href: "/list-equipment", label: "List Equipment", labelMr: "उपकरणे सूचीबद्ध करा",
+    featured: { img: "/assets/generated/hero_tractor.png", title: "Earn With Your Fleet", titleMr: "पैसे कमवा", label: "See Owner Benefits", url: "/owner-benefits" },
     dropdown: [
       { href: "/owner-registration", label: "Register Equipment", labelMr: "उपकरणे नोंदणी करा", icon: "add_circle", desc: "List your machine" },
       { href: "/owner-benefits", label: "Owner Benefits", labelMr: "मालकांचे फायदे", icon: "workspace_premium", desc: "Why host with us" },
@@ -25,6 +27,7 @@ const navLinks = [
   },
   { 
     href: "/about", label: "About Us", labelMr: "आमच्याबद्दल",
+    featured: { img: "/assets/generated/farmer_handshake.png", title: "Trust in Agriculture", titleMr: "कृषी मध्ये विश्वास", label: "Read Our Story", url: "/about" },
     dropdown: [
       { href: "/partner", label: "Partner with Us", labelMr: "आमच्यासोबत भागीदारी", icon: "handshake", desc: "Join our network" },
       { href: "/trust-safety", label: "Trust & Safety", labelMr: "विश्वास आणि सुरक्षा", icon: "verified_user", desc: "Our guarantee" },
@@ -66,25 +69,42 @@ export const Header = () => {
                       {link.dropdown && <span className="material-symbols-outlined text-[16px]">expand_more</span>}
                     </Link>
                     {link.dropdown && (
-                      <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 w-[320px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
-                        <div className="bg-white dark:bg-slate-900 border-2 border-emerald-100 dark:border-slate-800 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] transform translate-y-2 group-hover:translate-y-0 transition-transform duration-200 flex flex-col p-2">
-                          {link.dropdown.map((sublink) => (
-                            <Link
-                              key={sublink.href}
-                              href={sublink.href}
-                              className="group/item flex items-start gap-4 p-3 rounded-2xl hover:bg-surface-container-high dark:hover:bg-slate-800 transition-colors"
-                            >
-                              <div className="w-12 h-12 shrink-0 rounded-2xl bg-primary-container/10 dark:bg-primary-container/20 flex items-center justify-center text-primary dark:text-primary-fixed group-hover/item:bg-primary group-hover/item:text-on-primary transition-colors border border-primary/10 dark:border-primary-fixed/30">
-                                <span className="material-symbols-outlined text-[24px]">{sublink.icon}</span>
-                              </div>
-                              <div className="pt-0.5">
-                                <h4 className="text-[15px] font-bold text-slate-900 dark:text-slate-100 group-hover/item:text-primary dark:group-hover/item:text-primary-fixed transition-colors">
-                                  {langText(sublink.label, sublink.labelMr)}
-                                </h4>
-                                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-1">{sublink.desc}</p>
-                              </div>
-                            </Link>
-                          ))}
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 w-[850px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                        <div className="bg-white dark:bg-slate-900 border border-emerald-100 dark:border-slate-800 rounded-3xl shadow-[0_30px_60px_rgb(0,0,0,0.12)] transform translate-y-2 group-hover:translate-y-0 transition-transform duration-200 flex overflow-hidden">
+                          {/* Left Navigation Links - 2 Columns */}
+                          <div className="flex-1 grid grid-cols-2 gap-2 p-8">
+                            {link.dropdown.map((sublink) => (
+                              <Link
+                                key={sublink.href}
+                                href={sublink.href}
+                                className="group/item flex items-start gap-4 p-4 rounded-2xl hover:bg-surface-container-high dark:hover:bg-slate-800 transition-colors"
+                              >
+                                <div className="w-12 h-12 shrink-0 rounded-2xl bg-primary-container/10 dark:bg-primary-container/20 flex items-center justify-center text-primary dark:text-primary-fixed group-hover/item:bg-primary group-hover/item:text-on-primary transition-colors border border-primary/10 dark:border-primary-fixed/30">
+                                  <span className="material-symbols-outlined text-[24px]">{sublink.icon}</span>
+                                </div>
+                                <div className="pt-0.5">
+                                  <h4 className="text-[15px] font-bold text-slate-900 dark:text-slate-100 group-hover/item:text-primary dark:group-hover/item:text-primary-fixed transition-colors">
+                                    {langText(sublink.label, sublink.labelMr)}
+                                  </h4>
+                                  <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-1 line-clamp-2 leading-snug">{sublink.desc}</p>
+                                </div>
+                              </Link>
+                            ))}
+                          </div>
+                          
+                          {/* Right Featured Card Panel */}
+                          {link.featured && (
+                            <div className="w-[320px] bg-slate-50 dark:bg-slate-950/50 p-8 border-l border-emerald-100 dark:border-slate-800 flex flex-col pt-10">
+                              <h3 className="text-sm font-bold text-emerald-800 dark:text-emerald-400 mb-4">{langText("What's new?", "नवीन काय आहे?")}</h3>
+                              <Link href={link.featured.url} className="group/card block relative rounded-2xl overflow-hidden shadow-md flex-grow">
+                                <img src={link.featured.img} alt={link.featured.title} className="w-full h-full object-cover group-hover/card:scale-105 transition-transform duration-700 min-h-[160px]" />
+                                <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent flex flex-col justify-end p-5">
+                                  <span className="inline-block px-2.5 py-1 bg-white/20 backdrop-blur-md rounded-md text-white text-[10px] font-bold uppercase tracking-wider mb-2 w-max shadow-sm">{langText("Featured", "खास")}</span>
+                                  <h4 className="text-white font-bold text-lg leading-tight group-hover/card:text-emerald-300 transition-colors">{langText(link.featured.title, link.featured.titleMr)}</h4>
+                                </div>
+                              </Link>
+                            </div>
+                          )}
                         </div>
                       </div>
                     )}
