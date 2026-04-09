@@ -66,23 +66,22 @@ export const Header = () => {
                       {link.dropdown && <span className="material-symbols-outlined text-[16px]">expand_more</span>}
                     </Link>
                     {link.dropdown && (
-                      <div className="absolute top-full left-1/2 -translate-x-1/2 pt-6 w-[340px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 z-50">
-                        <div className="bg-white/90 dark:bg-slate-900/90 backdrop-blur-xl border border-white/40 dark:border-slate-700/50 rounded-3xl shadow-2xl overflow-hidden translate-y-4 group-hover:translate-y-0 transition-transform duration-300 flex flex-col p-3">
+                      <div className="absolute top-full left-1/2 -translate-x-1/2 pt-4 w-[320px] opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 z-50">
+                        <div className="bg-white dark:bg-slate-900 border-2 border-emerald-100 dark:border-slate-800 rounded-3xl shadow-[0_8px_30px_rgb(0,0,0,0.08)] transform translate-y-2 group-hover:translate-y-0 transition-transform duration-200 flex flex-col p-2">
                           {link.dropdown.map((sublink) => (
                             <Link
                               key={sublink.href}
                               href={sublink.href}
-                              className="group/item flex items-start gap-4 p-3 rounded-2xl hover:bg-emerald-50/80 dark:hover:bg-slate-800/80 transition-all duration-300 relative overflow-hidden"
+                              className="group/item flex items-start gap-4 p-3 rounded-2xl hover:bg-emerald-50 dark:hover:bg-slate-800 transition-colors"
                             >
-                              <div className="absolute inset-0 bg-gradient-to-r from-emerald-100/0 via-emerald-100/50 to-emerald-100/0 dark:from-emerald-900/0 dark:via-emerald-900/20 dark:to-emerald-900/0 translate-x-[-100%] group-hover/item:translate-x-[100%] transition-transform duration-1000"></div>
-                              <div className="w-10 h-10 shrink-0 rounded-xl bg-slate-50 dark:bg-slate-800/50 flex items-center justify-center border border-slate-100 dark:border-slate-700/50 group-hover/item:bg-emerald-100 dark:group-hover/item:bg-emerald-900/50 group-hover/item:border-emerald-200 dark:group-hover/item:border-emerald-800/50 transition-colors z-10">
-                                <span className="material-symbols-outlined text-[20px] text-slate-500 dark:text-slate-400 group-hover/item:text-emerald-700 dark:group-hover/item:text-emerald-400 transition-colors">{sublink.icon}</span>
+                              <div className="w-12 h-12 shrink-0 rounded-2xl bg-emerald-50 dark:bg-emerald-900/20 flex items-center justify-center text-emerald-600 dark:text-emerald-400 group-hover/item:bg-emerald-500 group-hover/item:text-white transition-colors border border-emerald-100 dark:border-emerald-800/30">
+                                <span className="material-symbols-outlined text-[24px]">{sublink.icon}</span>
                               </div>
-                              <div className="z-10">
-                                <h4 className="text-sm font-bold text-slate-800 dark:text-slate-200 group-hover/item:text-emerald-700 dark:group-hover/item:text-emerald-400 transition-colors">
+                              <div className="pt-0.5">
+                                <h4 className="text-[15px] font-bold text-slate-900 dark:text-slate-100 group-hover/item:text-emerald-700 dark:group-hover/item:text-emerald-400 transition-colors">
                                   {langText(sublink.label, sublink.labelMr)}
                                 </h4>
-                                <p className="text-xs text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-1">{sublink.desc}</p>
+                                <p className="text-sm font-medium text-slate-500 dark:text-slate-400 mt-0.5 line-clamp-1">{sublink.desc}</p>
                               </div>
                             </Link>
                           ))}
