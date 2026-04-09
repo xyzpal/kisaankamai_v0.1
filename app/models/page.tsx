@@ -11,22 +11,22 @@ const modelData: Record<string, { en: string, mr: string, items: { name: string,
   tractors: {
     en: "Tractors", mr: "ट्रॅक्टर्स",
     items: [
-      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "/assets/generated/seed_drill.png" },
-      { name: "Swaraj 744 FE", hp: "48 HP", img: "/assets/generated/seed_drill.png" },
-      { name: "John Deere 5310", hp: "55 HP", img: "/assets/generated/seed_drill.png" }
+      { name: "Mahindra Novo 575 DI", hp: "45 HP", img: "/assets/generated/maha_tractor.png" },
+      { name: "Swaraj 744 FE", hp: "48 HP", img: "/assets/generated/hero_tractor.png" },
+      { name: "John Deere 5310", hp: "55 HP", img: "/assets/generated/modern_farm_tech.png" }
     ]
   },
   harvesters: {
     en: "Harvesters", mr: "हार्वेस्टर्स",
     items: [
-      { name: "John Deere W70 Combine", hp: "100 HP", img: "/assets/generated/harvester_action.png" },
+      { name: "John Deere W70 Combine", hp: "100 HP", img: "/assets/generated/maha_harvester.png" },
       { name: "Preet 987", hp: "76 HP", img: "/assets/generated/harvester_action.png" }
     ]
   },
   ploughs: {
     en: "Ploughs", mr: "नांगर",
     items: [
-      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "/assets/generated/rotavator.png" }
+      { name: "Lemken Reversible", hp: "Suitable for 45+ HP", img: "/assets/generated/plough_4k.png" }
     ]
   },
   sprayers: {
@@ -38,7 +38,7 @@ const modelData: Record<string, { en: string, mr: string, items: { name: string,
   implements: {
     en: "Implements", mr: "उपकरणे",
     items: [
-        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "/assets/generated/hero_tractor.png" }
+        { name: "Shaktiman Rotavator", hp: "6 ft width", img: "/assets/generated/maha_implement.png" }
     ]
   }
 };

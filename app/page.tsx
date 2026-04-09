@@ -17,12 +17,12 @@ const homepageMarkers = [
 ];
 
 const heroImages = [
+  "/assets/generated/hero_tractor.png",
+  "/assets/generated/harvester_action.png",
   "/assets/generated/seed_drill.png",
-  "/assets/generated/seed_drill.png",
-  "/assets/generated/seed_drill.png",
-  "/assets/generated/seed_drill.png",
-  "/assets/generated/seed_drill.png",
-  "/assets/generated/seed_drill.png"
+  "/assets/generated/farmer_handshake.png",
+  "/assets/generated/modern_farm_tech.png",
+  "/assets/generated/farm_yard.png"
 ];
 
 export default function Home() {
@@ -169,7 +169,7 @@ export default function Home() {
               {/* Implements */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="/assets/generated/rotavator.png" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Agricultural implements including a rotavator and seed drill" src="/assets/generated/implement_4k.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Implements", "उपकरणे")}</h3>
@@ -181,7 +181,7 @@ export default function Home() {
               {/* Ploughs */}
               <Link href="/models" className="group relative h-[350px] overflow-hidden rounded-2xl shadow-lg cursor-pointer block">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Ploughing" src="/assets/generated/rotavator.png" />
+                <img className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" alt="Ploughing" src="/assets/generated/plough_4k.png" />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/90 via-primary/20 to-transparent"></div>
                 <div className="absolute bottom-0 left-0 p-6 w-full">
                   <h3 className="text-xl font-bold text-white mb-2">{langText("Ploughs", "नांगर")}</h3>
