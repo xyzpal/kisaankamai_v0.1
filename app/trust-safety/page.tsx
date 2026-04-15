@@ -50,7 +50,7 @@ export default function TrustSafety() {
 </ul>
 </div>
 <div className="flex-1 min-h-[300px] bg-surface-container rounded-2xl relative overflow-hidden">
-<img className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-50" data-alt="topographic map style illustration of rural landscape with vibrant green agricultural plots and winding irrigation canals" data-location="Maharashtra" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKSv9oUVtbcX6EHwd7fYs4gCnORb4b2Eg46816kdbheQtfd8rHpChEBbHyCUqXUSldaX4xf8mbNXLNWUbeVnNrzMz2ZL2OGniLh-dIjWMmZ5j95F1RZWvYjVGp0LvskANO5WfqDPVB7js6ipwriAL1gYu6DGWVkqMqHQc0P2lqGQnq00WBwbqjnM1u8uar8tDBoZ517mePHJFByMxZCI830BYC_1OXdOzd21JdrqbevTgatFQ-bfQJ_7_VaeqosSFXf0ETmSRoOLNC"/>
+<img className="absolute inset-0 w-full h-full object-cover mix-blend-multiply opacity-50"  alt="topographic map style illustration of rural landscape with vibrant green agricultural plots and winding irrigation canals" data-location="Maharashtra" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBKSv9oUVtbcX6EHwd7fYs4gCnORb4b2Eg46816kdbheQtfd8rHpChEBbHyCUqXUSldaX4xf8mbNXLNWUbeVnNrzMz2ZL2OGniLh-dIjWMmZ5j95F1RZWvYjVGp0LvskANO5WfqDPVB7js6ipwriAL1gYu6DGWVkqMqHQc0P2lqGQnq00WBwbqjnM1u8uar8tDBoZ517mePHJFByMxZCI830BYC_1OXdOzd21JdrqbevTgatFQ-bfQJ_7_VaeqosSFXf0ETmSRoOLNC"/
 <div className="absolute inset-0 flex items-center justify-center">
 <div className="relative">
 <div className="absolute -inset-4 bg-orange-500/20 rounded-full animate-ping"></div>

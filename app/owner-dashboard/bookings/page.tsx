@@ -15,7 +15,7 @@ export default function OwnerDashboardBookings() {
 <div className="px-4 mb-6">
 <div className="flex items-center gap-3 p-3 rounded-xl bg-surface-container-low border border-surface-container-highest">
 <div className="w-10 h-10 rounded-full overflow-hidden bg-primary-container">
-<img className="w-full h-full object-cover" data-alt="portrait of a confident Indian farmer smiling wearing a traditional white kurta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCExv3QOuibAX6OClfz_t075pUbPpJfzqx6sb25CiutKAmBrXyTH1QWiiPw-IW4p5WgJr3Dmm5g5mCx6isTHJzUsHMEW_vpFKttBYWOMjfGTCUxD3GX0E0jCk4LmKjk3uwBC42kquNUrTDYImmkeAjgiHZmhUCvsyaUAo-6qFhAGCwvj9j9M0yI2mPGM7qxvaED16FYQe-i4v3ins77rZpK6wLZFqza2K80SQHrw_rUlDaG0pHpssIDt2u1KfQiEk0X4VVCY3_OBKOq"/>
+<img className="w-full h-full object-cover"  alt="portrait of a confident Indian farmer smiling wearing a traditional white kurta" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCExv3QOuibAX6OClfz_t075pUbPpJfzqx6sb25CiutKAmBrXyTH1QWiiPw-IW4p5WgJr3Dmm5g5mCx6isTHJzUsHMEW_vpFKttBYWOMjfGTCUxD3GX0E0jCk4LmKjk3uwBC42kquNUrTDYImmkeAjgiHZmhUCvsyaUAo-6qFhAGCwvj9j9M0yI2mPGM7qxvaED16FYQe-i4v3ins77rZpK6wLZFqza2K80SQHrw_rUlDaG0pHpssIDt2u1KfQiEk0X4VVCY3_OBKOq"/
 </div>
 <div className="flex flex-col">
 <span className="text-sm font-bold text-primary leading-tight">Kisan Owner</span>
@@ -74,7 +74,7 @@ export default function OwnerDashboardBookings() {
 <div className="bg-white rounded-2xl p-5 border border-surface-container-highest shadow-sm hover:shadow-md transition-all group">
 <div className="flex flex-col md:flex-row gap-6">
 <div className="w-full md:w-32 h-32 rounded-xl overflow-hidden bg-surface-container flex-shrink-0">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="high-end John Deere tractor parked in a golden wheat field during sunrise with premium lens flare" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfu_AMK_TC8qMMVZ5e68Vj614f7M-Jvj39tLDf3BQJkq-OR0wlOV6NnKY023rSowbHNfyUR20P5q9Emgjo4e57yk4c-aACXJdZTlCLD205lUsSDSeqCy9E2TCpIP7z4Fvt3iHDiYNgRCVDnJB3NDcwl79hAdszGgm4yLyy0f7U7N9J_tB4bXx2XkjVYlAWGd5o9b53aF9pauVHDAIeeds_aa7VckpSTmbvjgEmlh9kYALpZ4nflwGb2cyeq4_Ih7RTZDPwgd3CIiRh"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"  alt="high-end John Deere tractor parked in a golden wheat field during sunrise with premium lens flare" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBfu_AMK_TC8qMMVZ5e68Vj614f7M-Jvj39tLDf3BQJkq-OR0wlOV6NnKY023rSowbHNfyUR20P5q9Emgjo4e57yk4c-aACXJdZTlCLD205lUsSDSeqCy9E2TCpIP7z4Fvt3iHDiYNgRCVDnJB3NDcwl79hAdszGgm4yLyy0f7U7N9J_tB4bXx2XkjVYlAWGd5o9b53aF9pauVHDAIeeds_aa7VckpSTmbvjgEmlh9kYALpZ4nflwGb2cyeq4_Ih7RTZDPwgd3CIiRh"/
 </div>
 <div className="flex-1 flex flex-col justify-between">
 <div className="flex justify-between items-start">
@@ -82,7 +82,7 @@ export default function OwnerDashboardBookings() {
 <h3 className="text-base font-bold text-primary">Mahindra Yuvo 575 DI</h3>
 <div className="flex items-center gap-2 mt-1">
 <div className="w-6 h-6 rounded-full overflow-hidden bg-surface-container-highest">
-<img className="w-full h-full object-cover" data-alt="Close up portrait of a young Indian man in a smart casual polo shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx5bzL6bDQVA0JxAp7j3KMGj422zWVggwjN1uLMEN6YpdhDTjMjWHLXb_0V3dVd0WMlENhvLzIn426BpV8FXdPS88eGjjWb2YK4IpWBgH4aXhxV3uwZNLfBgajOd9yQhswUz1ZVqFEhjLJG_FKW9E9sLeR697KlUCScCYRDLMDl-t9mf5xwsJQudvzRFyYPPSv5jPOhU5v_omPSVzIiCTDoNc4oXdWzTRporMg1YH3LoPQoWVSEz4abYKQ3jGGBPZYgL9aOVZnMFfe"/>
+<img className="w-full h-full object-cover"  alt="Close up portrait of a young Indian man in a smart casual polo shirt" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDx5bzL6bDQVA0JxAp7j3KMGj422zWVggwjN1uLMEN6YpdhDTjMjWHLXb_0V3dVd0WMlENhvLzIn426BpV8FXdPS88eGjjWb2YK4IpWBgH4aXhxV3uwZNLfBgajOd9yQhswUz1ZVqFEhjLJG_FKW9E9sLeR697KlUCScCYRDLMDl-t9mf5xwsJQudvzRFyYPPSv5jPOhU5v_omPSVzIiCTDoNc4oXdWzTRporMg1YH3LoPQoWVSEz4abYKQ3jGGBPZYgL9aOVZnMFfe"/
 </div>
 <span className="text-sm font-semibold text-on-surface">Rajesh Deshmukh <span className="text-on-surface-variant font-normal">from Satara</span></span>
 </div>
@@ -119,7 +119,7 @@ export default function OwnerDashboardBookings() {
 <div className="bg-white rounded-2xl p-5 border border-surface-container-highest shadow-sm hover:shadow-md transition-all group">
 <div className="flex flex-col md:flex-row gap-6">
 <div className="w-full md:w-32 h-32 rounded-xl overflow-hidden bg-surface-container flex-shrink-0">
-<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" data-alt="Heavy duty combine harvester operating in a lush green paddy field, cinematic low angle shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXeWgkAV1x1OgBpa0auyHmBacTvv1IBdSuN6HHZuMz0giFUEgslR8DNPtxyaEFW_qQfI-SY6jGv3V3EMDAQxI5mZ10393zRusmkv2bKJ0Eath72hCyYwYPCNfDHP8rV_I0LBL3I8go1bhHdl5ramzkl-_47sR06qnJvglu5XQAz32-c5aMpqHKCutM2wE6jkFcfqQOO-oqQE7EbYADTp3cVHtBZTe3hEvuMKsI-i5SRaRyWrydi81W7U1m7BGa2bUrV19hlxUPJC1m"/>
+<img className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"  alt="Heavy duty combine harvester operating in a lush green paddy field, cinematic low angle shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBXeWgkAV1x1OgBpa0auyHmBacTvv1IBdSuN6HHZuMz0giFUEgslR8DNPtxyaEFW_qQfI-SY6jGv3V3EMDAQxI5mZ10393zRusmkv2bKJ0Eath72hCyYwYPCNfDHP8rV_I0LBL3I8go1bhHdl5ramzkl-_47sR06qnJvglu5XQAz32-c5aMpqHKCutM2wE6jkFcfqQOO-oqQE7EbYADTp3cVHtBZTe3hEvuMKsI-i5SRaRyWrydi81W7U1m7BGa2bUrV19hlxUPJC1m"/
 </div>
 <div className="flex-1 flex flex-col justify-between">
 <div className="flex justify-between items-start">
@@ -127,7 +127,7 @@ export default function OwnerDashboardBookings() {
 <h3 className="text-base font-bold text-primary">Swaraj 744 FE</h3>
 <div className="flex items-center gap-2 mt-1">
 <div className="w-6 h-6 rounded-full overflow-hidden bg-surface-container-highest">
-<img className="w-full h-full object-cover" data-alt="Indian woman farmer in a vibrant yellow saree standing in a field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSq5F2cYUuHYvBmXAsvxfDZXj8e5KUW5MdWMRmUV_E7aVgcECHdB37efSooZU37aQMHE2uMlH5_qq8EXFprA_jz2AT0Bf8jhSMJYsvk5HDimpaD86TMoEyYlEhntgcyEt7YDAPS6Hbs2dKAGkjqWW5m5pgRzagnZ9MCEO2waJgg-VGJuzN5M3W_FDECvdn_c_mYGqSUvGZQpTe7vNh6Wq12hUw7sh2AryJuq-dWeNygpmLu3nl_7gSomHl4vsY_kHpoeLx5TgwK3fu"/>
+<img className="w-full h-full object-cover"  alt="Indian woman farmer in a vibrant yellow saree standing in a field" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBSq5F2cYUuHYvBmXAsvxfDZXj8e5KUW5MdWMRmUV_E7aVgcECHdB37efSooZU37aQMHE2uMlH5_qq8EXFprA_jz2AT0Bf8jhSMJYsvk5HDimpaD86TMoEyYlEhntgcyEt7YDAPS6Hbs2dKAGkjqWW5m5pgRzagnZ9MCEO2waJgg-VGJuzN5M3W_FDECvdn_c_mYGqSUvGZQpTe7vNh6Wq12hUw7sh2AryJuq-dWeNygpmLu3nl_7gSomHl4vsY_kHpoeLx5TgwK3fu"/
 </div>
 <span className="text-sm font-semibold text-on-surface">Anjali Patil <span className="text-on-surface-variant font-normal">from Karad</span></span>
 </div>
@@ -252,7 +252,7 @@ export default function OwnerDashboardBookings() {
 {/*  History Item 1  */}
 <div className="w-80 bg-white p-4 rounded-xl border border-surface-container-highest flex gap-4 items-center">
 <div className="w-12 h-12 rounded-lg overflow-hidden bg-surface-container">
-<img className="w-full h-full object-cover" data-alt="close up of tractor wheel on dark soil with sunlight reflecting on the rim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdqNOAoCPN8x0nsEZC8ySbNFRQhgNTr8XGeglYme_oheUE-k1yvgLhZtw5MZd2AnHdZBTUP9xgRxwNDjSjuqiAOcuSnP4MChkAFQSOkgcz-1_hGr-OJ2z1tDzf8sOQDTVJu296cAO1lslwFCoXrwyZpVsm9_gqgIrzYeHEFMt-F63fydM-fghS4V_bZ3tWF-zGPQyrV1SPq8Z5g7MRNMeFK1jcr99JJnCYiEAXJ-d_Egi_TGMI-UBGEi5auHaJpN3nUrA4eeHXZSJM"/>
+<img className="w-full h-full object-cover"  alt="close up of tractor wheel on dark soil with sunlight reflecting on the rim" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAdqNOAoCPN8x0nsEZC8ySbNFRQhgNTr8XGeglYme_oheUE-k1yvgLhZtw5MZd2AnHdZBTUP9xgRxwNDjSjuqiAOcuSnP4MChkAFQSOkgcz-1_hGr-OJ2z1tDzf8sOQDTVJu296cAO1lslwFCoXrwyZpVsm9_gqgIrzYeHEFMt-F63fydM-fghS4V_bZ3tWF-zGPQyrV1SPq8Z5g7MRNMeFK1jcr99JJnCYiEAXJ-d_Egi_TGMI-UBGEi5auHaJpN3nUrA4eeHXZSJM"/
 </div>
 <div className="flex-1">
 <span className="block text-xs font-black text-on-surface-variant uppercase tracking-tighter">Completed 12 Oct</span>
@@ -264,7 +264,7 @@ export default function OwnerDashboardBookings() {
 {/*  History Item 2  */}
 <div className="w-80 bg-white p-4 rounded-xl border border-surface-container-highest flex gap-4 items-center">
 <div className="w-12 h-12 rounded-lg overflow-hidden bg-surface-container">
-<img className="w-full h-full object-cover" data-alt="modern farming seeder implement detail in high contrast morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD7UN56-Z2_tDkc9fBsx1kXCYvgZSc6DtKZ-iIbjFzKKvMiNQE2_kpTFOJZoJ-82Rl4k669AmPzsKzGuPiXxOak6Vuxv0dB_GJ43522eiid2WvxFDwZlPR5TT_2cyO_fpq84se2YAe019WzFiJbgxenW7R1UEyPbtFk2TWOiosq0Rq0ibIK90moqEjMBqjhwkvB7Y8xTgAb4VIiP9m5kV09cXfp4gu4is9YrmHaBy1aNtTQKG1UP5PVwJ_D_QZFRZuk63-qQbjJXKG"/>
+<img className="w-full h-full object-cover"  alt="modern farming seeder implement detail in high contrast morning light" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDD7UN56-Z2_tDkc9fBsx1kXCYvgZSc6DtKZ-iIbjFzKKvMiNQE2_kpTFOJZoJ-82Rl4k669AmPzsKzGuPiXxOak6Vuxv0dB_GJ43522eiid2WvxFDwZlPR5TT_2cyO_fpq84se2YAe019WzFiJbgxenW7R1UEyPbtFk2TWOiosq0Rq0ibIK90moqEjMBqjhwkvB7Y8xTgAb4VIiP9m5kV09cXfp4gu4is9YrmHaBy1aNtTQKG1UP5PVwJ_D_QZFRZuk63-qQbjJXKG"/
 </div>
 <div className="flex-1">
 <span className="block text-xs font-black text-on-surface-variant uppercase tracking-tighter">Completed 08 Oct</span>
@@ -276,7 +276,7 @@ export default function OwnerDashboardBookings() {
 {/*  History Item 3  */}
 <div className="w-80 bg-white p-4 rounded-xl border border-surface-container-highest flex gap-4 items-center">
 <div className="w-12 h-12 rounded-lg overflow-hidden bg-surface-container">
-<img className="w-full h-full object-cover" data-alt="powerful tractor engine detailing with clean metallic surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo30tOlVIugzS_7jgt7kuk4aZ7kUqq9s-awHCixPh5aJzriB9MdVMO_H8faueekx3BhnItbI7F9XHhH4zuKIaF9ytFaC1HBrDuwcwkJP2zNE4TjwSfJfRxCdGrJNjdWHI_XIy3QlKbJpKYN1BQc8PuvrbXd0eqpnzPL69L64J3Fh6MgVgqVIgV2AAqhlsNTDGhoevjEujKOzHb_9ZtXhCy7m6BQisG1w5zXAaKltdC4njE3nE7IBh2gKFoGN2BcjSYpCJ5H4xkb3yw"/>
+<img className="w-full h-full object-cover"  alt="powerful tractor engine detailing with clean metallic surfaces" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDo30tOlVIugzS_7jgt7kuk4aZ7kUqq9s-awHCixPh5aJzriB9MdVMO_H8faueekx3BhnItbI7F9XHhH4zuKIaF9ytFaC1HBrDuwcwkJP2zNE4TjwSfJfRxCdGrJNjdWHI_XIy3QlKbJpKYN1BQc8PuvrbXd0eqpnzPL69L64J3Fh6MgVgqVIgV2AAqhlsNTDGhoevjEujKOzHb_9ZtXhCy7m6BQisG1w5zXAaKltdC4njE3nE7IBh2gKFoGN2BcjSYpCJ5H4xkb3yw"/
 </div>
 <div className="flex-1">
 <span className="block text-xs font-black text-on-surface-variant uppercase tracking-tighter">Completed 02 Oct</span>
